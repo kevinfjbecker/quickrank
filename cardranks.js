@@ -2699,7 +2699,7 @@ function getCardsWithRanks(heroClass) {
             },
 
         ];
-    case 'Shaman'
+    case 'Shaman':
     return [{
         name: 'Ragnaros the Firelord',
         value: 9
