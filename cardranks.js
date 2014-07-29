@@ -4307,6 +4307,542 @@ function getCardsWithRanks(heroClass) {
             name: 'Young Dragonhawk',
             value: 0
         }];
+    case 'Warlock':
+        return [{
+            name: 'Ragnaros the Firelord',
+            value: 9
+        }, {
+            name: 'Ysera',
+            value: 9
+        }, {
+            name: 'Argent Commander',
+            value: 9
+        }, {
+            name: 'Azure Drake',
+            value: 9
+        }, {
+            name: 'Chillwind Yeti',
+            value: 9
+        }, {
+            name: 'Dark Iron Dwarf',
+            value: 9
+        }, {
+            name: 'Flame Imp',
+            value: 9
+        }, {
+            name: 'Harvest Golem',
+            value: 9
+        }, {
+            name: 'Soulfire',
+            value: 9
+        }, {
+            name: 'Cairne Bloodhoof',
+            value: 8
+        }, {
+            name: 'Lord Jaraxxus',
+            value: 8
+        }, {
+            name: 'Sylvanas Windrunner',
+            value: 8
+        }, {
+            name: 'The Black Knight',
+            value: 8
+        }, {
+            name: 'Molten Giant',
+            value: 8
+        }, {
+            name: 'Pit Lord',
+            value: 8
+        }, {
+            name: 'Sea Giant',
+            value: 8
+        }, {
+            name: 'Defender of Argus',
+            value: 8
+        }, {
+            name: 'Knife Juggler',
+            value: 8
+        }, {
+            name: 'Stampeding Kodo',
+            value: 8
+        }, {
+            name: 'Sunwalker',
+            value: 8
+        }, {
+            name: 'Twilight Drake',
+            value: 8
+        }, {
+            name: 'Acidic Swamp Ooze',
+            value: 8
+        }, {
+            name: 'Boulderfist Ogre',
+            value: 8
+        }, {
+            name: 'Scarlet Crusader',
+            value: 8
+        }, {
+            name: 'Sen\'jin Shieldmasta',
+            value: 8
+        }, {
+            name: 'Shadow Bolt',
+            value: 8
+        }, {
+            name: 'Shattered Sun Cleric',
+            value: 8
+        }, {
+            name: 'Silver Hand Knight',
+            value: 8
+        }, {
+            name: 'Deathwing',
+            value: 7
+        }, {
+            name: 'Hogger',
+            value: 7
+        }, {
+            name: 'Leeroy Jenkins',
+            value: 7
+        }, {
+            name: 'Onyxia',
+            value: 7
+        }, {
+            name: 'Alexstrasza',
+            value: 7
+        }, {
+            name: 'Blood Knight',
+            value: 7
+        }, {
+            name: 'Faceless Manipulator',
+            value: 7
+        }, {
+            name: 'Doomguard',
+            value: 7
+        }, {
+            name: 'Imp Master',
+            value: 7
+        }, {
+            name: 'Injured Blademaster',
+            value: 7
+        }, {
+            name: 'Mind Control Tech',
+            value: 7
+        }, {
+            name: 'Shadowflame',
+            value: 7
+        }, {
+            name: 'Siphon Soul',
+            value: 7
+        }, {
+            name: 'Violet Teacher',
+            value: 7
+        }, {
+            name: 'Cult Master',
+            value: 7
+        }, {
+            name: 'Earthen Ring Farseer',
+            value: 7
+        }, {
+            name: 'Faerie Dragon',
+            value: 7
+        }, {
+            name: 'Mad Bomber',
+            value: 7
+        }, {
+            name: 'Spellbreaker',
+            value: 7
+        }, {
+            name: 'Stormwind Champion',
+            value: 7
+        }, {
+            name: 'Venture Co. Mercenary',
+            value: 7
+        }, {
+            name: 'Amani Berserker',
+            value: 6
+        }, {
+            name: 'Ancient Brewmaster',
+            value: 6
+        }, {
+            name: 'Dread Infernal',
+            value: 6
+        }, {
+            name: 'Fen Creeper',
+            value: 6
+        }, {
+            name: 'Loot Hoarder',
+            value: 6
+        }, {
+            name: 'Raging Worgen',
+            value: 6
+        }, {
+            name: 'Stranglethorn Tiger',
+            value: 6
+        }, {
+            name: 'Worgen Infiltrator',
+            value: 6
+        }, {
+            name: 'Youthful Brewmaster',
+            value: 6
+        }, {
+            name: 'Emperor Cobra',
+            value: 6
+        }, {
+            name: 'Sunfury Protector',
+            value: 6
+        }, {
+            name: 'Wild Pyromancer',
+            value: 5
+        }, {
+            name: 'Archmage',
+            value: 5
+        }, {
+            name: 'Blood Imp',
+            value: 5
+        }, {
+            name: 'Bloodfen Raptor',
+            value: 5
+        }, {
+            name: 'Dire Wolf Alpha',
+            value: 5
+        }, {
+            name: 'Flesheating Ghoul',
+            value: 5
+        }, {
+            name: 'Frost Elemental',
+            value: 5
+        }, {
+            name: 'Frostwolf Warlord',
+            value: 5
+        }, {
+            name: 'Gnomish Inventor',
+            value: 5
+        }, {
+            name: 'Jungle Panther',
+            value: 5
+        }, {
+            name: 'Ogre Magi',
+            value: 5
+        }, {
+            name: 'Spiteful Smith',
+            value: 5
+        }, {
+            name: 'Stormwind Knight',
+            value: 5
+        }, {
+            name: 'Baron Geddon',
+            value: 4
+        }, {
+            name: 'Gruul',
+            value: 4
+        }, {
+            name: 'Illidan Stormrage',
+            value: 4
+        }, {
+            name: 'Malygos',
+            value: 4
+        }, {
+            name: 'Big Game Hunter',
+            value: 4
+        }, {
+            name: 'Abomination',
+            value: 4
+        }, {
+            name: 'Arcane Golem',
+            value: 4
+        }, {
+            name: 'Demolisher',
+            value: 4
+        }, {
+            name: 'Gadgetzan Auctioneer',
+            value: 4
+        }, {
+            name: 'Ravenholdt Assassin',
+            value: 4
+        }, {
+            name: 'Acolyte of Pain',
+            value: 4
+        }, {
+            name: 'Bluegill Warrior',
+            value: 4
+        }, {
+            name: 'Darkscale Healer',
+            value: 4
+        }, {
+            name: 'Demonfire',
+            value: 4
+        }, {
+            name: 'Gurubashi Berserker',
+            value: 4
+        }, {
+            name: 'Hellfire',
+            value: 4
+        }, {
+            name: 'Ironfur Grizzly',
+            value: 4
+        }, {
+            name: 'Mortal Coil',
+            value: 4
+        }, {
+            name: 'Oasis Snapjaw',
+            value: 4
+        }, {
+            name: 'Razorfen Hunter',
+            value: 4
+        }, {
+            name: 'Reckless Rocketeer',
+            value: 4
+        }, {
+            name: 'Stormpike Commando',
+            value: 4
+        }, {
+            name: 'Wolfrider',
+            value: 4
+        }, {
+            name: 'Bloodmage Thalnos',
+            value: 3
+        }, {
+            name: 'Harrison Jones',
+            value: 3
+        }, {
+            name: 'Bane of Doom',
+            value: 3
+        }, {
+            name: 'Crazed Alchemist',
+            value: 3
+        }, {
+            name: 'Felguard',
+            value: 3
+        }, {
+            name: 'Master Swordsmith',
+            value: 3
+        }, {
+            name: 'Pint-Sized Summoner',
+            value: 3
+        }, {
+            name: 'Questing Adventurer',
+            value: 3
+        }, {
+            name: 'Young Priestess',
+            value: 3
+        }, {
+            name: 'Abusive Sergeant',
+            value: 3
+        }, {
+            name: 'Argent Squire',
+            value: 3
+        }, {
+            name: 'Bloodsail Raider',
+            value: 3
+        }, {
+            name: 'Dragonling Mechanic',
+            value: 3
+        }, {
+            name: 'Ironbeak Owl',
+            value: 3
+        }, {
+            name: 'Ironforge Rifleman',
+            value: 3
+        }, {
+            name: 'Kobold Geomancer',
+            value: 3
+        }, {
+            name: 'Leper Gnome',
+            value: 3
+        }, {
+            name: 'Lord of the Arena',
+            value: 3
+        }, {
+            name: 'Novice Engineer',
+            value: 3
+        }, {
+            name: 'Power Overwhelming',
+            value: 3
+        }, {
+            name: 'River Crocolisk',
+            value: 3
+        }, {
+            name: 'Silvermoon Guardian',
+            value: 3
+        }, {
+            name: 'Voidwalker',
+            value: 3
+        }, {
+            name: 'War Golem',
+            value: 3
+        }, {
+            name: 'Captain Greenskin',
+            value: 2
+        }, {
+            name: 'King Mukla',
+            value: 2
+        }, {
+            name: 'Millhouse Manastorm',
+            value: 2
+        }, {
+            name: 'Nat Pagle',
+            value: 2
+        }, {
+            name: 'The Beast',
+            value: 2
+        }, {
+            name: 'Murloc Warleader',
+            value: 2
+        }, {
+            name: 'Southsea Captain',
+            value: 2
+        }, {
+            name: 'Twisting Nether',
+            value: 2
+        }, {
+            name: 'Ancient Mage',
+            value: 2
+        }, {
+            name: 'Bloodsail Corsair',
+            value: 2
+        }, {
+            name: 'Void Terror',
+            value: 2
+        }, {
+            name: 'Booty Bay Bodyguard',
+            value: 2
+        }, {
+            name: 'Drain Life',
+            value: 2
+        }, {
+            name: 'Elven Archer',
+            value: 2
+        }, {
+            name: 'Mogu\'shan Warden',
+            value: 2
+        }, {
+            name: 'Nightblade',
+            value: 2
+        }, {
+            name: 'Priestess of Elune',
+            value: 2
+        }, {
+            name: 'Summoning Portal',
+            value: 2
+        }, {
+            name: 'Windfury Harpy',
+            value: 2
+        }, {
+            name: 'Lorewalker Cho',
+            value: 1
+        }, {
+            name: 'Nozdormu',
+            value: 1
+        }, {
+            name: 'Tinkmaster Overspark',
+            value: 1
+        }, {
+            name: 'Doomsayer',
+            value: 1
+        }, {
+            name: 'Hungry Crab',
+            value: 1
+        }, {
+            name: 'Mountain Giant',
+            value: 1
+        }, {
+            name: 'Alarm-o-Bot',
+            value: 1
+        }, {
+            name: 'Ancient Watcher',
+            value: 1
+        }, {
+            name: 'Angry Chicken',
+            value: 1
+        }, {
+            name: 'Coldlight Oracle',
+            value: 1
+        }, {
+            name: 'Coldlight Seer',
+            value: 1
+        }, {
+            name: 'Lightwarden',
+            value: 1
+        }, {
+            name: 'Mana Addict',
+            value: 1
+        }, {
+            name: 'Mana Wraith',
+            value: 1
+        }, {
+            name: 'Murloc Tidecaller',
+            value: 1
+        }, {
+            name: 'Secretkeeper',
+            value: 1
+        }, {
+            name: 'Core Hound',
+            value: 1
+        }, {
+            name: 'Corruption',
+            value: 1
+        }, {
+            name: 'Dalaran Mage',
+            value: 1
+        }, {
+            name: 'Dread Corsair',
+            value: 1
+        }, {
+            name: 'Frostwolf Grunt',
+            value: 1
+        }, {
+            name: 'Murloc Tidehunter',
+            value: 1
+        }, {
+            name: 'Raid Leader',
+            value: 1
+        }, {
+            name: 'Sense Demons',
+            value: 1
+        }, {
+            name: 'Shieldbearer',
+            value: 1
+        }, {
+            name: 'Silverback Patriarch',
+            value: 1
+        }, {
+            name: 'Succubus',
+            value: 1
+        }, {
+            name: 'Tauren Warrior',
+            value: 1
+        }, {
+            name: 'Thrallmar Farseer',
+            value: 1
+        }, {
+            name: 'Voodoo Doctor',
+            value: 1
+        }, {
+            name: 'Goldshire Footman',
+            value: 0
+        }, {
+            name: 'Grimscale Oracle',
+            value: 0
+        }, {
+            name: 'Magma Rager',
+            value: 0
+        }, {
+            name: 'Murloc Raider',
+            value: 0
+        }, {
+            name: 'Sacrificial Pact',
+            value: 0
+        }, {
+            name: 'Southsea Deckhand',
+            value: 0
+        }, {
+            name: 'Stonetusk Boar',
+            value: 0
+        }, {
+            name: 'Wisp',
+            value: 0
+        }, {
+            name: 'Young Dragonhawk',
+            value: 0
+        }];
     default:
         return [];
     }
