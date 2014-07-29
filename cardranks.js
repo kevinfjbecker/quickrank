@@ -2294,9 +2294,9 @@ function getCardsWithRanks(heroClass) {
             }, {
                 name: 'Spellbreaker',
                 value: 7
-            }, {
-                name: 'Spiteful Smith',
-                value: 7
+            //}, {
+            //    name: 'Spiteful Smith', // removed as duplicate
+            //    value: 7
             }, {
                 name: 'Stormwind Champion',
                 value: 7
@@ -2477,9 +2477,9 @@ function getCardsWithRanks(heroClass) {
             }, {
                 name: 'Master Swordsmith',
                 value: 3
-            }, {
-                name: 'Pint-Sized Summoner',
-                value: 3
+            //}, {
+            //    name: 'Pint-Sized Summoner', // removed as duplicate
+            //    value: 3
             }, {
                 name: 'Questing Adventurer',
                 value: 3
@@ -2561,9 +2561,9 @@ function getCardsWithRanks(heroClass) {
             }, {
                 name: 'Charge',
                 value: 2
-            }, {
-                name: 'Dread Corsair',
-                value: 2
+            //}, {
+            //    name: 'Dread Corsair', // removed as duplicate
+            //    value: 2
             }, {
                 name: 'Elven Archer',
                 value: 2
