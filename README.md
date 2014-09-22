@@ -1,15 +1,12 @@
 quickrank
 =========
 
-Hearthstone Arena Card Tier Lookup
+Hearthstone Arena Card Tier Lookup [Try it.](http://kevinfjbecker.github.io/quickrank/)
 
-index.html - the card rank ui
 
-uses:
+Files:
 
- - jquery
- - bootstrap
- - typeahead
+index.html - the card rank ui using: jquery, bootstrap, and typeahead
 
 cardrank.js - holds the card ranking data
 
