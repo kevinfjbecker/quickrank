@@ -3,8 +3,12 @@ quickrank
 
 Hearthstone Arena Card Tier Lookup
 
-index.html - the card rank ui
+[Try it.](http://kevinfjbecker.github.io/quickrank/)
 
+
+Files:
+
+index.html - 
 uses:
 
  - jquery
