@@ -78,7 +78,7 @@ for(k in 1:length(gRatingsCards)) {
 }
 
 gTiers <- data.frame(cbind(gCards, gRatings, "Druid"))
-names(gTiers) <- c("name", "value", "class")
+names(gTiers) <- c("name", "value", "heroClass")
 library(jsonlite)
 
 gJsonOutput <- prettify(toJSON(gTiers))
