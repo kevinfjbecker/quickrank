@@ -33,4 +33,12 @@ if (!exists("gCardTable") & exists("gPageData")) {
   gCardTables <- getCardTable(gPageData)
 }
 
-Druid <- gCardTables[[2]]
+cleanText <- function(pCardText) {
+  vTextOut <- pCardText
+  if(grepl("Sen.+jin Shieldmasta",pCardText)) {
+    vTextOut <- "Sen'jin Shieldmasta"
+  }
+  vTextOut
+}
+
+M <- as.matrix(gCardTables[[10]])
