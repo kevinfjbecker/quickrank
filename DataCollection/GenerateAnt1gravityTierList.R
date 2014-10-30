@@ -1,3 +1,32 @@
+################################################ GenerateAnt1gravityTierList ##
+
+
+library(jsonlite)
+library("httr")
+library("XML")
+
+
+getPageData <- function(pUrl) {
+
+  # Define certicificate file
+  cafile <- system.file("CurlSSL", "cacert.pem", package = "RCurl")
+  
+  # Read page
+  GET(
+    pUrl, 
+    config(cainfo = cafile)
+  )
+  
+}
+
+getCardTable <- function(pPageData) {
+  
+  tables <- readHTMLTable(content(pPageData, as = 'text'))
+  
+  tables[[2]]
+  
+}
+
 processClassTierPage <- function(pCardTable) {
   
   M <- as.matrix(pCardTable)
@@ -85,7 +114,19 @@ processClassTierPage <- function(pCardTable) {
   
 }
 
-gTiers <- processClassTierPage(gCardTable)
+gGid <- c(20, 21, 15, 7, 16, 11, 17, 19, 18) 
 
-library(jsonlite)
+gBaseUrl <- "https://docs.google.com/spreadsheet/pub"
+gQuery <-"?key=0AifXEOqTcGcLdFVvWk1GRjVJTHJUaTVLcGViR1RRTFE&gid="
+
+gUrl <- paste(gBaseUrl, gQuery, gGid[1], sep = "")
+
+gPageData <- getPageData(gUrl)
+gCardTable <- getCardTable(gPageData)
+gTiers <- processClassTierPage(gCardTable)
 gJsonOutput <- prettify(toJSON(gTiers))
+
+
+sink("ant1gravityTierList.json")
+cat(gJsonOutput)
+sink()

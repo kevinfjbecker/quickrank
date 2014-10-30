@@ -1,6 +1,8 @@
-getPageData <- function() {
-  url <- "https://docs.google.com/spreadsheet/pub"
-  query <-"?key=0AifXEOqTcGcLdFVvWk1GRjVJTHJUaTVLcGViR1RRTFE&gid=20"
+
+gBaseUrl <- "https://docs.google.com/spreadsheet/pub"
+gQuery <-"?key=0AifXEOqTcGcLdFVvWk1GRjVJTHJUaTVLcGViR1RRTFE&gid=20"
+
+getPageData <- function(pBaseUrl, pQuery) {
   
   library("httr")
   library("XML")
@@ -10,14 +12,10 @@ getPageData <- function() {
   
   # Read page
   GET(
-    paste(url, query, sep = ""), 
+    paste(pBaseUrl, pQuery, sep = ""), 
     config(cainfo = cafile)
   )
   
-}
-
-if (!exists("gPageData")) {
-  gPageData <- getPageData()
 }
 
 getCardTable <- function(pPageData) {
@@ -28,6 +26,5 @@ getCardTable <- function(pPageData) {
   
 }
 
-if (!exists("gCardTable") & exists("gPageData")) {
-  gCardTable <- getCardTable(gPageData)
-}
+gPageData <- getPageData(gBaseUrl, gQuery)
+gCardTable <- getCardTable(gPageData)

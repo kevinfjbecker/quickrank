@@ -1,0 +1,987 @@
+[
+	{
+		"name" : "Swipe",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Cenarius",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ragnaros the Firelord",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ancient of Lore",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ancient of War",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Argent Commander",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Azure Drake",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Keeper of the Grove",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Starfall",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Chillwind Yeti",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Druid of the Claw",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Harvest Golem",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Cairne Bloodhoof",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Sylvanas Windrunner",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "The Black Knight",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ysera",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Sea Giant",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Imp Master",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Knife Juggler",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Sludge Belcher",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stampeding Kodo",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Sunwalker",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Acidic Swamp Ooze",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Boulderfist Ogre",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dark Iron Dwarf",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ironbark Protector",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Power of the Wild",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Scarlet Crusader",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Sen'jin Shieldmasta",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Shattered Sun Cleric",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Silver Hand Knight",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Spectral Knight",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Wrath",
+		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Hogger",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Onyxia",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Blood Knight",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Faceless Manipulator",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Defender of Argus",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mind Control Tech",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Twilight Drake",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Violet Teacher",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Claw",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Earthen Ring Farseer",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Faerie Dragon",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mad Bomber",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Spellbreaker",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Starfire",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stormwind Champion",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Venture Co. Mercenary",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Amani Berserker",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ancient Brewmaster",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Cult Master",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Fen Creeper",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Gnomish Inventor",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Haunted Creeper",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Loot Hoarder",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ogre Magi",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Raging Worgen",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stranglethorn Tiger",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Worgen Infiltrator",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Youthful Brewmaster",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Zombie Chow",
+		"value" : "6",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Abomination",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Emperor Cobra",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Injured Blademaster",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Nourish",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Wild Pyromancer",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Bloodfen Raptor",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Flesheating Ghoul",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Frost Elemental",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Spiteful Smith",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stormwind Knight",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Baron Geddon",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Deathwing",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Gruul",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Leeroy Jenkins",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Loatheb",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Maexxna",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Big Game Hunter",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Force of Nature",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Molten Giant",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Bite",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Demolisher",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Gadgetzan Auctioneer",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Sunfury Protector",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Archmage",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Bluegill Warrior",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Darkscale Healer",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dire Wolf Alpha",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Frostwolf Warlord",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Innervate (max 1-2)",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ironfur Grizzly",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Jungle Panther",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Oasis Snapjaw",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Razorfen Hunter",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Reckless Rocketeer",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Savage Roar",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stormpike Commando",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Wolfrider",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Alexstrasza",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Bloodmage Thalnos",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Feugen",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Harrison Jones",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Illidan Stormrage",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Malygos",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Arcane Golem",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Crazed Alchemist",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Deathlord",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Nerubian Egg",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Pint-Sized Summoner",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Questing Adventurer",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ravenholdt Assassin",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Wailing Soul",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Acolyte of Pain",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Argent Squire",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Bloodsail Raider",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dragonling Mechanic",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Gurubashi Berserker",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ironbeak Owl",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ironforge Rifleman",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Kobold Geomancer",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Lord of the Arena",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mark of Nature",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mark of the Wild",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Novice Engineer",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "River Crocolisk",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Silvermoon Guardian",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Unstable Ghoul",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Captain Greenskin",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "King Mukla",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Millhouse Manastorm",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Nat Pagle",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "The Beast",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Murloc Warleader",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Southsea Captain",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ancient Mage",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Bloodsail Corsair",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mana Wraith",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Master Swordsmith",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Young Priestess",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Abusive Sergeant",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Booty Bay Bodyguard",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dancing Swords",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Elven Archer",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Leper Gnome",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Nerub'ar Weblord",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Nightblade",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Poison Seeds",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Priestess of Elune",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Soul of the Forest",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "War Golem",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Wild Growth",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Windfury Harpy",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Baron Rivendare",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Lorewalker Cho",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Nozdormu",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stalagg",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Tinkmaster Overspark",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Doomsayer",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Hungry Crab",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mountain Giant",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Alarm-o-Bot",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Ancient Watcher",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Angry Chicken",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Coldlight Oracle",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Coldlight Seer",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Lightwarden",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mana Addict",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Murloc Tidecaller",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Savagery",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Secretkeeper",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Core Hound",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dalaran Mage",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dread Corsair",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Frostwolf Grunt",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Healing Touch",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mad Scientist",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mogu'shan Warden",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Murloc Tidehunter",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Naturalize",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Raid Leader",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Shieldbearer",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Silverback Patriarch",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stoneskin Gargoyle",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Tauren Warrior",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Thrallmar Farseer",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Voodoo Doctor",
+		"value" : "1",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Goldshire Footman",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Grimscale Oracle",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Magma Rager",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Moonfire",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Murloc Raider",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Southsea Deckhand",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stonetusk Boar",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Undertaker",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Wisp",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Young Dragonhawk",
+		"value" : "0",
+		"heroClass" : "Druid"
+	}
+]
