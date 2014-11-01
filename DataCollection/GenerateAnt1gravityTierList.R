@@ -2,12 +2,12 @@
 
 
 library(jsonlite)
-library("httr")
-library("XML")
+library(httr)
+library(XML)
 
 
 getPageData <- function(pUrl) {
-
+  
   # Define certicificate file
   cafile <- system.file("CurlSSL", "cacert.pem", package = "RCurl")
   
@@ -97,13 +97,14 @@ processClassTierPage <- function(pCardTable) {
   
   for(k in 1:length(gRatingsCards)) {
     for(l in 1:length(gRatingsCards[[k]])) {
-      if(k == 1 | k == 2) {
-        gRatings <- c(gRatings, 9)
-      } else {
-        gRatings <- c(gRatings, 11 - k)
+      if(length(gRatingsCards[[k]]) > 0) { # Some have an "Always Pick" Rating
+        if(k == 1 | k == 2) { 
+          gRatings <- c(gRatings, 9)
+        } else {
+          gRatings <- c(gRatings, 11 - k)
+        }
+        gCards <- c(gCards, gRatingsCards[[k]][[l]])
       }
-      
-      gCards <- c(gCards, gRatingsCards[[k]][[l]])
     }
   }
   
@@ -119,7 +120,7 @@ gGid <- c(20, 21, 15, 7, 16, 11, 17, 19, 18)
 gBaseUrl <- "https://docs.google.com/spreadsheet/pub"
 gQuery <-"?key=0AifXEOqTcGcLdFVvWk1GRjVJTHJUaTVLcGViR1RRTFE&gid="
 
-gUrl <- paste(gBaseUrl, gQuery, gGid[1], sep = "")
+gUrl <- paste(gBaseUrl, gQuery, gGid[7], sep = "")
 
 gPageData <- getPageData(gUrl)
 gCardTable <- getCardTable(gPageData)

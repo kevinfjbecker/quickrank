@@ -1,11 +1,6 @@
 [
 	{
-		"name" : "Swipe",
-		"value" : "9",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Cenarius",
+		"name" : "Fire Elemental",
 		"value" : "9",
 		"heroClass" : "Druid"
 	},
@@ -15,12 +10,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Ancient of Lore",
+		"name" : "Earth Elemental",
 		"value" : "9",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Ancient of War",
+		"name" : "Sea Giant",
 		"value" : "9",
 		"heroClass" : "Druid"
 	},
@@ -35,12 +30,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Keeper of the Grove",
-		"value" : "9",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Starfall",
+		"name" : "Lightning Storm",
 		"value" : "9",
 		"heroClass" : "Druid"
 	},
@@ -50,12 +40,22 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Druid of the Claw",
+		"name" : "Dark Iron Dwarf",
 		"value" : "9",
 		"heroClass" : "Druid"
 	},
 	{
 		"name" : "Harvest Golem",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Hex",
+		"value" : "9",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Stormforged Axe",
 		"value" : "9",
 		"heroClass" : "Druid"
 	},
@@ -80,7 +80,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Sea Giant",
+		"name" : "Defender of Argus",
 		"value" : "8",
 		"heroClass" : "Druid"
 	},
@@ -120,17 +120,17 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Dark Iron Dwarf",
+		"name" : "Flametongue Totem",
 		"value" : "8",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Ironbark Protector",
+		"name" : "Lightning Bolt",
 		"value" : "8",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Power of the Wild",
+		"name" : "Rockbiter Weapon",
 		"value" : "8",
 		"heroClass" : "Druid"
 	},
@@ -160,8 +160,13 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Wrath",
+		"name" : "Stormwind Champion",
 		"value" : "8",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Deathwing",
+		"value" : "7",
 		"heroClass" : "Druid"
 	},
 	{
@@ -180,12 +185,27 @@
 		"heroClass" : "Druid"
 	},
 	{
+		"name" : "Doomhammer",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
 		"name" : "Faceless Manipulator",
 		"value" : "7",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Defender of Argus",
+		"name" : "Feral Spirit",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Lava Burst",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Mana Tide Totem",
 		"value" : "7",
 		"heroClass" : "Druid"
 	},
@@ -205,7 +225,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Claw",
+		"name" : "Cult Master",
 		"value" : "7",
 		"heroClass" : "Druid"
 	},
@@ -220,6 +240,16 @@
 		"heroClass" : "Druid"
 	},
 	{
+		"name" : "Forked Lightning",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Frostwolf Warlord",
+		"value" : "7",
+		"heroClass" : "Druid"
+	},
+	{
 		"name" : "Mad Bomber",
 		"value" : "7",
 		"heroClass" : "Druid"
@@ -230,12 +260,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Starfire",
-		"value" : "7",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Stormwind Champion",
+		"name" : "Unbound Elemental",
 		"value" : "7",
 		"heroClass" : "Druid"
 	},
@@ -255,7 +280,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Cult Master",
+		"name" : "Bloodlust (max 1-2)",
 		"value" : "6",
 		"heroClass" : "Druid"
 	},
@@ -266,11 +291,6 @@
 	},
 	{
 		"name" : "Gnomish Inventor",
-		"value" : "6",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Haunted Creeper",
 		"value" : "6",
 		"heroClass" : "Druid"
 	},
@@ -320,12 +340,17 @@
 		"heroClass" : "Druid"
 	},
 	{
+		"name" : "Gadgetzan Auctioneer",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
 		"name" : "Injured Blademaster",
 		"value" : "5",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Nourish",
+		"name" : "Sunfury Protector",
 		"value" : "5",
 		"heroClass" : "Druid"
 	},
@@ -335,7 +360,17 @@
 		"heroClass" : "Druid"
 	},
 	{
+		"name" : "Archmage",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
 		"name" : "Bloodfen Raptor",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Dire Wolf Alpha",
 		"value" : "5",
 		"heroClass" : "Druid"
 	},
@@ -350,6 +385,11 @@
 		"heroClass" : "Druid"
 	},
 	{
+		"name" : "Haunted Creeper",
+		"value" : "5",
+		"heroClass" : "Druid"
+	},
+	{
 		"name" : "Spiteful Smith",
 		"value" : "5",
 		"heroClass" : "Druid"
@@ -360,17 +400,17 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Baron Geddon",
-		"value" : "4",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Deathwing",
+		"name" : "Al'Akir the Windlord",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
 	{
 		"name" : "Gruul",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Illidan Stormrage",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
@@ -395,17 +435,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Force of Nature",
-		"value" : "4",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Molten Giant",
-		"value" : "4",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Bite",
+		"name" : "Ancestral Spirit",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
@@ -415,17 +445,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Gadgetzan Auctioneer",
+		"name" : "Nerubian Egg",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Sunfury Protector",
-		"value" : "4",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Archmage",
+		"name" : "Acolyte of Pain",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
@@ -440,17 +465,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Dire Wolf Alpha",
-		"value" : "4",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Frostwolf Warlord",
-		"value" : "4",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Innervate (max 1-2)",
+		"name" : "Earth Shock",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
@@ -480,12 +495,17 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Savage Roar",
+		"name" : "Stormpike Commando",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Stormpike Commando",
+		"name" : "Unstable Ghoul",
+		"value" : "4",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Windspeaker",
 		"value" : "4",
 		"heroClass" : "Druid"
 	},
@@ -496,6 +516,11 @@
 	},
 	{
 		"name" : "Alexstrasza",
+		"value" : "3",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Baron Geddon",
 		"value" : "3",
 		"heroClass" : "Druid"
 	},
@@ -515,12 +540,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Illidan Stormrage",
+		"name" : "Malygos",
 		"value" : "3",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Malygos",
+		"name" : "Molten Giant",
 		"value" : "3",
 		"heroClass" : "Druid"
 	},
@@ -540,7 +565,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Nerubian Egg",
+		"name" : "Master Swordsmith",
 		"value" : "3",
 		"heroClass" : "Druid"
 	},
@@ -560,12 +585,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Wailing Soul",
-		"value" : "3",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Acolyte of Pain",
+		"name" : "Abusive Sergeant",
 		"value" : "3",
 		"heroClass" : "Druid"
 	},
@@ -610,16 +630,6 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Mark of Nature",
-		"value" : "3",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Mark of the Wild",
-		"value" : "3",
-		"heroClass" : "Druid"
-	},
-	{
 		"name" : "Novice Engineer",
 		"value" : "3",
 		"heroClass" : "Druid"
@@ -635,7 +645,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Unstable Ghoul",
+		"name" : "War Golem",
 		"value" : "3",
 		"heroClass" : "Druid"
 	},
@@ -665,6 +675,11 @@
 		"heroClass" : "Druid"
 	},
 	{
+		"name" : "Tinkmaster Overspark",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
 		"name" : "Murloc Warleader",
 		"value" : "2",
 		"heroClass" : "Druid"
@@ -685,12 +700,7 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Mana Wraith",
-		"value" : "2",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Master Swordsmith",
+		"name" : "Wailing Soul",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
@@ -700,12 +710,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Abusive Sergeant",
+		"name" : "Booty Bay Bodyguard",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Booty Bay Bodyguard",
+		"name" : "Dalaran Mage",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
@@ -716,6 +726,11 @@
 	},
 	{
 		"name" : "Elven Archer",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Frost Shock",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
@@ -735,27 +750,27 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Poison Seeds",
-		"value" : "2",
-		"heroClass" : "Druid"
-	},
-	{
 		"name" : "Priestess of Elune",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Soul of the Forest",
+		"name" : "Raid Leader",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "War Golem",
+		"name" : "Reincarnate",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Wild Growth",
+		"name" : "Thrallmar Farseer",
+		"value" : "2",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Windfury",
 		"value" : "2",
 		"heroClass" : "Druid"
 	},
@@ -785,12 +800,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Tinkmaster Overspark",
+		"name" : "Doomsayer",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Doomsayer",
+		"name" : "Farsight",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
@@ -840,12 +855,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Murloc Tidecaller",
+		"name" : "Mana Wraith",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Savagery",
+		"name" : "Murloc Tidecaller",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
@@ -855,12 +870,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Core Hound",
+		"name" : "Ancestral Healing",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Dalaran Mage",
+		"name" : "Core Hound",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
@@ -870,12 +885,12 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Frostwolf Grunt",
+		"name" : "Dust Devil",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Healing Touch",
+		"name" : "Frostwolf Grunt",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
@@ -891,16 +906,6 @@
 	},
 	{
 		"name" : "Murloc Tidehunter",
-		"value" : "1",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Naturalize",
-		"value" : "1",
-		"heroClass" : "Druid"
-	},
-	{
-		"name" : "Raid Leader",
 		"value" : "1",
 		"heroClass" : "Druid"
 	},
@@ -925,11 +930,6 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Thrallmar Farseer",
-		"value" : "1",
-		"heroClass" : "Druid"
-	},
-	{
 		"name" : "Voodoo Doctor",
 		"value" : "1",
 		"heroClass" : "Druid"
@@ -950,11 +950,6 @@
 		"heroClass" : "Druid"
 	},
 	{
-		"name" : "Moonfire",
-		"value" : "0",
-		"heroClass" : "Druid"
-	},
-	{
 		"name" : "Murloc Raider",
 		"value" : "0",
 		"heroClass" : "Druid"
@@ -966,6 +961,11 @@
 	},
 	{
 		"name" : "Stonetusk Boar",
+		"value" : "0",
+		"heroClass" : "Druid"
+	},
+	{
+		"name" : "Totemic Might",
 		"value" : "0",
 		"heroClass" : "Druid"
 	},
