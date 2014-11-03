@@ -27,7 +27,7 @@ getCardTable <- function(pPageData) {
   
 }
 
-processClassTierPage <- function(pCardTable) {
+processClassTierPage <- function(pCardTable, pHeroClass) {
   
   M <- as.matrix(pCardTable)
   
@@ -108,25 +108,43 @@ processClassTierPage <- function(pCardTable) {
     }
   }
   
-  pTiers <- data.frame(cbind(gCards, gRatings, "Druid"))
+  pTiers <- data.frame(cbind(gCards, gRatings, pHeroClass))
   names(pTiers) <- c("name", "value", "heroClass")
   
   pTiers
   
 }
 
-gGid <- c(20, 21, 15, 7, 16, 11, 17, 19, 18) 
+generatePerClassTierList = function() {
+  
+  gGid <- c(20, 21, 15, 7, 16, 11, 17, 19, 18) 
+  gHero <- c("Druid", "Hunter", "Mage",
+             "Paladin", "Priest", "Rogue",
+             "Shaman", "Warlock", "Warrior"
+  )
+  
+  gBaseUrl <- "https://docs.google.com/spreadsheet/pub"
+  gQuery <-"?key=0AifXEOqTcGcLdFVvWk1GRjVJTHJUaTVLcGViR1RRTFE&gid="
+  
+  for(i in 1:9) {
+    gUrl <- paste(gBaseUrl, gQuery, gGid[i], sep = "")
+    gPageData <- getPageData(gUrl)
+    gCardTable <- getCardTable(gPageData)
+    gClassTier <- processClassTierPage(gCardTable, gHero[i])
+    if(!exists("gTiers")) {
+      gTiers <- gClassTier
+    } else {
+      gTiers <- rbind(gTiers, gClassTier)
+    }
+  }
+  
+  gTiers
+  
+}
 
-gBaseUrl <- "https://docs.google.com/spreadsheet/pub"
-gQuery <-"?key=0AifXEOqTcGcLdFVvWk1GRjVJTHJUaTVLcGViR1RRTFE&gid="
+gTiers <- generatePerClassTierList()
 
-gUrl <- paste(gBaseUrl, gQuery, gGid[7], sep = "")
-
-gPageData <- getPageData(gUrl)
-gCardTable <- getCardTable(gPageData)
-gTiers <- processClassTierPage(gCardTable)
 gJsonOutput <- prettify(toJSON(gTiers))
-
 
 sink("ant1gravityTierList.json")
 cat(gJsonOutput)
