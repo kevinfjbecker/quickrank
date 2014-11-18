@@ -1,13 +1,19 @@
-list.of.packages <- c("jsonlite")
-new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
-if(length(new.packages)) install.packages(new.packages)
+library("jsonlite")
+library("dplyr")
 
-x <- fromJSON("http://hearthstonejson.com/json/AllSets.json")
+if(!exists("AllSetsList")) {
+  AllSetsList <- fromJSON("http://hearthstonejson.com/json/AllSets.json")
+}
 
-class(x)
+BasicCards <- filter(AllSetsList[["Basic"]],
+                     !is.na(collectible),
+                     type != 'Hero')
 
-y <- x[[1]]
+ExpertCards <- filter(AllSetsList[["Expert"]],
+                      !is.na(collectible),
+                      type != 'Enchantment',
+                      name != 'Adrenaline Rush')
 
-class(y)
+NaxxCards <- filter(AllSetsList[["Curse of Naxxramas"]],
+                    !is.na(collectible))
 
-levels(factor(y[,'type']))
