@@ -1,4 +1,4 @@
-################################################ GenerateAnt1gravityTierList ##
+################################################ GenerateJerkyGunnerTierList ##
 
 
 library(jsonlite)
@@ -44,7 +44,9 @@ processClassTierPage <- function(pCardTable, pHeroClass) {
     "Terrible"
   )
   
-  gIgnoreText = c(gRatings, "Tier 1", "Tier 2", "Tier 3", "")
+  ignoreText <- function(cellText) {
+    grepl('Tier . - \\(.+\\)', cellText) || cellText == "" || any(gRatings == cellText)
+  }
   
   gRatingsCards <- list(
     Top = character(0),
@@ -62,7 +64,7 @@ processClassTierPage <- function(pCardTable, pHeroClass) {
   for(i in 3:12){
     gActiveRating = i-2
     for(j in 1:nrow(M)){
-      if(!any(gIgnoreText == M[j,i])) {
+      if(!ignoreText(M[j,i])) {
         temp <- gRatingsCards[[gActiveRating]]
         gRatingsCards[[gActiveRating]] <- c(temp, M[j,i])
         # print(paste("adding", M[j,i], "to", gRatings[gActiveRating])) # DEBUG
@@ -90,7 +92,7 @@ processClassTierPage <- function(pCardTable, pHeroClass) {
 
 generatePerClassTierList = function() {
   
-  gGid <- c(5, 9, 6, 8, 12, 4,7, 11, 10) 
+  gGid <- c(5, 9, 6, 8, 12, 4, 7, 11, 10) 
   gHero <- c("Druid", "Hunter", "Mage",
              "Paladin", "Priest", "Rogue",
              "Shaman", "Warlock", "Warrior"
