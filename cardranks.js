@@ -8,7 +8,7 @@ function getCardsWithRanks(pHeroClass) {
 
 	var perClassList = [
 		{
-			"name" : "Cenarius",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Druid"
 		},
@@ -18,17 +18,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
-			"value" : "9",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Cairne Bloodhoof",
 			"value" : "9",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Cenarius",
+			"value" : "9",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Druid"
 		},
@@ -53,12 +58,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Keeper of the Grove",
+			"name" : "Argent Commander",
 			"value" : "9",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Argent Commander",
+			"name" : "Keeper of the Grove",
 			"value" : "9",
 			"heroClass" : "Druid"
 		},
@@ -73,13 +78,13 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Druid of the Claw",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Harvest Golem",
-			"value" : "9",
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Druid"
 		},
 		{
@@ -93,12 +98,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Faceless Manipulator",
+			"name" : "Foe Reaper 4000",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Force of Nature",
+			"name" : "Piloted Sky Golem",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
@@ -113,32 +118,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Stampeding Kodo",
-			"value" : "8",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Sunwalker",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Imp Master",
+			"name" : "Mech-Bear-Cat",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Knife Juggler",
-			"value" : "8",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Nourish",
-			"value" : "8",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
@@ -148,12 +138,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ironbark Protector",
+			"name" : "Druid of the Claw",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Power of the Wild",
+			"name" : "Piloted Shredder",
+			"value" : "8",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Spider Tank",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
@@ -163,22 +158,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
-			"value" : "8",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Shattered Sun Cleric",
-			"value" : "8",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Starfire",
-			"value" : "8",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Wrath",
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
@@ -188,12 +168,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Ironbark Protector",
+			"value" : "8",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Sen'jin Shieldmasta",
+			"value" : "8",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Spectral Knight",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
+			"name" : "Wrath",
 			"value" : "8",
 			"heroClass" : "Druid"
 		},
@@ -203,17 +193,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Illidan Stormrage",
+			"name" : "Baron Geddon",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Hogger",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Malorne",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Toshley",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Faceless Manipulator",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Force of Nature",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
@@ -223,27 +243,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Knife Juggler",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Nourish (max 2)",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Madder Bomber (max 2)",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Twilight Drake",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Bite",
+			"name" : "Acidic Swamp Ooze",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Anodized Robo Cub",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Violet Teacher",
+			"name" : "Power of the Wild",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Claw",
+			"name" : "Starfire",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
@@ -253,7 +303,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Venture Co. Mercenary (max 2)",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Claw",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "^^Cult Master^^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
@@ -263,33 +323,38 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Spellbreaker",
+			"value" : "7",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Stormwind Champion",
 			"value" : "7",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Cult Master",
-			"value" : "7",
+			"name" : "Deathwing",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
+			"name" : "Illidan Stormrage",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Gnomish Inventor",
-			"value" : "7",
+			"name" : "Loatheb",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Raging Worgen",
-			"value" : "7",
+			"name" : "Maexxna",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Worgen Infiltrator",
-			"value" : "7",
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
@@ -298,7 +363,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
@@ -308,12 +393,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Mind Control Tech",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Abomination",
+			"name" : "Violet Teacher",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Bite",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
@@ -323,22 +418,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Recycle",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Sunfury Protector",
-			"value" : "6",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Haunted Creeper",
+			"name" : "Earthen Ring Farseer",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
@@ -348,17 +438,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Youthful Brewmaster",
-			"value" : "6",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Zombie Chow",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
@@ -368,33 +448,43 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Baron Geddon",
-			"value" : "5",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Harrison Jones",
-			"value" : "5",
+			"name" : "Zombie Chow",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Maexxna",
-			"value" : "5",
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Haunted Creeper",
+			"value" : "6",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
 			"heroClass" : "Druid"
 		},
 		{
@@ -403,12 +493,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Deathwing",
+			"name" : "King Mukla",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Feugen",
+			"name" : "Leeroy Jenkins",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
@@ -418,12 +508,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Echoing Ooze",
+			"name" : "Molten Giant",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Molten Giant",
+			"name" : "Dark Wispers",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Abomination (max 2)",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
@@ -433,17 +528,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Gadgetzan Auctioneer",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Lil' Exorcist",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Ravenholdt Assassin",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Wild Pyromancer",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Amani Berserker",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Ancient Brewmaster",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
@@ -453,7 +573,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Loot Hoarder",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Lost Tallstrider",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Tinkertown Technician",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
@@ -463,7 +603,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Frost Elemental",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Frostwolf Warlord",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mechwarper",
 			"value" : "5",
 			"heroClass" : "Druid"
 		},
@@ -473,17 +633,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "King Mukla",
+			"name" : "Stonesplinter Trogg",
+			"value" : "5",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Malygos",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Leeroy Jenkins",
+			"name" : "Echoing Ooze",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Goblin Sapper",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Illuminator",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Nerubian Egg (max 2)",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
@@ -493,7 +678,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ravenholdt Assassin",
+			"name" : "Grove Tender",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
@@ -508,17 +693,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Darkscale Healer",
-			"value" : "4",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Frost Elemental",
-			"value" : "4",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Stormwind Knight",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
@@ -533,12 +708,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Jungle Panther",
+			"name" : "Force-Tank MAX",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Oasis Snapjaw",
+			"name" : "^^Innervate^^ (max 2)",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Jungle Panther",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
@@ -548,7 +728,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "^Savage Roar^ (max 2)",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Stormpike Commando",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Archmage",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
@@ -558,17 +758,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Innervate (max 1-2)",
-			"value" : "4",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Ironfur Grizzly",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Mark of the Wild",
+			"name" : "Mark of Nature (max 2)",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mark of the Wild (max 2)",
+			"value" : "4",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Oasis Snapjaw",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
@@ -578,17 +783,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Silvermoon Guardian",
-			"value" : "4",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Wolfrider",
 			"value" : "4",
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Millhouse Manastorm",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Blingtron 3000",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
@@ -598,12 +808,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
 		{
 			"name" : "Nat Pagle",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Tinkmaster Overspark",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
@@ -618,42 +838,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Arcane Golem (max 2)",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Mark of Nature",
-			"value" : "3",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Savage Roar",
-			"value" : "3",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Soul of the Forest (max 1)",
-			"value" : "3",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "War Golem",
-			"value" : "3",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Archmage",
+			"name" : "Gnomish Experimenter",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
 		{
 			"name" : "Bloodsail Raider",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Gurubashi Berserker",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Kobold Geomancer",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
@@ -673,7 +883,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Unstable Ghoul",
+			"name" : "Ship's Cannon",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Silvermoon Guardian",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Soul of the Forest (max 2)",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Antique Healbot (max 1)",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
@@ -683,17 +913,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Booty Bay Bodyguard",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Clockwork Gnome",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Kobold Geomancer",
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Nerub'ar Weblord",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Unstable Ghoul",
 			"value" : "3",
 			"heroClass" : "Druid"
 		},
@@ -703,12 +953,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Stalagg",
+			"name" : "Gazlowe",
 			"value" : "2",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
+			"name" : "Nozdormu",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Stalagg",
 			"value" : "2",
 			"heroClass" : "Druid"
 		},
@@ -718,7 +973,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Mana Addict",
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Master Swordsmith",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Ancient Mage",
 			"value" : "2",
 			"heroClass" : "Druid"
 		},
@@ -733,57 +1003,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ancient Mage",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Argent Squire",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Dragonling Mechanic",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Gurubashi Berserker",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Ironbeak Owl",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Mogu'shan Warden",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Nerub'ar Weblord",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Novice Engineer",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Poison Seeds",
-			"value" : "2",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Wild Growth",
 			"value" : "2",
 			"heroClass" : "Druid"
 		},
@@ -793,7 +1013,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Leper Gnome",
+			"name" : "Druid of the Fang",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mogu'shan Warden",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Novice Engineer",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Poison Seeds (max 2)",
 			"value" : "2",
 			"heroClass" : "Druid"
 		},
@@ -803,7 +1038,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Wild Growth",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Core Hound",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Elven Archer",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Ironforge Rifleman",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Moonfire (max 2)",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Naturalize",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Druid"
 		},
@@ -813,7 +1083,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Healing Touch (max 2)",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
@@ -823,22 +1108,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Bloodsail Corsair (max 1)",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ancient Watcher",
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Alarm-o-Bot",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Angry Chicken",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
@@ -853,47 +1133,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Savagery (max 2)",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Alarm-o-Bot",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Savagery",
+			"name" : "Ancient Watcher (max 2)",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Dread Corsair",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Core Hound",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Naturalize",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Thrallmar Farseer",
+			"name" : "Cogmaster",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
@@ -903,27 +1168,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Frostwolf Grunt",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Healing Touch",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Mad Scientist",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Moonfire",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Murloc Tidehunter",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
@@ -933,27 +1178,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Silverback Patriarch",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Southsea Deckhand",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Stoneskin Gargoyle",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Tauren Warrior",
-			"value" : "1",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Voodoo Doctor",
 			"value" : "1",
 			"heroClass" : "Druid"
 		},
@@ -963,7 +1188,92 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
+			"name" : "Flying Machine",
+			"value" : "1",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Silverback Patriarch",
+			"value" : "1",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Thrallmar Farseer",
+			"value" : "1",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Voodoo Doctor",
+			"value" : "1",
+			"heroClass" : "Druid"
+		},
+		{
 			"name" : "Lorewalker Cho",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Hungry Crab",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Tree of Life",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Secretkeeper",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Target Dummy",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Magma Rager",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Southsea Deckhand",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Druid"
+		},
+		{
+			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Druid"
 		},
@@ -978,22 +1288,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Druid"
-		},
-		{
 			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Druid"
-		},
-		{
-			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Druid"
 		},
@@ -1008,12 +1303,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Druid"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Hunter"
 		},
@@ -1023,7 +1318,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Hunter"
 		},
@@ -1033,12 +1333,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Sea Giant",
-			"value" : "9",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Gladiator's Longbow",
+			"name" : "Gladiator's Longbow (max 2)",
 			"value" : "9",
 			"heroClass" : "Hunter"
 		},
@@ -1058,28 +1353,23 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Eaglehorn Bow",
-			"value" : "9",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "Explosive Shot",
 			"value" : "9",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Stampeding Kodo",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Animal Companion",
-			"value" : "9",
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Harvest Golem",
-			"value" : "9",
+			"name" : "Gahz'rilla",
+			"value" : "8",
 			"heroClass" : "Hunter"
 		},
 		{
@@ -1098,6 +1388,36 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Foe Reaper 4000",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Piloted Sky Golem",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Sea Giant",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Steamwheedle Sniper",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Eaglehorn Bow",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Stampeding Kodo (max 2)",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Sludge Belcher",
 			"value" : "8",
 			"heroClass" : "Hunter"
@@ -1108,17 +1428,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Imp Master",
-			"value" : "8",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Knife Juggler",
-			"value" : "8",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Animal Companion",
 			"value" : "8",
 			"heroClass" : "Hunter"
 		},
@@ -1128,22 +1438,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Piloted Shredder",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
-			"value" : "8",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Shattered Sun Cleric",
-			"value" : "8",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Unleash the Hounds",
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Hunter"
 		},
@@ -1153,12 +1463,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Spectral Knight",
+			"name" : "Sen'jin Shieldmasta",
 			"value" : "8",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
+			"name" : "Spectral Knight",
 			"value" : "8",
 			"heroClass" : "Hunter"
 		},
@@ -1168,12 +1478,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Baron Geddon",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Hogger",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Maexxna",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Toshley",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
@@ -1183,7 +1508,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Blood Knight",
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Recombobulator",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
@@ -1193,7 +1523,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Knife Juggler",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Madder Bomber (max 2)",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
@@ -1203,17 +1548,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Acidic Swamp Ooze",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^^Glaivezooka^^",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^^Unleash the Hounds^^",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^Deadly Shot^",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Kill Command",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Multi Shot",
+			"name" : "Multi Shot (max 2)",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
 		{
 			"name" : "Silver Hand Knight",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Venture Co. Mercenary (max 2)",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^^Cult Master^^ (max 2)",
+			"value" : "7",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Scarlet Crusader",
 			"value" : "7",
 			"heroClass" : "Hunter"
 		},
@@ -1228,48 +1613,8 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Cult Master",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Deadly Shot",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Gnomish Inventor",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Haunted Creeper",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Scarlet Crusader",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Webspinner",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Raging Worgen",
-			"value" : "7",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Worgen Infiltrator",
-			"value" : "7",
+			"name" : "Deathwing",
+			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
@@ -1278,17 +1623,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Maexxna",
+			"name" : "Loatheb",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Bloodmage Thalnos",
+			"name" : "Troggzor the Earthinator",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Deathwing",
+			"name" : "Feugen",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
@@ -1298,17 +1643,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Mekgineer Thermaplugg",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "King Mukla",
+			"name" : "Mogor the Ogre",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Big Game Hunter (max 1)",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Blood Knight",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
@@ -1318,37 +1668,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Violet Teacher",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Abomination",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Earthen Ring Farseer",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Flare",
-			"value" : "6",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Sunfury Protector",
-			"value" : "6",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Houndmaster",
+			"name" : "Haunted Creeper",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
@@ -1358,17 +1703,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Ogre Brute",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Tundra Rhino",
-			"value" : "6",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Youthful Brewmaster",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
@@ -1378,12 +1718,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Explosive Trap",
+			"name" : "Faerie Dragon",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Faerie Dragon",
+			"name" : "Gnomish Inventor",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^Houndmaster^",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Raging Worgen",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Webspinner",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Lost Tallstrider",
+			"value" : "6",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Youthful Brewmaster",
 			"value" : "6",
 			"heroClass" : "Hunter"
 		},
@@ -1393,27 +1768,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Amani Berserker",
-			"value" : "6",
+			"name" : "Alexstrasza",
+			"value" : "5",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ancient Brewmaster",
-			"value" : "6",
+			"name" : "Bloodmage Thalnos",
+			"value" : "5",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Loot Hoarder",
-			"value" : "6",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Tracking",
-			"value" : "6",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Baron Geddon",
+			"name" : "King Mukla",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
@@ -1423,22 +1788,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Alexstrasza",
-			"value" : "5",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Feugen",
-			"value" : "5",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "The Beast",
-			"value" : "5",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Molten Giant",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
@@ -1448,7 +1798,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Echoing Ooze",
+			"name" : "Molten Giant",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Abomination (max 2)",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
@@ -1458,17 +1813,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Gadgetzan Auctioneer",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Ravenholdt Assassin",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Arcane Golem (max 2)",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Illuminator",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Lil' Exorcist",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Metaltooth Leaper",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
@@ -1478,7 +1858,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Ancient Brewmaster",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Bloodfen Raptor",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Loot Hoarder",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Tinkertown Technician",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^Tracking^",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Tundra Rhino",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
@@ -1488,7 +1908,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Explosive Trap (max 2)",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
@@ -1498,12 +1918,67 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Frost Elemental",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Frostwolf Warlord",
 			"value" : "5",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Jungle Panther",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Mechwarper",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Spiteful Smith",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Stonesplinter Trogg",
+			"value" : "5",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Malygos",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Echoing Ooze",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Goblin Sapper",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
@@ -1513,7 +1988,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ravenholdt Assassin",
+			"name" : "Flare",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "King of Beasts",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
@@ -1523,12 +2003,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Nerubian Egg (max 2)",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Wailing Soul",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Darkscale Healer",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
@@ -1538,7 +2023,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Frost Elemental",
+			"name" : "Force-Tank MAX",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
@@ -1548,17 +2033,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Spiteful Smith",
-			"value" : "4",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "Stormwind Knight",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Jungle Panther",
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^^Freezing Trap^^ (max 2)",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
@@ -1568,12 +2053,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Ogre Magi",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Stormpike Commando",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Bluegill Warrior",
+			"value" : "4",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Hunter's Mark (max 2)",
 			"value" : "4",
 			"heroClass" : "Hunter"
 		},
@@ -1593,11 +2093,6 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "War Golem",
-			"value" : "4",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "Wolfrider",
 			"value" : "4",
 			"heroClass" : "Hunter"
@@ -1608,12 +2103,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Millhouse Manastorm",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Blingtron 3000",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
@@ -1623,7 +2128,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Bestial Wrath",
+			"name" : "Tinkmaster Overspark",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Bestial Wrath (max 2)",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
@@ -1638,27 +2148,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Misdirection",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Freezing Trap",
+			"name" : "Misdirection (max 2)",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Silvermoon Guardian",
-			"value" : "3",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Archmage",
+			"name" : "Gnomish Experimenter",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
@@ -1668,27 +2173,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Lord of the Arena",
-			"value" : "3",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Snipe",
-			"value" : "3",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Abusive Sergeant",
-			"value" : "3",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Booty Bay Bodyguard",
-			"value" : "3",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Hunter's Mark",
+			"name" : "Gurubashi Berserker",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
@@ -1698,7 +2183,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Lord of the Arena",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Reckless Rocketeer",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Ship's Cannon",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Silvermoon Guardian",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Antique Healbot (max 1)",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
@@ -1708,12 +2213,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ogre Magi",
+			"name" : "Mad Scientist",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Starving Buzzard",
+			"name" : "Snipe",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Unstable Ghoul",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Abusive Sergeant",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "^^Starving Buzzard^^ (max 2)",
 			"value" : "3",
 			"heroClass" : "Hunter"
 		},
@@ -1723,17 +2268,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Nozdormu",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Stalagg",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
+			"name" : "Mountain Giant",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Mountain Giant",
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Call Pet",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Master Swordsmith",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Ancient Mage",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
@@ -1748,32 +2323,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ancient Mage",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Mana Addict",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "Argent Squire",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Dragonling Mechanic",
+			"name" : "Core Hound",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Gurubashi Berserker",
+			"name" : "Dancing Swords",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Elven Archer",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Ironforge Rifleman",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
@@ -1793,47 +2363,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Reckless Rocketeer",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Timber Wolf",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Unstable Ghoul",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Dancing Swords",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Leper Gnome",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Mad Scientist",
-			"value" : "2",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "Priestess of Elune",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Core Hound",
+			"name" : "Timber Wolf (max 2)",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Cobra Shot",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Hunter"
 		},
@@ -1843,7 +2393,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
@@ -1853,7 +2408,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Feign Death",
+			"value" : "1",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Bloodsail Corsair (max 1)",
+			"value" : "1",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Jeeves",
+			"value" : "1",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
@@ -1863,7 +2433,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Coldlight Seer",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
@@ -1873,52 +2443,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ancient Watcher",
+			"name" : "Secretkeeper",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Angry Chicken",
+			"name" : "Dread Corsair",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Coldlight Seer",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Murloc Tidecaller",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Thrallmar Farseer",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Silverback Patriarch",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Undertaker",
+			"name" : "Stonetusk Boar",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
@@ -1928,12 +2473,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Frostwolf Grunt",
+			"name" : "Silverback Patriarch",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Murloc Tidehunter",
+			"name" : "Tauren Warrior",
+			"value" : "1",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Undertaker",
+			"value" : "1",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Flying Machine",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
@@ -1943,17 +2503,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Southsea Deckhand",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Stoneskin Gargoyle",
-			"value" : "1",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Tauren Warrior",
+			"name" : "Thrallmar Farseer",
 			"value" : "1",
 			"heroClass" : "Hunter"
 		},
@@ -1968,6 +2518,61 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
+			"name" : "Hungry Crab",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Target Dummy",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Magma Rager",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Southsea Deckhand",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Hunter"
+		},
+		{
 			"name" : "Goldshire Footman",
 			"value" : "0",
 			"heroClass" : "Hunter"
@@ -1978,22 +2583,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Hunter"
-		},
-		{
 			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Hunter"
-		},
-		{
-			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Hunter"
 		},
@@ -2008,12 +2598,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Hunter"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Mage"
 		},
@@ -2023,17 +2613,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Mage"
 		},
 		{
 			"name" : "Ysera",
-			"value" : "9",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Pyroblast",
 			"value" : "9",
 			"heroClass" : "Mage"
 		},
@@ -2053,7 +2643,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Flamestrike (max 2-3)",
+			"name" : "^^Flamestrike^^",
 			"value" : "9",
 			"heroClass" : "Mage"
 		},
@@ -2063,18 +2653,13 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Frostbolt",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Harvest Golem",
-			"value" : "9",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Polymorph",
-			"value" : "9",
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Mage"
 		},
 		{
@@ -2089,6 +2674,21 @@ function getCardsWithRanks(pHeroClass) {
 		},
 		{
 			"name" : "Archmage Antonidas",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Foe Reaper 4000",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Piloted Sky Golem",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Pyroblast (max 2)",
 			"value" : "8",
 			"heroClass" : "Mage"
 		},
@@ -2108,37 +2708,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Stampeding Kodo",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
 			"name" : "Sunwalker",
 			"value" : "8",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Twilight Drake",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Violet Teacher",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Imp Master",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Knife Juggler",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
 			"value" : "8",
 			"heroClass" : "Mage"
 		},
@@ -2148,17 +2723,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Frostbolt",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Piloted Shredder",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Polymorph",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Shattered Sun Cleric",
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Mage"
 		},
@@ -2168,18 +2758,13 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Sen'jin Shieldmasta",
+			"value" : "8",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Spectral Knight",
 			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Venture Co. Mercenary",
-			"value" : "8",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Bloodmage Thalnos",
-			"value" : "7",
 			"heroClass" : "Mage"
 		},
 		{
@@ -2188,12 +2773,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Baron Geddon",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Hogger",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Toshley",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
@@ -2203,7 +2793,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Blood Knight",
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
@@ -2213,7 +2813,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Knife Juggler",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Imp Master",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
@@ -2223,17 +2833,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Madder Bomber (max 2)",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Twilight Drake",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Acidic Swamp Ooze",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Flamecannon",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Silver Hand Knight",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Venture Co. Mercenary (max 2)",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Gnomish Inventor",
+			"name" : "^^Cult Master^^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
@@ -2248,28 +2883,18 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Spellbreaker",
+			"value" : "7",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Stormwind Champion",
 			"value" : "7",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Cult Master",
-			"value" : "7",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Raging Worgen",
-			"value" : "7",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Worgen Infiltrator",
-			"value" : "7",
+			"name" : "Deathwing",
+			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
@@ -2278,27 +2903,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Loatheb",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Maexxna",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Abomination",
+			"name" : "Troggzor the Earthinator",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Emperor Cobra",
+			"name" : "Feugen",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Blood Knight",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
@@ -2308,12 +2953,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Sunfury Protector",
+			"name" : "Soot Spewer",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Haunted Creeper",
+			"name" : "Violet Teacher",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Emperor Cobra",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Goblin Blastmage",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Burly Rockjaw Trogg",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Earthen Ring Farseer",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
@@ -2323,22 +2993,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Mana Wyrm",
-			"value" : "6",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Youthful Brewmaster",
-			"value" : "6",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Zombie Chow",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
@@ -2353,28 +3008,53 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Arcane Missiles",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Baron Geddon",
-			"value" : "5",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Harrison Jones",
-			"value" : "5",
+			"name" : "Zombie Chow",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Haunted Creeper",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Mana Wyrm",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Snowchugger",
+			"value" : "6",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
 			"heroClass" : "Mage"
 		},
 		{
@@ -2383,12 +3063,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Deathwing",
+			"name" : "Bloodmage Thalnos",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Feugen",
+			"name" : "King Mukla",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Leeroy Jenkins",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
@@ -2398,12 +3083,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Echo of Medivh",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Molten Giant",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Echoing Ooze",
+			"name" : "Abomination (max 2)",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
@@ -2413,12 +3103,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Gadgetzan Auctioneer",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Illuminator",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Lil' Exorcist",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
@@ -2428,7 +3133,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Unstable Portal",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Wild Pyromancer",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ancient Brewmaster",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
@@ -2438,12 +3153,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Loot Hoarder",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Lost Tallstrider",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Tinkertown Technician",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Acolyte of Pain",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Arcane Intellect",
+			"name" : "^Arcane Intellect^",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Arcane Missiles",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
@@ -2458,37 +3208,72 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Frostwolf Warlord",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "War Golem",
+			"name" : "Mechwarper",
 			"value" : "5",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "King Mukla",
+			"name" : "Spiteful Smith",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Stonesplinter Trogg",
+			"value" : "5",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Malygos",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Leeroy Jenkins",
+			"name" : "Echoing Ooze",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Maexxna",
+			"name" : "Spellbender",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Goblin Sapper",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
 		{
 			"name" : "Questing Adventurer",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Counterspell",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Nerubian Egg (max 2)",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
@@ -2503,32 +3288,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Counterspell",
-			"value" : "4",
-			"heroClass" : "Mage"
-		},
-		{
 			"name" : "Wailing Soul",
-			"value" : "4",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Archmage",
-			"value" : "4",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Darkscale Healer",
-			"value" : "4",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Spiteful Smith",
-			"value" : "4",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Stormwind Knight",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
@@ -2543,7 +3303,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Force-Tank MAX",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Jungle Panther",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Mirror Entity",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
@@ -2558,7 +3338,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Bluegill Warrior",
+			"value" : "4",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Cone of Cold",
 			"value" : "4",
 			"heroClass" : "Mage"
 		},
@@ -2593,7 +3383,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Flame Leviathan",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Millhouse Manastorm",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Blingtron 3000",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
@@ -2603,12 +3408,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
 			"name" : "Nat Pagle",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Tinkmaster Overspark",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
@@ -2623,37 +3433,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Spellbender",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Wee Spellstopper",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Arcane Golem (max 2)",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ethereal Arcanist",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ancient Mage",
+			"name" : "Ethereal Arcanist (max 2)",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Mirror Entity",
-			"value" : "3",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Silvermoon Guardian",
+			"name" : "Gnomish Experimenter",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
@@ -2663,12 +3468,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Cone of Cold",
+			"name" : "Lord of the Arena",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Lord of the Arena",
+			"name" : "Mad Scientist",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
@@ -2683,22 +3488,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Unstable Ghoul",
+			"name" : "Ship's Cannon",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Abusive Sergeant",
+			"name" : "Silvermoon Guardian",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Booty Bay Bodyguard",
+			"name" : "Antique Healbot (max 1)",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Arcane Explosion (max 2)",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Mage"
 		},
@@ -2708,7 +3518,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Abusive Sergeant",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Unstable Ghoul",
+			"value" : "3",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Baron Rivendare",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Nozdormu",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
@@ -2718,17 +3568,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Doomsayer",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Ice Block",
+			"name" : "Ice Block (max 1)",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
@@ -2738,7 +3578,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Mana Addict",
+			"name" : "Doomsayer",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ancient Mage",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Master Swordsmith",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
@@ -2748,17 +3608,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
 			"name" : "Young Priestess",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Arcane Explosion",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
@@ -2768,17 +3618,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Dancing Swords",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Dragonling Mechanic",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ironbeak Owl",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Mad Scientist",
+			"name" : "Mirror Image",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
@@ -2798,27 +3648,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Dancing Swords",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Leper Gnome",
-			"value" : "2",
-			"heroClass" : "Mage"
-		},
-		{
 			"name" : "Priestess of Elune",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Dalaran Mage",
+			"name" : "Core Hound",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Mage"
 		},
@@ -2828,12 +3673,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Elven Archer",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Frost Nova",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ice Barrier (max 2)",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ironforge Rifleman",
+			"value" : "2",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Bloodsail Corsair (max 1)",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Jeeves",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
@@ -2843,7 +3723,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Coldlight Seer",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
@@ -2853,97 +3733,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ancient Watcher",
+			"name" : "Secretkeeper",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Angry Chicken",
+			"name" : "Dread Corsair",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Coldlight Seer",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Lightwarden",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Murloc Tidecaller",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Core Hound",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Thrallmar Farseer",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Frost Nova",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Ice Lance",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Mirror Image",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Frostwolf Grunt",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Ice Barrier",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Murloc Tidehunter",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Raid Leader",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Silverback Patriarch",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Southsea Deckhand",
-			"value" : "1",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Stoneskin Gargoyle",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
@@ -2953,7 +3753,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Dalaran Mage",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Gnomeregan Infantry",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ice Lance",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Undertaker",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Flying Machine",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Raid Leader",
+			"value" : "1",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Thrallmar Farseer",
 			"value" : "1",
 			"heroClass" : "Mage"
 		},
@@ -2968,6 +3803,71 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
+			"name" : "Hungry Crab",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Target Dummy",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Magma Rager",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Silverback Patriarch",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Southsea Deckhand",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
+			"name" : "Stonetusk Boar",
+			"value" : "0",
+			"heroClass" : "Mage"
+		},
+		{
 			"name" : "Goldshire Footman",
 			"value" : "0",
 			"heroClass" : "Mage"
@@ -2978,22 +3878,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Mage"
-		},
-		{
 			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Mage"
-		},
-		{
-			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Mage"
 		},
@@ -3008,12 +3893,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Mage"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
@@ -3028,17 +3913,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
 		{
 			"name" : "Ysera",
-			"value" : "9",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Sword of Justice",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
@@ -3068,33 +3953,23 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Consecration",
-			"value" : "9",
-			"heroClass" : "Paladin"
-		},
-		{
 			"name" : "Truesilver Champion",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Argent Protector",
+			"name" : "^^Consecration^^",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Dark Iron Dwarf",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Harvest Golem",
-			"value" : "9",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Stormwind Champion",
-			"value" : "9",
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
@@ -3108,17 +3983,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Faceless Manipulator",
+			"name" : "Foe Reaper 4000",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Sludge Belcher",
+			"name" : "Piloted Sky Golem",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Stampeding Kodo",
+			"name" : "Sword of Justice",
+			"value" : "8",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Coghammer",
+			"value" : "8",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Lay on Hands (max 1)",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
@@ -3133,12 +4018,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Imp Master",
+			"name" : "Sludge Belcher",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
+			"value" : "8",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Argent Protector",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
@@ -3148,17 +4038,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Shattered Sun Cleric",
+			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
+			"name" : "Piloted Shredder",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Blessing of Kings",
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Harvest Golem",
+			"value" : "8",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Stormwind Champion",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
@@ -3168,12 +4068,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Cult Master",
+			"name" : "Sen'jin Shieldmasta",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Hammer of Wrath",
+			"name" : "Shielded Minibot",
 			"value" : "8",
 			"heroClass" : "Paladin"
 		},
@@ -3183,32 +4083,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
-			"value" : "8",
-			"heroClass" : "Paladin"
-		},
-		{
 			"name" : "Gruul",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Hogger",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Toshley",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Blood Knight",
+			"name" : "Faceless Manipulator",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Lay on Hands",
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
@@ -3218,7 +4123,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Equality",
+			"name" : "Equality (max 2)",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Madder Bomber (max 2)",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
@@ -3228,7 +4148,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Acidic Swamp Ooze",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "^Blessing of Kings^",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "^^Cult Master^^ (max 2)",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
+			"value" : "7",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Hammer of Wrath",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
@@ -3238,12 +4178,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Venture Co. Mercenary (max 2)",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Raging Worgen",
+			"name" : "Guardian of Kings",
 			"value" : "7",
 			"heroClass" : "Paladin"
 		},
@@ -3253,28 +4193,8 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Earthen Ring Farseer",
+			"name" : "Spellbreaker",
 			"value" : "7",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Gnomish Inventor",
-			"value" : "7",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Worgen Infiltrator",
-			"value" : "7",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Illidan Stormrage",
-			"value" : "6",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Bloodmage Thalnos",
-			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
@@ -3283,22 +4203,72 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Illidan Stormrage",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Loatheb",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Emperor Cobra",
+			"name" : "Maexxna",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Baron Geddon",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Blood Knight",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Quartermaster",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Muster for Battle",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
@@ -3308,37 +4278,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Sunfury Protector",
+			"name" : "Emperor Cobra",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Abomination",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Blessing of Wisdom",
-			"value" : "6",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Frostwolf Warlord",
-			"value" : "6",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Guardian of Kings",
-			"value" : "6",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Haunted Creeper",
+			"name" : "Earthen Ring Farseer",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
@@ -3348,17 +4303,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Youthful Brewmaster",
-			"value" : "6",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Zombie Chow",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
@@ -3368,22 +4313,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Harrison Jones",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Zombie Chow",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "^Blessing of Wisdom^",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Haunted Creeper",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Alexstrasza",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Bloodmage Thalnos",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
@@ -3393,37 +4373,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Maexxna",
-			"value" : "5",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Alexstrasza",
-			"value" : "5",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Baron Geddon",
-			"value" : "5",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Feugen",
-			"value" : "5",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Leeroy Jenkins",
+			"name" : "Bolvar Fordragon",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
 		{
 			"name" : "The Beast",
-			"value" : "5",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Echoing Ooze",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
@@ -3438,17 +4393,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Wild Pyromancer",
+			"name" : "Sunfury Protector",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Abomination (max 2)",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Gadgetzan Auctioneer",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Scarlet Purifier",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Illuminator",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Lil' Exorcist",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
@@ -3458,7 +4433,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Wild Pyromancer",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Ancient Brewmaster",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Bloodfen Raptor",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Frostwolf Warlord",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Loot Hoarder",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Lost Tallstrider",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Tinkertown Technician",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
@@ -3468,12 +4488,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Fen Creeper",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Fen Creeper",
+			"name" : "Frost Elemental",
 			"value" : "5",
 			"heroClass" : "Paladin"
 		},
@@ -3483,12 +4503,67 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Mechwarper",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Seal of Light",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Stonesplinter Trogg",
+			"value" : "5",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Captain Greenskin",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Leeroy Jenkins",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Malygos",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Tinkmaster Overspark",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Echoing Ooze",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Goblin Sapper",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3498,7 +4573,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Nerubian Egg (max 2)",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3508,7 +4583,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Divine Favor",
+			"name" : "Divine Favor (max 2)",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Holy Wrath (max 2)",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3518,12 +4598,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Avenge",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Darkscale Healer",
+			"name" : "Avenge",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3533,7 +4613,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Frost Elemental",
+			"name" : "Force-Tank MAX",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Jungle Panther",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3548,7 +4633,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Hand of Protection (max 2)",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Ogre Magi",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Stormpike Commando",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Bloodsail Raider",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3558,17 +4663,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Hand of Protection",
-			"value" : "4",
-			"heroClass" : "Paladin"
-		},
-		{
 			"name" : "Ironfur Grizzly",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Jungle Panther",
+			"name" : "^Light's Justice^ (max 2)",
 			"value" : "4",
 			"heroClass" : "Paladin"
 		},
@@ -3588,17 +4688,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Millhouse Manastorm",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Nat Pagle",
+			"name" : "Blingtron 3000",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
+			"name" : "Mimiron's Head",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Nat Pagle",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
@@ -3613,27 +4723,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Holy Wrath",
+			"name" : "Arcane Golem (max 2)",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Silvermoon Guardian",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Archmage",
+			"name" : "Cobalt Guardian",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Bloodsail Raider",
+			"name" : "Gnomish Experimenter",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Gurubashi Berserker",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
@@ -3648,27 +4763,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Abusive Sergeant",
+			"name" : "Ship's Cannon",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Argent Squire",
+			"name" : "Silvermoon Guardian",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Booty Bay Bodyguard",
+			"name" : "Antique Healbot (max 1)",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Gurubashi Berserker",
-			"value" : "3",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
@@ -3678,12 +4788,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Light's Justice (max 1)",
-			"value" : "3",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Ogre Magi",
+			"name" : "Noble Sacrifice",
 			"value" : "3",
 			"heroClass" : "Paladin"
 		},
@@ -3693,12 +4798,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Abusive Sergeant",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Blessing of Might (max 2)",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Humility (max 2)",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Baron Rivendare",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Nozdormu",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
@@ -3708,22 +4858,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Mountain Giant",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Blessed Champion",
+			"name" : "Hobgoblin",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Mana Addict",
+			"name" : "Blessed Champion (max 2)",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Young Priestess",
+			"name" : "Master Swordsmith",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
@@ -3733,42 +4888,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Bloodsail Corsair",
+			"name" : "Mana Wraith",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Dragonling Mechanic",
+			"name" : "Young Priestess",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Ironbeak Owl",
-			"value" : "2",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Mogu'shan Warden",
-			"value" : "2",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Noble Sacrifice",
-			"value" : "2",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Novice Engineer",
-			"value" : "2",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Unstable Ghoul",
-			"value" : "2",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Blessing of Might",
+			"name" : "Argent Squire",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
@@ -3778,17 +4908,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Elven Archer",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Humility",
+			"name" : "Ironforge Rifleman",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Leper Gnome",
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Mogu'shan Warden",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Novice Engineer",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
@@ -3798,12 +4938,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Redemption",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Unstable Ghoul",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Core Hound",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Dread Corsair",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Nerub'ar Weblord",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Redemption",
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Paladin"
 		},
@@ -3813,7 +4978,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Holy Light (max 2)",
+			"value" : "2",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
@@ -3823,27 +4998,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Bloodsail Corsair (max 1)",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Mana Wraith",
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Alarm-o-Bot",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Ancient Watcher",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Angry Chicken",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
@@ -3858,12 +5023,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Lightwarden",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Alarm-o-Bot",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
@@ -3873,27 +5033,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Core Hound",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Mad Scientist",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Thrallmar Farseer",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
@@ -3903,17 +5043,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Frostwolf Grunt",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Holy Light",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Murloc Tidehunter",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
@@ -3928,17 +5058,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Silverback Patriarch",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
 			"name" : "Southsea Deckhand",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Stoneskin Gargoyle",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
@@ -3948,17 +5068,92 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Voodoo Doctor",
-			"value" : "1",
-			"heroClass" : "Paladin"
-		},
-		{
 			"name" : "Undertaker",
 			"value" : "1",
 			"heroClass" : "Paladin"
 		},
 		{
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Flying Machine",
+			"value" : "1",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Silverback Patriarch",
+			"value" : "1",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Thrallmar Farseer",
+			"value" : "1",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Voodoo Doctor",
+			"value" : "1",
+			"heroClass" : "Paladin"
+		},
+		{
 			"name" : "Lorewalker Cho",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Hungry Crab",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Target Dummy",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Magma Rager",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Paladin"
+		},
+		{
+			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Paladin"
 		},
@@ -3978,22 +5173,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Paladin"
-		},
-		{
 			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Paladin"
-		},
-		{
-			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Paladin"
 		},
@@ -4008,12 +5188,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Paladin"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
@@ -4023,7 +5203,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
+			"value" : "9",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Vol'jin",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
@@ -4043,17 +5233,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Shadow Madness",
-			"value" : "9",
-			"heroClass" : "Priest"
-		},
-		{
 			"name" : "Argent Commander",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Auchenai Soulpriest",
+			"name" : "Shadow Madness (max 2)",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
@@ -4063,18 +5248,23 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Harvest Golem",
+			"name" : "^^Holy Nova^^",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Holy Nova",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
 			"heroClass" : "Priest"
 		},
 		{
 			"name" : "Temple Enforcer",
 			"value" : "9",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Priest"
 		},
 		{
@@ -4088,7 +5278,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Foe Reaper 4000",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Piloted Sky Golem",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Sea Giant",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Auchenai Soulpriest",
 			"value" : "8",
 			"heroClass" : "Priest"
 		},
@@ -4098,7 +5303,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Stampeding Kodo",
+			"name" : "Sunwalker",
 			"value" : "8",
 			"heroClass" : "Priest"
 		},
@@ -4108,22 +5313,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Sunwalker",
-			"value" : "8",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Imp Master",
-			"value" : "8",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Knife Juggler",
-			"value" : "8",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
 			"value" : "8",
 			"heroClass" : "Priest"
 		},
@@ -4133,12 +5323,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Dark Iron Dwarf",
-			"value" : "8",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Sen'jin Shieldmasta",
+			"name" : "Piloted Shredder",
 			"value" : "8",
 			"heroClass" : "Priest"
 		},
@@ -4148,7 +5333,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Shattered Sun Cleric",
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Dark Iron Dwarf",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Harvest Golem",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Shrinkmeister",
 			"value" : "8",
 			"heroClass" : "Priest"
 		},
@@ -4158,7 +5358,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
+			"name" : "Sen'jin Shieldmasta",
+			"value" : "8",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "^^Shadow Word: Death^^ (max 2)",
 			"value" : "8",
 			"heroClass" : "Priest"
 		},
@@ -4168,7 +5373,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Hogger",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4178,7 +5383,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Toshley",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4188,12 +5393,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Fel Reaver",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Shadowform",
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4203,7 +5413,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Twilight Drake",
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Knife Juggler",
+			"value" : "7",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Bomb Lobber",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4213,12 +5433,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Madder Bomber (max 2)",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Violet Teacher",
+			"name" : "Shadowboxer",
+			"value" : "7",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Twilight Drake",
+			"value" : "7",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Acidic Swamp Ooze",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4228,7 +5458,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Shadow Word: Death",
+			"name" : "Spectral Knight",
+			"value" : "7",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4238,42 +5473,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Spectral Knight",
+			"name" : "Velen's Chosen",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Spellbreaker",
-			"value" : "7",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Holy Smite",
-			"value" : "7",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Scarlet Crusader",
-			"value" : "7",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Stormwind Champion",
-			"value" : "7",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Cult Master",
-			"value" : "7",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Gnomish Inventor",
+			"name" : "Venture Co. Mercenary (max 2)",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
@@ -4283,32 +5488,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Raging Worgen",
+			"name" : "Scarlet Crusader",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Worgen Infiltrator",
+			"name" : "Spellbreaker",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Zombie Chow",
+			"name" : "Stormwind Champion",
 			"value" : "7",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Illidan Stormrage",
-			"value" : "6",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Maexxna",
-			"value" : "6",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Bloodmage Thalnos",
+			"name" : "Baron Geddon",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
@@ -4318,7 +5513,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Illidan Stormrage",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Loatheb",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Maexxna",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Big Game Hunter",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
@@ -4328,12 +5563,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Abomination",
+			"name" : "Shadowform",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Violet Teacher",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
@@ -4343,17 +5588,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Upgraded Repair Bot",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Sunfury Protector",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Haunted Creeper",
+			"name" : "^^Cult Master^^ (max 2)",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Earthen Ring Farseer",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Holy Smite",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
@@ -4363,17 +5618,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Mind Control (max 1-2)",
+			"name" : "^^Mind Control^^ (max 2)",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Youthful Brewmaster",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
@@ -4383,42 +5633,62 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Worgen Infiltrator",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Northshire Cleric",
+			"name" : "Zombie Chow",
 			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Baron Geddon",
-			"value" : "5",
+			"name" : "Gilblin Stalker",
+			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Feugen",
-			"value" : "5",
+			"name" : "Haunted Creeper",
+			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Harrison Jones",
-			"value" : "5",
+			"name" : "^^Northshire Cleric^^",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Raging Worgen",
+			"value" : "6",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
 			"heroClass" : "Priest"
 		},
 		{
 			"name" : "Alexstrasza",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Bloodmage Thalnos",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "King Mukla",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
@@ -4428,7 +5698,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Echoing Ooze",
+			"name" : "Molten Giant",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Abomination (max 2)",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Light of the Naaru",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
@@ -4438,12 +5718,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Deathlord",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Gadgetzan Auctioneer",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Lil' Exorcist",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
@@ -4453,17 +5748,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Ancient Brewmaster",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Bloodfen Raptor",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Frostwolf Warlord",
+			"name" : "Loot Hoarder",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Lost Tallstrider",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Tinkertown Technician",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Darkscale Healer",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
@@ -4473,7 +5798,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Frost Elemental",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Frostwolf Warlord",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Mechwarper",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Spiteful Smith",
+			"value" : "5",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Stonesplinter Trogg",
 			"value" : "5",
 			"heroClass" : "Priest"
 		},
@@ -4483,22 +5833,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "War Golem",
-			"value" : "5",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "King Mukla",
-			"value" : "4",
-			"heroClass" : "Priest"
-		},
-		{
 			"name" : "Leeroy Jenkins",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Malygos",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Millhouse Manastorm",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Echoing Ooze",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Lightbomb",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Goblin Sapper",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Illuminator",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
@@ -4508,12 +5878,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Pint-Sized Summoner",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Arcane Golem (max 2)",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Mass Dispel",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Pint-Sized Summoner",
+			"name" : "Nerubian Egg (max 2)",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
@@ -4523,17 +5908,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Darkscale Healer",
-			"value" : "4",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Frost Elemental",
-			"value" : "4",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Stormwind Knight",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
@@ -4548,7 +5923,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Gurubashi Berserker",
+			"name" : "Force-Tank MAX",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
@@ -4558,12 +5933,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "^Mind Vision^",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Ogre Magi",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Stormpike Commando",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Bluegill Warrior",
+			"value" : "4",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Gurubashi Berserker",
 			"value" : "4",
 			"heroClass" : "Priest"
 		},
@@ -4588,7 +5993,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Millhouse Manastorm",
+			"name" : "Blingtron 3000",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Hemet Nesingwary",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
@@ -4598,7 +6008,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
@@ -4608,12 +6018,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Mindgames",
+			"name" : "Tinkmaster Overspark",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Molten Giant",
+			"name" : "Mindgames",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
@@ -4628,32 +6038,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Mountain Giant",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Master Swordsmith",
-			"value" : "3",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Mind Vision",
-			"value" : "3",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Silvermoon Guardian",
-			"value" : "3",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Archmage",
+			"name" : "Gnomish Experimenter",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
@@ -4668,11 +6063,6 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Mogu'shan Warden",
-			"value" : "3",
-			"heroClass" : "Priest"
-		},
-		{
 			"name" : "Reckless Rocketeer",
 			"value" : "3",
 			"heroClass" : "Priest"
@@ -4683,17 +6073,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Abusive Sergeant",
+			"name" : "Ship's Cannon",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Booty Bay Bodyguard",
+			"name" : "Silvermoon Guardian",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Antique Healbot (max 1)",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Divine Spirit (max 2)",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
@@ -4703,12 +6103,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Ogre Magi",
+			"name" : "Unstable Ghoul",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Unstable Ghoul",
+			"name" : "Abusive Sergeant",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Salty Dog",
 			"value" : "3",
 			"heroClass" : "Priest"
 		},
@@ -4718,22 +6143,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Nozdormu",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Stalagg",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
+			"name" : "Mountain Giant",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Enhance-o Mechano",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Mana Wraith",
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Shadowbomber",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Master Swordsmith",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
@@ -4748,12 +6193,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Mana Addict",
+			"name" : "Mana Wraith",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
@@ -4763,12 +6203,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Dragonling Mechanic",
+			"name" : "Dancing Swords",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Ironbeak Owl",
+			"name" : "Elven Archer",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Ironforge Rifleman",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Mogu'shan Warden",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
@@ -4783,32 +6233,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Dancing Swords",
-			"value" : "2",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Divine Spirit",
-			"value" : "2",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Leper Gnome",
-			"value" : "2",
-			"heroClass" : "Priest"
-		},
-		{
 			"name" : "Priestess of Elune",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Silverback Patriarch",
+			"name" : "Core Hound",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Nightblade",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Silence (max 1)",
 			"value" : "2",
 			"heroClass" : "Priest"
 		},
@@ -4818,7 +6263,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Inner Fire (max 2)",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
@@ -4828,7 +6288,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Bloodsail Corsair (max 1)",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
@@ -4838,17 +6303,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Alarm-o-Bot",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Ancient Watcher",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Angry Chicken",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
@@ -4863,47 +6318,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Alarm-o-Bot",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Dread Corsair",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Core Hound",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Thrallmar Farseer",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Silence",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Undertaker",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Circle of Healing",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
@@ -4913,37 +6338,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Frostwolf Grunt",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Inner Fire",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Mad Scientist",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Murloc Tidehunter",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Raid Leader",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Southsea Deckhand",
-			"value" : "1",
-			"heroClass" : "Priest"
-		},
-		{
-			"name" : "Stoneskin Gargoyle",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
@@ -4953,7 +6348,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
+			"name" : "Undertaker",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
 			"name" : "Voodoo Doctor",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Circle of Healing (max 2)",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Flying Machine",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Raid Leader",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Silverback Patriarch",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Stonetusk Boar",
+			"value" : "1",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Thrallmar Farseer",
 			"value" : "1",
 			"heroClass" : "Priest"
 		},
@@ -4963,12 +6398,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Goldshire Footman",
+			"name" : "Hungry Crab",
 			"value" : "0",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Grimscale Oracle",
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Secretkeeper",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Target Dummy",
 			"value" : "0",
 			"heroClass" : "Priest"
 		},
@@ -4983,17 +6443,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Priest"
-		},
-		{
 			"name" : "Shieldbearer",
 			"value" : "0",
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Stonetusk Boar",
+			"name" : "Southsea Deckhand",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Goldshire Footman",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Grimscale Oracle",
+			"value" : "0",
+			"heroClass" : "Priest"
+		},
+		{
+			"name" : "Murloc Raider",
 			"value" : "0",
 			"heroClass" : "Priest"
 		},
@@ -5008,12 +6483,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Priest"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Rogue"
 		},
@@ -5023,17 +6498,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Rogue"
 		},
 		{
 			"name" : "Ysera",
-			"value" : "9",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Sea Giant",
 			"value" : "9",
 			"heroClass" : "Rogue"
 		},
@@ -5058,23 +6533,23 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Assassinate",
-			"value" : "9",
-			"heroClass" : "Rogue"
-		},
-		{
 			"name" : "Backstab",
 			"value" : "9",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Deadly Poison",
+			"name" : "^Deadly Poison^",
 			"value" : "9",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Harvest Golem",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Rogue"
 		},
 		{
@@ -5088,17 +6563,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Foe Reaper 4000",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Trade Prince Gallywix",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Piloted Sky Golem",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Sea Giant",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Sludge Belcher",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Stampeding Kodo",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Perdition's Blade",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
@@ -5108,27 +6593,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Imp Master",
+			"name" : "Perdition's Blade",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Knife Juggler",
+			"name" : "Stampeding Kodo (max 2)",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Violet Teacher",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Assassin's Blade (max 2)",
+			"name" : "Assassinate",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
@@ -5138,27 +6613,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Piloted Shredder",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Shattered Sun Cleric",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Anub'ar Ambusher",
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
 		{
 			"name" : "Boulderfist Ogre",
+			"value" : "8",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Sen'jin Shieldmasta",
 			"value" : "8",
 			"heroClass" : "Rogue"
 		},
@@ -5173,27 +6653,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
-			"value" : "8",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Bloodmage Thalnos",
-			"value" : "7",
-			"heroClass" : "Rogue"
-		},
-		{
 			"name" : "Gruul",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Edwin VanCleef",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Hogger",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Illidan Stormrage",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Toshley",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
@@ -5203,7 +6683,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Molten Giant",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
@@ -5213,17 +6708,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Knife Juggler",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Madder Bomber",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Twilight Drake",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Violet Teacher",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Acidic Swamp Ooze",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "^Assassin's Blade^ (max 2)",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Goblin Auto-Barber",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
@@ -5233,7 +6763,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Venture Co. Mercenary (max 2)",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Anub'ar Ambusher",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "^^Cult Master^^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
@@ -5243,57 +6783,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Spellbreaker",
+			"value" : "7",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Stormwind Champion",
 			"value" : "7",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Betrayal",
-			"value" : "7",
+			"name" : "Alexstrasza",
+			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Cult Master",
-			"value" : "7",
+			"name" : "Baron Geddon",
+			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Gnomish Inventor",
-			"value" : "7",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Raging Worgen",
-			"value" : "7",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Worgen Infiltrator",
-			"value" : "7",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Zombie Chow",
-			"value" : "7",
+			"name" : "Bloodmage Thalnos",
+			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
 			"name" : "Captain Greenskin",
-			"value" : "6",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Illidan Stormrage",
-			"value" : "6",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Alexstrasza",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
@@ -5303,7 +6818,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Loatheb",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Maexxna",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
@@ -5313,7 +6863,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Sabotage",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
@@ -5323,7 +6873,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Abomination",
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ogre Ninja",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
@@ -5333,27 +6893,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Blade Flurry",
+			"name" : "Gadgetzan Auctioneer",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Abomination (max 2)",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Sunfury Protector",
+			"name" : "^^Betrayal^^",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Defias Ringleader",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Haunted Creeper",
+			"name" : "Earthen Ring Farseer",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
@@ -5363,12 +6923,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Youthful Brewmaster",
+			"name" : "Defias Ringleader",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
@@ -5383,27 +6943,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Baron Geddon",
-			"value" : "5",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Harrison Jones",
+			"name" : "Zombie Chow",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Haunted Creeper",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "King Mukla",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
@@ -5413,12 +6993,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Edwin VanCleef",
-			"value" : "5",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Feugen",
+			"name" : "Malygos",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
@@ -5428,7 +7003,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Echoing Ooze",
+			"name" : "Blade Flurry (max 2)",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
@@ -5438,22 +7013,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Nerubian Egg",
-			"value" : "5",
-			"heroClass" : "Rogue"
-		},
-		{
 			"name" : "Questing Adventurer",
-			"value" : "5",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Wild Pyromancer",
-			"value" : "5",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Demolisher",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
@@ -5463,12 +7023,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Lil' Exorcist",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Ravenholdt Assassin",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Frostwolf Warlord",
+			"name" : "Wild Pyromancer",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ancient Brewmaster",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
@@ -5478,17 +7063,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Fan of Knives",
+			"name" : "Loot Hoarder",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Sprint (max 1)",
+			"name" : "Lost Tallstrider",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "^^Sprint^^ (max 1)",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Tinkertown Technician",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "^Fan of Knives^",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
@@ -5498,22 +7108,62 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "War Golem",
+			"name" : "Frost Elemental",
 			"value" : "5",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "King Mukla",
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Frostwolf Warlord",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Mechwarper",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ogre Magi",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Stonesplinter Trogg",
+			"value" : "5",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Echoing Ooze",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Maexxna",
+			"name" : "Southsea Captain",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Goblin Sapper",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Illuminator",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
@@ -5523,22 +7173,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Nerubian Egg (max 2)",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Wailing Soul",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Darkscale Healer",
-			"value" : "4",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Frost Elemental",
-			"value" : "4",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Stormwind Knight",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
@@ -5553,12 +7198,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Jungle Panther",
+			"name" : "Force-Tank MAX",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Ogre Magi",
+			"name" : "Jungle Panther",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
@@ -5568,12 +7213,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "^Tinker's Sharpsword Oil^ (max 2)",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Southsea Deckhand",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Stormpike Commando",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Bluegill Warrior",
+			"value" : "4",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ironfur Grizzly",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
@@ -5588,13 +7263,18 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Southsea Deckhand",
+			"name" : "Wolfrider",
 			"value" : "4",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Wolfrider",
-			"value" : "4",
+			"name" : "Blingtron 3000",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
@@ -5603,7 +7283,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
@@ -5613,47 +7293,62 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Tinkmaster Overspark",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Murloc Warleader",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Southsea Captain",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Arcane Golem (max 2)",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Cold Blood",
+			"name" : "Iron Sensei",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Ironfur Grizzly",
+			"name" : "Gnomish Experimenter",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Silvermoon Guardian",
+			"name" : "Antique Healbot (max 1)",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Archmage",
+			"name" : "Cold Blood (max 2)",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
 			"name" : "Dread Corsair",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Gurubashi Berserker",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Kobold Geomancer",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
@@ -5673,7 +7368,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Shadowstep",
+			"name" : "^Sap^ (max 2)",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ship's Cannon",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Silvermoon Guardian",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
@@ -5683,17 +7393,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Booty Bay Bodyguard",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Clockwork Gnome",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Kobold Geomancer",
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Shadowstep (max 2)",
 			"value" : "3",
 			"heroClass" : "Rogue"
 		},
@@ -5708,22 +7433,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Nozdormu",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Stalagg",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Preparation",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Kidnapper",
+			"name" : "Kidnapper (max 2)",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
@@ -5733,7 +7458,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Young Priestess",
+			"name" : "Cogmaster's Wrench",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Preparation",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Master Swordsmith",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
@@ -5743,12 +7488,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Bloodsail Corsair",
+			"name" : "Mana Wraith",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Mana Addict",
+			"name" : "Young Priestess",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
@@ -5758,17 +7503,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Dragonling Mechanic",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Gurubashi Berserker",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Ironbeak Owl",
+			"name" : "Dancing Swords",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
@@ -5778,22 +7513,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Novice Engineer",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Dancing Swords",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Leper Gnome",
-			"value" : "2",
-			"heroClass" : "Rogue"
-		},
-		{
 			"name" : "Nerub'ar Weblord",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Novice Engineer",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
@@ -5803,12 +7528,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Dalaran Mage",
+			"name" : "Core Hound",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Sap",
+			"name" : "Elven Archer",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ironforge Rifleman",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Rogue"
 		},
@@ -5818,7 +7558,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Conceal (max 2)",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
@@ -5828,27 +7583,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Bloodsail Corsair (max 1)",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Mana Wraith",
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Alarm-o-Bot",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Ancient Watcher",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Angry Chicken",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
@@ -5863,67 +7608,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Alarm-o-Bot",
+			"value" : "1",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Headcrack",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Dalaran Mage",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Cogmaster",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Core Hound",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Elven Archer",
+			"name" : "Tauren Warrior",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Nightblade",
+			"name" : "Undertaker",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Thrallmar Farseer",
+			"name" : "Vanish (max 1)",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Conceal",
+			"name" : "Voodoo Doctor",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Vanish",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Frostwolf Grunt",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Mad Scientist",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Murloc Tidehunter",
+			"name" : "Flying Machine",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
@@ -5938,27 +7673,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Stoneskin Gargoyle",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
 			"name" : "Stonetusk Boar",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Tauren Warrior",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Voodoo Doctor",
-			"value" : "1",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Undertaker",
+			"name" : "Thrallmar Farseer",
 			"value" : "1",
 			"heroClass" : "Rogue"
 		},
@@ -5968,22 +7688,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Goldshire Footman",
+			"name" : "Hungry Crab",
 			"value" : "0",
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Grimscale Oracle",
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "One-eyed Cheat",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Secretkeeper",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Target Dummy",
 			"value" : "0",
 			"heroClass" : "Rogue"
 		},
 		{
 			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Rogue"
-		},
-		{
-			"name" : "Murloc Raider",
 			"value" : "0",
 			"heroClass" : "Rogue"
 		},
@@ -5998,7 +7748,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
 			"name" : "Wisp",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Goldshire Footman",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Grimscale Oracle",
+			"value" : "0",
+			"heroClass" : "Rogue"
+		},
+		{
+			"name" : "Murloc Raider",
 			"value" : "0",
 			"heroClass" : "Rogue"
 		},
@@ -6008,12 +7778,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Rogue"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Shaman"
 		},
@@ -6023,7 +7793,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Neptulon",
+			"value" : "9",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Shaman"
 		},
@@ -6043,12 +7823,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Azure Drake",
+			"name" : "Lightning Storm",
 			"value" : "9",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Lightning Storm",
+			"name" : "Azure Drake",
 			"value" : "9",
 			"heroClass" : "Shaman"
 		},
@@ -6058,22 +7838,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Feral Spirit",
-			"value" : "9",
-			"heroClass" : "Shaman"
-		},
-		{
 			"name" : "Fire Elemental",
-			"value" : "9",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Dark Iron Dwarf",
-			"value" : "9",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Harvest Golem",
 			"value" : "9",
 			"heroClass" : "Shaman"
 		},
@@ -6083,8 +7848,18 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Stormforged Axe",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "^^Stormforged Axe^^ (max 2)",
+			"value" : "9",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Shaman"
 		},
 		{
@@ -6098,7 +7873,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Doomhammer",
+			"name" : "Foe Reaper 4000",
+			"value" : "8",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Piloted Sky Golem",
+			"value" : "8",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Doomhammer (max 1)",
+			"value" : "8",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Powermace",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
@@ -6108,7 +7898,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Stampeding Kodo",
+			"name" : "Sunwalker",
+			"value" : "8",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Feral Spirit",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
@@ -6118,22 +7913,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Sunwalker",
-			"value" : "8",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Violet Teacher",
-			"value" : "8",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Imp Master",
-			"value" : "8",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
@@ -6143,17 +7923,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Stormwind Champion",
+			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
+			"name" : "Piloted Shredder",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Shattered Sun Cleric",
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
@@ -6163,7 +7948,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Flametongue Totem",
+			"name" : "Sen'jin Shieldmasta",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
@@ -6173,12 +7958,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Unbound Elemental",
-			"value" : "8",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Venture Co. Mercenary",
+			"name" : "Stormwind Champion",
 			"value" : "8",
 			"heroClass" : "Shaman"
 		},
@@ -6193,17 +7973,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Illidan Stormrage",
+			"name" : "Hogger",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Loatheb",
-			"value" : "7",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Big Game Hunter",
+			"name" : "Toshley",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
@@ -6213,7 +7988,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Shade of Naxxramas",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
 			"name" : "Defender of Argus",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Madder Bomber (max 2)",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
@@ -6223,12 +8028,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Violet Teacher",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Acidic Swamp Ooze",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "^^Flametongue Totem^^",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
@@ -6238,17 +8053,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
+			"name" : "Rockbiter Weapon",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
 			"name" : "Silver Hand Knight",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Unbound Elemental",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Rockbiter Weapon",
+			"name" : "Venture Co. Mercenary (max 2)",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Crackle",
+			"value" : "7",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "^^Cult Master^^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
@@ -6258,37 +8088,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Bloodlust (max 1-2)",
+			"name" : "Spellbreaker",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Cult Master",
-			"value" : "7",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Forked Lightning",
-			"value" : "7",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Gnomish Inventor",
-			"value" : "7",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Raging Worgen",
-			"value" : "7",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Worgen Infiltrator",
+			"name" : "Whirling Zap-o-matic",
 			"value" : "7",
 			"heroClass" : "Shaman"
 		},
@@ -6303,7 +8108,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Illidan Stormrage",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Loatheb",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Maexxna",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Baron Geddon",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
@@ -6313,12 +8163,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Lava Burst",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Lava Burst",
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
@@ -6328,27 +8183,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ancestral Spirit",
+			"name" : "Gadgetzan Auctioneer",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Mana Tide Totem (max 2)",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Mana Tide Totem",
+			"name" : "^Bloodlust^ (max 1)",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Sunfury Protector",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Haunted Creeper",
+			"name" : "Earthen Ring Farseer",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "^Forked Lightning^ (max 2)",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
@@ -6358,17 +8218,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Youthful Brewmaster",
-			"value" : "6",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Zombie Chow",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
@@ -6378,28 +8228,43 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Harrison Jones",
-			"value" : "5",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Maexxna",
-			"value" : "5",
+			"name" : "Zombie Chow",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Haunted Creeper",
+			"value" : "6",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
 			"heroClass" : "Shaman"
 		},
 		{
@@ -6408,7 +8273,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Feugen",
+			"name" : "King Mukla",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Malygos",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
@@ -6423,32 +8293,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Echoing Ooze",
-			"value" : "5",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Abomination",
-			"value" : "5",
-			"heroClass" : "Shaman"
-		},
-		{
 			"name" : "Injured Blademaster",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Sunfury Protector",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Wild Pyromancer",
+			"name" : "Ancestral Spirit",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Abomination (max 2)",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Lil' Exorcist",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
@@ -6463,12 +8333,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Bloodfen Raptor",
+			"name" : "Wild Pyromancer",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Dire Wolf Alpha",
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Ancient Brewmaster",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Bloodfen Raptor",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
@@ -6478,12 +8358,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Windspeaker",
+			"name" : "Loot Hoarder",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Lost Tallstrider",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Tinkertown Technician",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Dire Wolf Alpha",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
@@ -6493,18 +8393,33 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
+			"name" : "Frost Elemental",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Windspeaker (max 2)",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Mechwarper",
+			"value" : "5",
+			"heroClass" : "Shaman"
+		},
+		{
 			"name" : "Spiteful Smith",
 			"value" : "5",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "War Golem",
+			"name" : "Stonesplinter Trogg",
 			"value" : "5",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "King Mukla",
-			"value" : "4",
 			"heroClass" : "Shaman"
 		},
 		{
@@ -6513,17 +8428,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Baron Geddon",
+			"name" : "Captain Greenskin",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Tinkmaster Overspark",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Echoing Ooze",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Dunemaul Shaman",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Goblin Sapper",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Illuminator",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Nerubian Egg (max 2)",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
@@ -6538,7 +8483,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Darkscale Healer",
+			"name" : "Acolyte of Pain",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
@@ -6548,22 +8498,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Frost Elemental",
-			"value" : "4",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Stormwind Knight",
-			"value" : "4",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Abusive Sergeant",
-			"value" : "4",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Archmage",
+			"name" : "Force-Tank MAX",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
@@ -6573,12 +8508,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Oasis Snapjaw",
+			"name" : "Ogre Magi",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ogre Magi",
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Earth Shock (max 2)",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
@@ -6588,7 +8533,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Bloodsail Raider",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
 			"name" : "Bluegill Warrior",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Ironfur Grizzly",
+			"value" : "4",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Oasis Snapjaw",
 			"value" : "4",
 			"heroClass" : "Shaman"
 		},
@@ -6603,7 +8568,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Captain Greenskin",
+			"name" : "Hemet Nesingwary",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
@@ -6613,17 +8578,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Blingtron 3000",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
 			"name" : "Nat Pagle",
-			"value" : "3",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Tinkmaster Overspark",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
@@ -6638,27 +8603,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Farsight",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Earth Shock",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ironfur Grizzly",
+			"name" : "Arcane Golem (max 2)",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Silvermoon Guardian",
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Bloodsail Raider",
+			"name" : "Gnomish Experimenter",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Gurubashi Berserker",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Kobold Geomancer",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
@@ -6678,17 +8653,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Booty Bay Bodyguard",
+			"name" : "Ship's Cannon",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Silvermoon Guardian",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Kobold Geomancer",
+			"name" : "Abusive Sergeant",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Antique Healbot (max 1)",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Shaman"
 		},
@@ -6698,7 +8683,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Shaman"
+		},
+		{
 			"name" : "Baron Rivendare",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Nozdormu",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
@@ -6708,12 +8728,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Farsight",
+			"name" : "Mountain Giant",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Mountain Giant",
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Master Swordsmith",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Vitality Totem (max 1)",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
@@ -6723,22 +8758,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Young Priestess",
-			"value" : "2",
-			"heroClass" : "Shaman"
-		},
-		{
 			"name" : "Ancient Mage",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Mana Addict",
+			"name" : "Young Priestess",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
@@ -6748,17 +8773,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Dragonling Mechanic",
+			"name" : "Dancing Swords",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Gurubashi Berserker",
+			"name" : "Elven Archer",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ironbeak Owl",
+			"name" : "Ironforge Rifleman",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
@@ -6768,22 +8793,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Novice Engineer",
-			"value" : "2",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Dancing Swords",
-			"value" : "2",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Leper Gnome",
-			"value" : "2",
-			"heroClass" : "Shaman"
-		},
-		{
 			"name" : "Nerub'ar Weblord",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Novice Engineer",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
@@ -6793,17 +8808,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Dalaran Mage",
+			"name" : "Windfury (max 1)",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Core Hound",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Windfury",
+			"name" : "Frost Shock (max 2)",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Shaman"
 		},
@@ -6813,7 +8838,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Dread Corsair",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
@@ -6823,27 +8863,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Siltfin Spiritwalker",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Bloodsail Corsair (max 1)",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Alarm-o-Bot",
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ancient Watcher",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Angry Chicken",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
@@ -6858,62 +8893,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Alarm-o-Bot",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Lightwarden",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ancestral Healing",
+			"name" : "Ancestral Healing (max 2)",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Core Hound",
+			"name" : "Dalaran Mage",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Elven Archer",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Reincarnate",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Thrallmar Farseer",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Frost Shock",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Frostwolf Grunt",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Mad Scientist",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Murloc Tidehunter",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
@@ -6923,7 +8928,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Silverback Patriarch",
+			"name" : "Reincarnate (max 1)",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
@@ -6933,17 +8938,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Stoneskin Gargoyle",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
 			"name" : "Tauren Warrior",
-			"value" : "1",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Voodoo Doctor",
 			"value" : "1",
 			"heroClass" : "Shaman"
 		},
@@ -6953,7 +8948,97 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Flying Machine",
+			"value" : "1",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Silverback Patriarch",
+			"value" : "1",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Thrallmar Farseer",
+			"value" : "1",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Voodoo Doctor",
+			"value" : "1",
+			"heroClass" : "Shaman"
+		},
+		{
 			"name" : "Lorewalker Cho",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Ancestor's Call",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Hungry Crab",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Secretkeeper",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Target Dummy",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Magma Rager",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Stonetusk Boar",
+			"value" : "0",
+			"heroClass" : "Shaman"
+		},
+		{
+			"name" : "Totemic Might",
 			"value" : "0",
 			"heroClass" : "Shaman"
 		},
@@ -6973,27 +9058,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Shaman"
-		},
-		{
 			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Stonetusk Boar",
-			"value" : "0",
-			"heroClass" : "Shaman"
-		},
-		{
-			"name" : "Totemic Might",
 			"value" : "0",
 			"heroClass" : "Shaman"
 		},
@@ -7008,12 +9073,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Shaman"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Warlock"
 		},
@@ -7023,12 +9088,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Lord Jaraxxus",
 			"value" : "9",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Lord Jaraxxus",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Warlock"
 		},
@@ -7038,7 +9108,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Sea Giant",
+			"name" : "Argent Commander",
 			"value" : "9",
 			"heroClass" : "Warlock"
 		},
@@ -7048,23 +9118,13 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Argent Commander",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Dark Iron Dwarf",
-			"value" : "9",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Flame Imp",
-			"value" : "9",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Harvest Golem",
-			"value" : "9",
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Warlock"
 		},
 		{
@@ -7078,12 +9138,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Sludge Belcher",
+			"name" : "Foe Reaper 4000",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Stampeding Kodo",
+			"name" : "Piloted Sky Golem",
+			"value" : "8",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Sea Giant",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
@@ -7093,12 +9158,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Sunwalker",
+			"name" : "Sludge Belcher",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Imp Master",
+			"name" : "Sunwalker",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
@@ -7113,12 +9178,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Twilight Drake",
-			"value" : "8",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
@@ -7128,22 +9188,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Dread Infernal",
+			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Soulfire",
+			"name" : "^Dread Infernal^",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Sen'jin Shieldmasta",
+			"name" : "Piloted Shredder",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Shattered Sun Cleric",
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
@@ -7153,7 +9218,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Shadow Bolt",
+			"name" : "Flame Imp",
+			"value" : "8",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Sen'jin Shieldmasta",
 			"value" : "8",
 			"heroClass" : "Warlock"
 		},
@@ -7163,8 +9233,8 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
-			"value" : "8",
+			"name" : "Deathwing",
+			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
@@ -7178,12 +9248,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Alexstrasza",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Hogger",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mal'Ganis",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Toshley",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
@@ -7193,12 +9273,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Molten Giant",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Pit Lord",
+			"name" : "Pit Lord (max 2)",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
@@ -7208,17 +9303,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Shadowflame",
+			"name" : "Twilight Drake",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Bomb Lobber",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Violet Teacher",
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Imp-losion",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Shadowflame (max 2)",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Madder Bomber (max 2)",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Acidic Swamp Ooze",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Soulfire",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Darkbomb",
+			"value" : "7",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
@@ -7228,22 +9358,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Venture Co. Mercenary (max 2)",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Scarlet Crusader",
-			"value" : "7",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Stormwind Champion",
-			"value" : "7",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Cult Master",
+			"name" : "^^Cult Master^^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
@@ -7253,47 +9373,72 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Gnomish Inventor",
+			"name" : "Floating Watcher",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Hellfire",
+			"name" : "Scarlet Crusader",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Raging Worgen",
+			"name" : "Shadow Bolt",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Worgen Infiltrator",
+			"name" : "Spellbreaker",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Zombie Chow",
+			"name" : "Stormwind Champion",
 			"value" : "7",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Alexstrasza",
+			"name" : "Baron Geddon",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Bloodmage Thalnos",
+			"name" : "Loatheb",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Deathwing",
+			"name" : "Maexxna",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
@@ -7303,7 +9448,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Violet Teacher",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
@@ -7313,27 +9468,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Abomination",
-			"value" : "6",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Deathlord",
-			"value" : "6",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Sunfury Protector",
-			"value" : "6",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Haunted Creeper",
+			"name" : "^^Hellfire^^ (max 2)",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
@@ -7343,12 +9483,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Youthful Brewmaster",
+			"name" : "Zombie Chow",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
@@ -7358,17 +9498,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Gnomish Inventor",
+			"value" : "6",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Haunted Creeper",
 			"value" : "6",
 			"heroClass" : "Warlock"
 		},
@@ -7378,12 +9533,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Baron Geddon",
-			"value" : "5",
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Harrison Jones",
+			"name" : "Bloodmage Thalnos",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
@@ -7393,32 +9548,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Feugen",
-			"value" : "5",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Leeroy Jenkins",
-			"value" : "5",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Maexxna",
-			"value" : "5",
-			"heroClass" : "Warlock"
-		},
-		{
 			"name" : "The Beast",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Bane of Doom",
+			"name" : "Bane of Doom (max 2)",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Echoing Ooze",
+			"name" : "Demonheart",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Abomination (max 2)",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
@@ -7428,12 +9573,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Nerubian Egg",
+			"name" : "Gadgetzan Auctioneer",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Demolisher",
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Fel Cannon",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Lil' Exorcist",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
@@ -7448,7 +9608,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Blood Imp",
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Ancient Brewmaster",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Blood Imp (max 2)",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
@@ -7458,17 +9628,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Loot Hoarder",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Lost Tallstrider",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Tinkertown Technician",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Demonfire",
-			"value" : "5",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Dire Wolf Alpha",
-			"value" : "5",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Acolyte of Pain",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
@@ -7478,7 +9668,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Frost Elemental",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Frostwolf Warlord",
+			"value" : "5",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mechwarper",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
@@ -7488,17 +9693,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Voidcaller",
+			"name" : "Stonesplinter Trogg",
 			"value" : "5",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "War Golem",
-			"value" : "5",
+			"name" : "Leeroy Jenkins",
+			"value" : "4",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Malygos",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Echoing Ooze",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Goblin Sapper",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Illuminator",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
@@ -7508,12 +9738,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Pint-Sized Summoner",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Pint-Sized Summoner",
+			"name" : "Nerubian Egg (max 2)",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
@@ -7523,22 +9753,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Darkscale Healer",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Frost Elemental",
-			"value" : "4",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Stormwind Knight",
-			"value" : "4",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Archmage",
+			"name" : "Dire Wolf Alpha",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
@@ -7548,7 +9768,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Force-Tank MAX",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Jungle Panther",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Voidcaller",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Ogre Magi",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
@@ -7558,12 +9803,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Antique Healbot (max 1)",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Bluegill Warrior",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Ironfur Grizzly",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Oasis Snapjaw",
+			"value" : "4",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Power Overwhelming (max 2)",
 			"value" : "4",
 			"heroClass" : "Warlock"
 		},
@@ -7578,7 +9843,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Millhouse Manastorm",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Blingtron 3000",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
@@ -7588,12 +9863,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
 			"name" : "Nat Pagle",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Tinkmaster Overspark",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
@@ -7608,32 +9888,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Anima Golem (max 1)",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Felguard",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Drain Life",
+			"name" : "Mountain Giant",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Ironfur Grizzly",
+			"name" : "Arcane Golem (max 2)",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Power Overwhelming",
+			"name" : "Felguard (max 2)",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Silvermoon Guardian",
+			"name" : "Kezan Mystic",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Void Terror",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Gnomish Experimenter",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mistress of Pain",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
@@ -7643,12 +9938,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Lord of the Arena",
+			"name" : "Drain Life",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Ogre Magi",
+			"name" : "Gurubashi Berserker",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Lord of the Arena",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
@@ -7663,17 +9963,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Ship's Cannon",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Silvermoon Guardian",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Abusive Sergeant",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Booty Bay Bodyguard",
-			"value" : "3",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
@@ -7683,7 +9988,47 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Argent Squire",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Priestess of Elune",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Unstable Ghoul",
+			"value" : "3",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Voidwalker",
 			"value" : "3",
 			"heroClass" : "Warlock"
 		},
@@ -7693,27 +10038,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Nozdormu",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Stalagg",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
+			"name" : "Twisting Nether (max 2)",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Twisting Nether",
+			"name" : "Enhance-o Mechano",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Mountain Giant",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Void Terror",
+			"name" : "Hobgoblin",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
@@ -7723,52 +10073,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Master Swordsmith",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Ancient Mage",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Mana Addict",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Argent Squire",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Dragonling Mechanic",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Gurubashi Berserker",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Ironbeak Owl",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Mogu'shan Warden",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Novice Engineer",
-			"value" : "2",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Voidwalker",
+			"name" : "Mana Wraith",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
@@ -7778,7 +10093,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Leper Gnome",
+			"name" : "Elven Archer",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Ironforge Rifleman",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mogu'shan Warden",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
@@ -7788,12 +10113,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Priestess of Elune",
+			"name" : "Novice Engineer",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Dread Corsair",
+			"name" : "Core Hound",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Nightblade",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Succubus",
 			"value" : "2",
 			"heroClass" : "Warlock"
 		},
@@ -7803,7 +10143,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Leper Gnome",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
@@ -7818,27 +10173,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Mana Wraith",
+			"name" : "Bloodsail Corsair (max 1)",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Alarm-o-Bot",
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Ancient Watcher",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Angry Chicken",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Coldlight Oracle",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
@@ -7848,47 +10193,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Alarm-o-Bot",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Coldlight Oracle",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Corruption (max 2)",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Core Hound",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Succubus",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Thrallmar Farseer",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Summoning Portal",
+			"name" : "Dread Corsair",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
@@ -7898,42 +10218,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Frostwolf Grunt",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Mad Scientist",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Murloc Tidehunter",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Raid Leader",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Sense Demons",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Silverback Patriarch",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Southsea Deckhand",
-			"value" : "1",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Stoneskin Gargoyle",
+			"name" : "Summoning Portal (max 2)",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
@@ -7943,12 +10233,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Voodoo Doctor",
+			"name" : "Undertaker",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Undertaker",
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Flying Machine",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Raid Leader",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Sense Demons (max 2)",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Silverback Patriarch",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Stonetusk Boar",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Thrallmar Farseer",
+			"value" : "1",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Voodoo Doctor",
 			"value" : "1",
 			"heroClass" : "Warlock"
 		},
@@ -7958,17 +10288,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Corruption",
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Secretkeeper",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Target Dummy",
 			"value" : "0",
 			"heroClass" : "Warlock"
 		},
 		{
 			"name" : "Goldshire Footman",
-			"value" : "0",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Grimscale Oracle",
 			"value" : "0",
 			"heroClass" : "Warlock"
 		},
@@ -7983,17 +10338,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
+			"name" : "Southsea Deckhand",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
+			"name" : "Grimscale Oracle",
+			"value" : "0",
+			"heroClass" : "Warlock"
+		},
+		{
 			"name" : "Sacrificial Pact",
-			"value" : "0",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Warlock"
-		},
-		{
-			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Warlock"
 		},
@@ -8008,12 +10368,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warlock"
 		},
 		{
-			"name" : "Ragnaros the Firelord",
+			"name" : "Kel'Thuzad",
 			"value" : "9",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Sylvanas Windrunner",
+			"name" : "Ragnaros the Firelord",
 			"value" : "9",
 			"heroClass" : "Warrior"
 		},
@@ -8023,7 +10383,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Kel'Thuzad",
+			"name" : "Sneed's Old Shredder",
+			"value" : "9",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Sylvanas Windrunner",
 			"value" : "9",
 			"heroClass" : "Warrior"
 		},
@@ -8033,7 +10398,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Gorehowl",
+			"name" : "Gorehowl (max 2)",
 			"value" : "9",
 			"heroClass" : "Warrior"
 		},
@@ -8053,11 +10418,6 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Arathi Weaponsmith",
-			"value" : "9",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "Fiery War Axe",
 			"value" : "9",
 			"heroClass" : "Warrior"
@@ -8068,8 +10428,13 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Harvest Golem",
+			"name" : "Mechanical Yeti",
 			"value" : "9",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Dr. Boom",
+			"value" : "8",
 			"heroClass" : "Warrior"
 		},
 		{
@@ -8083,7 +10448,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Foe Reaper 4000",
+			"value" : "8",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Grommash Hellscream",
+			"value" : "8",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Piloted Sky Golem",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
@@ -8098,17 +10473,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Stampeding Kodo",
-			"value" : "8",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "Sunwalker",
-			"value" : "8",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Imp Master",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
@@ -8118,7 +10483,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Acidic Swamp Ooze",
+			"name" : "Stampeding Kodo (max 2)",
+			"value" : "8",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Arathi Weaponsmith",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
@@ -8128,27 +10498,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Piloted Shredder",
+			"value" : "8",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Spider Tank",
+			"value" : "8",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Dark Iron Dwarf",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Arcanite Reaper",
+			"name" : "Harvest Golem",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Kor'kron Elite",
-			"value" : "8",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Sen'jin Shieldmasta",
-			"value" : "8",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Shattered Sun Cleric",
+			"name" : "Arcanite Reaper (max 2)",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
@@ -8158,12 +10528,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Spectral Knight",
+			"name" : "Sen'jin Shieldmasta",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Venture Co. Mercenary",
+			"name" : "Spectral Knight",
 			"value" : "8",
 			"heroClass" : "Warrior"
 		},
@@ -8173,12 +10543,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Loatheb",
+			"name" : "Baron Geddon",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Big Game Hunter",
+			"name" : "Hogger",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Toshley",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Brawl (max 2)",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
@@ -8188,7 +10568,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Brawl",
+			"name" : "Fel Reaver",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Recombobulator",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Shade of Naxxramas",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
@@ -8198,17 +10588,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Bomb Lobber",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Imp Master",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Madder Bomber (max 2)",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Siege Engine",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Twilight Drake",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Mind Control Tech",
+			"name" : "Acidic Swamp Ooze",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Violet Teacher",
+			"name" : "Kor'kron Elite",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Shattered Sun Cleric",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
@@ -8218,17 +10633,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Spellbreaker",
+			"name" : "Venture Co. Mercenary (max 2)",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Cleave",
+			"name" : "^Cleave^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
 		{
 			"name" : "Cruel Taskmaster",
+			"value" : "7",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "^^Cult Master^^ (max 2)",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
@@ -8243,32 +10663,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Stormwind Champion",
-			"value" : "7",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Cult Master",
-			"value" : "7",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Earthen Ring Farseer",
-			"value" : "7",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Gnomish Inventor",
-			"value" : "7",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Heroic Strike",
-			"value" : "7",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Raging Worgen",
+			"name" : "Spellbreaker",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
@@ -8278,27 +10673,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Worgen Infiltrator",
+			"name" : "Stormwind Champion",
 			"value" : "7",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Illidan Stormrage",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "Alexstrasza",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Baron Geddon",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Bloodmage Thalnos",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
@@ -8308,7 +10688,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Hogger",
+			"name" : "Illidan Stormrage",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Iron Juggernaut",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Loatheb",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Maexxna",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Troggzor the Earthinator",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Captain Greenskin",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Feugen",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Harrison Jones",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Mekgineer Thermaplugg",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Mogor the Ogre",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Big Game Hunter (max 1)",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
@@ -8318,7 +10748,32 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Shade of Naxxramas",
+			"name" : "Crush",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Bouncing Blade",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Molten Giant",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Mind Control Tech",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Violet Teacher",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Arcane Nullifier X-21",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
@@ -8328,17 +10783,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Gadgetzan Auctioneer",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Upgrade",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Abomination",
+			"name" : "Abomination (max 2)",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
@@ -8348,17 +10793,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Deathlord",
+			"name" : "Upgrade! (max 2)",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Sunfury Protector",
+			"name" : "Burly Rockjaw Trogg",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Haunted Creeper",
+			"name" : "Earthen Ring Farseer",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
@@ -8368,17 +10813,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Stranglethorn Tiger",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Youthful Brewmaster",
-			"value" : "6",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Zombie Chow",
+			"name" : "Ogre Brute",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
@@ -8393,27 +10828,52 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Amani Berserker",
+			"name" : "Gnomish Inventor",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Ancient Brewmaster",
+			"name" : "Raging Worgen",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Loot Hoarder",
+			"name" : "Stranglethorn Tiger",
 			"value" : "6",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Captain Greenskin",
-			"value" : "5",
+			"name" : "Worgen Infiltrator",
+			"value" : "6",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Harrison Jones",
+			"name" : "Zombie Chow",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Gilblin Stalker",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Haunted Creeper",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Heroic Strike",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Youthful Brewmaster",
+			"value" : "6",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Bloodmage Thalnos",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
@@ -8423,22 +10883,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Feugen",
-			"value" : "5",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "The Beast",
-			"value" : "5",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Molten Giant",
-			"value" : "5",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Echoing Ooze",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
@@ -8448,17 +10893,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Wild Pyromancer",
-			"value" : "5",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Demolisher",
-			"value" : "5",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Nerubian Egg",
+			"name" : "Gadgetzan Auctioneer",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
@@ -8468,7 +10903,42 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Sunfury Protector",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Wild Pyromancer",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Crazed Alchemist (max 2)",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Lil' Exorcist",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Ravenholdt Assassin",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Shieldmaiden",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Amani Berserker",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Ancient Brewmaster",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
@@ -8478,17 +10948,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Warsong Commander",
+			"name" : "Loot Hoarder",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Acolyte of Pain",
+			"name" : "Lost Tallstrider",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Bloodsail Raider",
+			"name" : "Micro Machine",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Puddlestomper",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Tinkertown Technician",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
@@ -8503,12 +10983,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Warsong Commander (max 2)",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Bloodsail Raider",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Darkscale Healer",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Explosive Sheep (max 2)",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Frostwolf Warlord",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "War Golem",
+			"name" : "Mechwarper",
+			"value" : "5",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Stonesplinter Trogg",
 			"value" : "5",
 			"heroClass" : "Warrior"
 		},
@@ -8518,7 +11023,12 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Maexxna",
+			"name" : "Malygos",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Echoing Ooze",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
@@ -8528,7 +11038,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Crazed Alchemist",
+			"name" : "Southsea Captain",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Deathlord",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Demolisher",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Goblin Sapper",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Illuminator",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
@@ -8538,12 +11068,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Master Swordsmith",
+			"name" : "Pint-Sized Summoner",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Pint-Sized Summoner",
+			"name" : "Nerubian Egg (max 2)",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Screwjank Clunker",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
@@ -8553,12 +11088,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Darkscale Healer",
-			"value" : "4",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Stormwind Knight",
+			"name" : "Acolyte of Pain",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
@@ -8573,7 +11103,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Force-Tank MAX",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Jungle Panther",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Stormwind Knight",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "War Golem",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "^^Battle Rage^^ (max 2)",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Ogre Magi",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Ogre Warmaul",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
@@ -8588,7 +11148,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Antique Healbot (max 1)",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Archmage",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Bluegill Warrior",
+			"value" : "4",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Ironfur Grizzly",
 			"value" : "4",
 			"heroClass" : "Warrior"
 		},
@@ -8608,12 +11183,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Hemet Nesingwary",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Millhouse Manastorm",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Malygos",
+			"name" : "Blingtron 3000",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Mimiron's Head",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
@@ -8623,17 +11208,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Tinkmaster Overspark",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Murloc Warleader",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Southsea Captain",
+			"name" : "Mini-Mage",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Arcane Golem",
+			"name" : "Arcane Golem (max 2)",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Kezan Mystic",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
@@ -8643,37 +11238,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Ironfur Grizzly",
+			"name" : "Gnomish Experimenter",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Silvermoon Guardian",
-			"value" : "3",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Unstable Ghoul",
-			"value" : "3",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Archmage",
-			"value" : "3",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Dread Corsair",
+			"name" : "Gurubashi Berserker",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
 			"name" : "Lord of the Arena",
-			"value" : "3",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Ogre Magi",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
@@ -8688,27 +11263,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Abusive Sergeant",
+			"name" : "Ship's Cannon",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Battle Rage",
+			"name" : "Silvermoon Guardian",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Booty Bay Bodyguard",
+			"name" : "Dread Corsair",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Gurubashi Berserker",
+			"name" : "Inner Rage",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Ironforge Rifleman",
+			"name" : "Ironbeak Owl",
 			"value" : "3",
 			"heroClass" : "Warrior"
 		},
@@ -8718,7 +11293,57 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Unstable Ghoul",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Whirlwind (max 2)",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Abusive Sergeant",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Annoy-o-Tron",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Booty Bay Bodyguard",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Clockwork Gnome",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Dragonling Mechanic",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Salty Dog",
+			"value" : "3",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Baron Rivendare",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Gazlowe",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Nozdormu",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
@@ -8728,17 +11353,27 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Tinkmaster Overspark",
-			"value" : "2",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "Mountain Giant",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Young Priestess",
+			"name" : "Enhance-o Mechano",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Hobgoblin",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Mana Wraith",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Master Swordsmith",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
@@ -8748,12 +11383,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Bloodsail Corsair",
-			"value" : "2",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Mana Addict",
+			"name" : "Young Priestess",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
@@ -8763,17 +11393,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Dragonling Mechanic",
+			"name" : "Dancing Swords",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Inner Rage",
+			"name" : "Elven Archer",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Ironbeak Owl",
+			"name" : "Ironforge Rifleman",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
@@ -8783,32 +11413,37 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Novice Engineer",
-			"value" : "2",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Whirlwind",
-			"value" : "2",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Dancing Swords",
-			"value" : "2",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Leper Gnome",
-			"value" : "2",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "Nerub'ar Weblord",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
 		{
+			"name" : "Novice Engineer",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
 			"name" : "Priestess of Elune",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Warbot",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Core Hound",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Murloc Tidehunter",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Nightblade",
 			"value" : "2",
 			"heroClass" : "Warrior"
 		},
@@ -8823,7 +11458,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Nozdormu",
+			"name" : "Charge (max 2)",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Frostwolf Grunt",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Mad Scientist",
+			"value" : "2",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Clockwork Giant",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
@@ -8833,27 +11483,17 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Hungry Crab",
+			"name" : "Bloodsail Corsair (max 1)",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Mana Wraith",
+			"name" : "Jeeves",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Alarm-o-Bot",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Ancient Watcher",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Angry Chicken",
+			"name" : "Mana Addict",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
@@ -8868,47 +11508,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Lightwarden",
+			"name" : "Alarm-o-Bot",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Murloc Tidecaller",
+			"name" : "Leper Gnome",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Secretkeeper",
+			"name" : "Rampage (max 1)",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Core Hound",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Elven Archer",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Nightblade",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Rampage",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Thrallmar Farseer",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Charge",
+			"name" : "Tauren Warrior",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
@@ -8918,17 +11533,22 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Frostwolf Grunt",
+			"name" : "Gnomeregan Infantry",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Mad Scientist",
+			"name" : "Undertaker",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Murloc Tidehunter",
+			"name" : "Cogmaster",
+			"value" : "1",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Flying Machine",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
@@ -8943,12 +11563,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Stoneskin Gargoyle",
-			"value" : "1",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Tauren Warrior",
+			"name" : "Thrallmar Farseer",
 			"value" : "1",
 			"heroClass" : "Warrior"
 		},
@@ -8958,12 +11573,67 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Undertaker",
-			"value" : "1",
+			"name" : "Lorewalker Cho",
+			"value" : "0",
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Lorewalker Cho",
+			"name" : "Hungry Crab",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Junkbot",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Ancient Watcher",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Angry Chicken",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Lightwarden",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Murloc Tidecaller",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Secretkeeper",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Target Dummy",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Magma Rager",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Shieldbearer",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Stoneskin Gargoyle",
+			"value" : "0",
+			"heroClass" : "Warrior"
+		},
+		{
+			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Warrior"
 		},
@@ -8978,22 +11648,7 @@ function getCardsWithRanks(pHeroClass) {
 			"heroClass" : "Warrior"
 		},
 		{
-			"name" : "Magma Rager",
-			"value" : "0",
-			"heroClass" : "Warrior"
-		},
-		{
 			"name" : "Murloc Raider",
-			"value" : "0",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Shieldbearer",
-			"value" : "0",
-			"heroClass" : "Warrior"
-		},
-		{
-			"name" : "Stonetusk Boar",
 			"value" : "0",
 			"heroClass" : "Warrior"
 		},

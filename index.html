@@ -52,6 +52,7 @@
             position: absolute;
             left: 0px;
             top: 0px;
+            z-index: 2048; /* this must be overridden in code =1 */
         }
         .tt-suggestion {
             padding-left: 20px;
@@ -69,31 +70,35 @@
 
 <body>
 
-    <div id="hero-selector" class="btn-group">
-        <button type="button" class="btn btn-default">Druid</button>
-        <button type="button" class="btn btn-default active">Hunter</button>
-        <button type="button" class="btn btn-default">Mage</button>
-        <button type="button" class="btn btn-default">Paladin</button>
-        <button type="button" class="btn btn-default">Priest</button>
-        <button type="button" class="btn btn-default">Rogue</button>
-        <button type="button" class="btn btn-default">Shaman</button>
-        <button type="button" class="btn btn-default">Warlock</button>
-        <button type="button" class="btn btn-default">Warrior</button>
-    </div>
+	<div class="container">
 
-    <h1>Quick Rank</h1>
+	    <div id="hero-selector" class="btn-group">
+	        <button type="button" class="btn btn-default">Druid</button>
+	        <button type="button" class="btn btn-default active">Hunter</button>
+	        <button type="button" class="btn btn-default">Mage</button>
+	        <button type="button" class="btn btn-default">Paladin</button>
+	        <button type="button" class="btn btn-default">Priest</button>
+	        <button type="button" class="btn btn-default">Rogue</button>
+	        <button type="button" class="btn btn-default">Shaman</button>
+	        <button type="button" class="btn btn-default">Warlock</button>
+	        <button type="button" class="btn btn-default">Warrior</button>
+	    </div>
 
-    <div id="the-basics">
-        <input class="typeahead" type="text" placeholder="1st Choice">
-        <input class="typeahead" type="text" placeholder="2nd Choice">
-        <input class="typeahead" type="text" placeholder="3rd Choice">
-    </div>
+	    <h1>Quick Rank</h1>
 
-    <div id="credits">
-        <a href="https://docs.google.com/spreadsheet/pub?key=0AhaXYbyLVAVodDRrbXZCUzVNNWs0bzI0a09aaF9iRnc&gid=16">
-            Rankings are based on JerkyGunner's Hearthstone Arena Tier List
-        </a>
-    </div>
+	    <div id="the-basics">
+	        <input class="typeahead" type="text" placeholder="1st Choice">
+	        <input class="typeahead" type="text" placeholder="2nd Choice">
+	        <input class="typeahead" type="text" placeholder="3rd Choice">
+	    </div>
+
+	    <div id="credits">
+	        <a href="https://docs.google.com/spreadsheet/pub?key=0AhaXYbyLVAVodDRrbXZCUzVNNWs0bzI0a09aaF9iRnc&gid=16">
+	            Rankings are based on JerkyGunner's Hearthstone Arena Tier List
+	        </a>
+	    </div>
+
+	</div>
 
     <script>
         var rankLookup = (function (heroClass) {
