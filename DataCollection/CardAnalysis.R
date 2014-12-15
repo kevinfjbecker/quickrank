@@ -9,7 +9,7 @@ BasicCards <- filter(AllSetsList[["Basic"]],
                      !is.na(collectible),
                      type != 'Hero')
 
-ExpertCards <- filter(AllSetsList[["Expert"]],
+ClassicCards <- filter(AllSetsList[["Classic"]],
                       !is.na(collectible),
                       type != 'Enchantment',
                       name != 'Adrenaline Rush')
@@ -17,3 +17,5 @@ ExpertCards <- filter(AllSetsList[["Expert"]],
 NaxxCards <- filter(AllSetsList[["Curse of Naxxramas"]],
                     !is.na(collectible))
 
+GvgCards <- filter(AllSetsList[["Goblins vs Gnomes"]],
+                    !is.na(collectible))
