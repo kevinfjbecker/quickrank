@@ -14,6 +14,7 @@ Released under the MIT license: http://jsbin.mit-license.org
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Mana Curve</title>
     <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="jquery.finger.js"></script>
     <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
     <script src="http://d3js.org/d3.v3.min.js"></script>
@@ -91,7 +92,7 @@ function updateDeckList(deck) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-$('input:text').dblclick(function(){
+$('input:text').on('doubletap', function(){
   deck.push(cardByName($(this).val()));
   $('input:text').val('');
   updateDeckList(deck);
