@@ -92,7 +92,8 @@ function updateDeckList(deck) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-$('input:text').on('doubletap', function(){
+$('input:text').on('doubletap', function(e){
+  e.preventDefault();
   deck.push(cardByName($(this).val()));
   $('input:text').val('');
   updateDeckList(deck);
