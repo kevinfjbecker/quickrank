@@ -52,7 +52,6 @@
             position: absolute;
             left: 0px;
             top: 0px;
-            z-index: 2048; /* this must be overridden in code =1 */
         }
         .tt-suggestion {
             padding-left: 20px;
@@ -101,6 +100,11 @@
 	</div>
 
     <script>
+
+        $(function(){ // menus layer over other controls
+        	$('.tt-dropdown-menu').css('z-index', 1080);
+        });
+
         var rankLookup = (function (heroClass) {
 
             var o = {},
