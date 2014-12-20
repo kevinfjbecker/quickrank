@@ -1,64 +1,3 @@
-<!DOCTYPE html>
-<!--
-Created using JS Bin
-http://jsbin.com
-
-Copyright (c) 2014 by kevinfjbecker (http://jsbin.com/jacof/5/edit)
-
-Released under the MIT license: http://jsbin.mit-license.org
--->
-<meta name="robots" content="noindex">
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Mana Curve</title>
-    <script src="http://code.jquery.com/jquery.min.js"></script>
-    <script src="jquery.finger.js"></script>
-    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script src="http://d3js.org/d3.v3.min.js"></script>
-  <style id="jsbin-css">
-.col-md-8, .col-md-4, .card {
-  border: 1px solid rgba(86,61,124,.2);
-}
-</style>
-</head>
-  <body>
-
-    <div class="container-fluid">
-
-      <div class="row">
-
-        <div class="col-sm-8">
-
-          <div class="row">
-            <div id="minion-curve" class="col-sm-4"></div>
-            <div id="spell-curve" class="col-sm-4"></div>
-            <div id="weapon-curve" class="col-sm-4"></div>
-          </div><!-- row -->
-
-          <div class="row">
-            <div class="col-sm-4">
-              <input class="typeahead" type="text" placeholder="1st Choice">
-            </div>
-            <div class="col-sm-4">
-              <input class="typeahead" type="text" placeholder="2nd Choice">
-            </div>
-            <div class="col-sm-4">
-              <input class="typeahead" type="text" placeholder="3rd Choice">
-            </div>
-          </div><!-- row -->
-
-        </div><!-- col -->
-
-        <div id="deck-list" class="col-sm-4"></div>
-
-      </div><!-- row -->
-
-    </div>
-
-  <script id="jsbin-javascript">
 var deck = [],
     chartWidth = 208,
     chartHeight = 100,
@@ -73,7 +12,6 @@ var deck = [],
 
 updateCurveCharts(deck);
 updateDeckList(deck);
-setRandomCardInput();
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -95,10 +33,12 @@ function updateDeckList(deck) {
 $('input:text').on('doubletap', function(e){
   e.preventDefault();
   deck.push(cardByName($(this).val()));
-  $('input:text').val('');
+  $('.typeahead').typeahead('val', '');
   updateDeckList(deck);
   updateCurveCharts(deck);
-  setTimeout(setRandomCardInput, 300);
+  $('.tt-input').css({
+    'background-color': 'transparent',
+  });
 });
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -924,6 +864,3 @@ function basicCards() {
     }
   ];
 }
-</script>
-</body>
-</html>

@@ -2,214 +2,84 @@
 <html>
 
 <head>
-    <script src="http://code.jquery.com/jquery.min.js"></script>
-    <link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet" type="text/css" />
-    <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
-    <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
-    <script src="cardranks.js"></script>
-    <script src="carddata.js"></script>
 
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <meta charset="utf-8">
     <title>Quick Rank</title>
 
+	<link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="typeahead-style.css" rel="stylesheet" type="text/css" />
 
-    <style id="jsbin-css">
-        #hero-selector {
-            padding-top: 40px;
-        }
-        .typeahead,
-        .tt-query,
-        .tt-hint {
-            width: 220px;
-            height: 30px;
-            padding: 8px 12px;
-            font-size: 24px;
-            line-height: 30px;
-            border: 2px solid #ccc;
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            border-radius: 8px;
-            outline: none;
-        }
-        .tt-query {
-            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-            -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-        }
-        .tt-dropdown-menu {
-            width: 220px;
-            margin-top: 12px;
-            padding: 8px 0;
-            background-color: #fff;
-            border: 1px solid #ccc;
-            border: 1px solid rgba(0, 0, 0, 0.2);
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            border-radius: 8px;
-            -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-            -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-            box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
-            position: absolute;
-            left: 0px;
-            top: 0px;
-        }
-        .tt-suggestion {
-            padding-left: 20px;
-            line-height: 24px;
-        }
-        .tt-suggestion.tt-cursor {
-            color: #fff;
-            background-color: #0097cf;
-        }
-        .tt-suggestion p {
-            margin: 0;
-        }
-    </style>
 </head>
 
 <body>
 
 	<div class="container">
 
-	    <div id="hero-selector" class="btn-group">
-	        <button type="button" class="btn btn-default">Druid</button>
-	        <button type="button" class="btn btn-default active">Hunter</button>
-	        <button type="button" class="btn btn-default">Mage</button>
-	        <button type="button" class="btn btn-default">Paladin</button>
-	        <button type="button" class="btn btn-default">Priest</button>
-	        <button type="button" class="btn btn-default">Rogue</button>
-	        <button type="button" class="btn btn-default">Shaman</button>
-	        <button type="button" class="btn btn-default">Warlock</button>
-	        <button type="button" class="btn btn-default">Warrior</button>
-	    </div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="hero-selector" class="btn-group">
+				<button type="button" class="btn btn-default">Druid</button>
+				<button type="button" class="btn btn-default active">Hunter</button>
+				<button type="button" class="btn btn-default">Mage</button>		    
+				<button type="button" class="btn btn-default">Paladin</button>
+				<button type="button" class="btn btn-default">Priest</button>
+				<button type="button" class="btn btn-default">Rogue</button>		        
+				<button type="button" class="btn btn-default">Shaman</button>
+				<button type="button" class="btn btn-default">Warlock</button>
+				<button type="button" class="btn btn-default">Warrior</button>
+				</div><!-- btn-group -->
+			</div><!-- col -->
+		</div><!-- row -->
 
-	    <h1>Quick Rank</h1>
+		<div class="row">
+		    <div class="col-sm-12">
+				<h1>Quick Rank</h1>
+			</div>
+		</div>
 
-	    <div id="the-basics">
-	        <input class="typeahead" type="text" placeholder="1st Choice">
-	        <input class="typeahead" type="text" placeholder="2nd Choice">
-	        <input class="typeahead" type="text" placeholder="3rd Choice">
-	    </div>
+		<div class="row">
+			<div class="col-sm-8">
+				<div class="row">
+					<div id="minion-curve" class="col-sm-4"></div>
+					<div id="spell-curve" class="col-sm-4"></div>
+					<div id="weapon-curve" class="col-sm-4"></div>
+				</div><!-- row -->
+				<div id="the-basics" class="row">
+					<div class="col-sm-12">
+						<input class="typeahead" type="text" placeholder="1st Choice">
+						<input class="typeahead" type="text" placeholder="2nd Choice">
+						<input class="typeahead" type="text" placeholder="3rd Choice">
+					</div>
+				</div><!-- row -->
+			</div><!-- col -->
+			<div id="deck-list" class="col-sm-4"></div>
+		</div><!-- row -->
 
-	    <div id="credits">
-	        <a href="https://docs.google.com/spreadsheet/pub?key=0AhaXYbyLVAVodDRrbXZCUzVNNWs0bzI0a09aaF9iRnc&gid=16">
-	            Rankings are based on JerkyGunner's Hearthstone Arena Tier List
-	        </a>
-	    </div>
+		<div class="row">
+			<div class="col-sm-12">
+				<div id="credits">
+					<a href="http://www.jerkygunner.com/">
+						Rankings are based on JerkyGunner's Hearthstone Arena Tier List
+					</a>
+				</div>
+			</div><!-- col -->
+		</div><!-- row -->
 
-	</div>
+	</div><!-- container -->
 
-    <script>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="jquery.finger.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js"></script>
 
-        $(function(){ // menus layer over other controls
-        	$('.tt-dropdown-menu').css('z-index', 1080);
-        });
+    <script src="cardranks.js"></script>
+    <script src="carddata.js"></script>
+    <script src="input.js"></script>
+    <script src="curves.js"></script>
 
-        var rankLookup = (function (heroClass) {
-
-            var o = {},
-                currentHeroClass = heroClass || 'Mage',
-                lookup = (function (strs) {
-
-                    var lookupList = strs;
-
-                    var f = function (q, cb) {
-                        var matches, substringRegex;
-
-                        // an array that will be populated with substring matches
-                        matches = [];
-
-                        // regex used to determine if a string contains the substring `q`
-                        substrRegex = new RegExp(q, 'i');
-
-                        // iterate through the pool of strings and for any string that
-                        // contains the substring `q`, add it to the `matches` array
-                        $.each(lookupList, function (i, str) {
-                            if (substrRegex.test(str)) {
-                                // the typeahead jQuery plugin expects suggestions to a
-                                // JavaScript object, refer to typeahead docs for more info
-                                matches.push({
-                                    value: str
-                                });
-                            }
-                        });
-
-                        cb(matches);
-                    };
-
-                    f.setLookupList = function (list) {
-                        lookupList = list;
-                    };
-
-                    f.getLookupList = function () {
-                        return lookupList;
-                    };
-
-                    return f;
-
-                }(getCardNames(currentHeroClass)));
-
-            $('#the-basics .typeahead').typeahead({ /* no options */ }, {
-                source: lookup
-            });
-
-            $('#the-basics .typeahead').blur(function (e) {
-                var cards = getCardsWithRanks(currentHeroClass),
-                    colors = getColorRanks(),
-                    name = e.target.value,
-                    cardEntry = $.grep(cards, function (c) {
-                        return e.target.value === c.name;
-                    })[0];
-
-                if (cardEntry) {
-                    $(e.target).css({
-                        'background-color': colors[cardEntry.value],
-                    });
-                }
-
-            });
-
-            o.getCurrentHeroClass = function () {};
-
-            o.setCurrentHeroClass = function (heroClass) {
-                currentHeroClass = heroClass;
-                lookup.setLookupList(getCardNames(currentHeroClass));
-            };
-
-            return o;
-
-        }('Hunter'));
-
-        $("#hero-selector button").click(function (e) {
-            rankLookup.setCurrentHeroClass($(this).text());
-            $("#hero-selector button .active");
-            $("#hero-selector .active").toggleClass('active');
-            $(this).toggleClass('active');
-        });
-
-        (function initialize() {
-            rankLookup.setCurrentHeroClass('Hunter');
-        }());
-
-         ///////////////////////////////////////////////////////////////////////////////
-         ////////////////////////////////////////////////////////// support functions //
-         ///////////////////////////////////////////////////////////////////////////////
-
-        function getColorRanks() {
-            return [
-                'rgba(165,0,38,0.4)',
-                'rgba(215,48,39,0.4)',
-                'rgba(244,109,67,0.4)',
-                'rgba(253,174,97,0.4)',
-                'rgba(254,224,139,0.4)',
-                'rgba(217,239,139,0.4)',
-                'rgba(166,217,106,0.4)',
-                'rgba(102,189,99,0.4)',
-                'rgba(26,152,80,0.4)',
-                'rgba(0,104,55,0.4)'
-            ];
-        }
-    </script>
 </body>
 
 </html>
