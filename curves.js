@@ -146,8 +146,8 @@ function generateCurveChart(chart, curve){
 ///////////////////////////////////////////////////////////////////////////////
 
 function cardByName(name){
-  return basicCards().filter(function(c){
-    return c.name === name;
+  return allCards.filter(function(c){
+    return c.name === cleanText(name);
   })[0];
 }
 

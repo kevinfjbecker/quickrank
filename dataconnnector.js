@@ -1,5 +1,3 @@
-
-
 var basicCards = carddata.Basic.filter(function(c){
   return c.collectible !== undefined 
     && c.type !== 'Hero';
@@ -15,23 +13,10 @@ naxxCards = carddata["Curse of Naxxramas"].filter(function(c){
 gvgCards = carddata["Goblins vs Gnomes"].filter(function(c){
   return c.collectible !== undefined;
 }),
-allCards = basicCards.concat(classicCards).concat(naxxCards).concat(gvgCards),
+allCards = basicCards.concat(classicCards).concat(naxxCards).concat(gvgCards);
 
-
-
-textToClean = getCardNames('Druid').filter(function(n){ 
-  return !allCards.some(function(c) {
-    return c.name === n;
-  });
-});
-
-
-textToClean.map(function(r){
-  return {
-    ratingText: r,
-    cleanText: allCards.filter(function(c){
-      return r.indexOf(c.name) !== -1;
+function cleanText(text) {
+	return allCards.filter(function(c){
+      return text.indexOf(c.name) !== -1;
     })[0].name
-  };
-});
-
+}
