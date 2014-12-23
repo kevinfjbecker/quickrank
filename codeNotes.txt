@@ -1,0 +1,46 @@
+
+/******************************************************************************
+    _   ___ _ _   
+   | |_|  _|_| |_ 
+   | | |  _| |   |
+   |  -| |_| | | |
+by |_|_|_|___|___|
+
+  kevinfjbecker
+
+******************************************************************************/
+
+
+function saveDeck() {
+  localStorage.setItem('deck',JSON.stringify(deck));
+}
+
+function loadDeck() {
+  deck = JSON.parse(localStorage.getItem('deck'));
+  updateDeckList(deck);
+  updateCurveCharts(deck);
+}
+
+function clearPlayTracking() {
+  $('.card').removeClass('drawn');
+}
+
+$('.card').click(function() {
+  $(this).toggleClass('drawn');
+});
+
+
+// .drawn { background-color: whitesmoke; color: lightgrey; }
+
+var css = '.drawn { background-color: whitesmoke; color: lightgrey; }',
+    head = document.head || document.getElementsByTagName('head')[0],
+    style = document.createElement('style');
+
+style.type = 'text/css';
+if (style.styleSheet){
+  style.styleSheet.cssText = css;
+} else {
+  style.appendChild(document.createTextNode(css));
+}
+
+head.appendChild(style);
