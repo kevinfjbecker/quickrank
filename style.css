@@ -1,3 +1,8 @@
 .col-md-8, .col-md-4, .card {
   border: 1px solid rgba(86,61,124,.2);
 }
+
+/*
+ *  for ticking off played cards
+ */
+.drawn { background-color: whitesmoke; color: lightgrey; }

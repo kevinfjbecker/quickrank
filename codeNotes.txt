@@ -11,27 +11,6 @@ by |_|_|_|___|___|
 ******************************************************************************/
 
 
-function saveDeck() {
-  localStorage.setItem('deck',JSON.stringify(deck));
-}
-
-function loadDeck() {
-  deck = JSON.parse(localStorage.getItem('deck'));
-  updateDeckList(deck);
-  updateCurveCharts(deck);
-}
-
-function clearPlayTracking() {
-  $('.card').removeClass('drawn');
-}
-
-$('.card').click(function() {
-  $(this).toggleClass('drawn');
-});
-
-
-// .drawn { background-color: whitesmoke; color: lightgrey; }
-
 var css = '.drawn { background-color: whitesmoke; color: lightgrey; }',
     head = document.head || document.getElementsByTagName('head')[0],
     style = document.createElement('style');
