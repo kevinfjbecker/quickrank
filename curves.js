@@ -34,7 +34,7 @@ $('#import-button').click(function(){
   deck = cardNames.map(function(n){return cardByName(n);})
   updateDeckList(deck);
   updateCurveCharts(deck);
-  $('#myModal').hide();
+  $('#myModal').modal('hide');
 });
 
 function deckList() {
