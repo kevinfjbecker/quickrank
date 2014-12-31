@@ -46,8 +46,20 @@ var rankLookup = (function (heroClass) {
 
         }(getCardNames(currentHeroClass)));
 
-    $('#the-basics .typeahead').typeahead({ /* no options */ }, {
+    $('#the-basics .typeahead').typeahead({
+        autoselect: true
+    }, {
         source: lookup
+    });
+
+    // Hack to highlight first option.
+    // This is to complent the autoselect
+    $('#the-basics .typeahead').on('keyup', function(e){
+        var keyCode = e.keyCode || e.which;
+        if ( keyCode !== 40 && keyCode !== 38 ) {
+          $('.tt-suggestion').first().addClass('tt-cursor');
+        }
+
     });
 
     $('#the-basics .typeahead').blur(function (e) {

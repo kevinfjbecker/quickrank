@@ -139,6 +139,7 @@ $('input:text').on('doubletap', function(e){
   $('.tt-input').css({
     'background-color': 'transparent',
   });
+  $('#the-basics .tt-input').first().focus();
 });
 
 ///////////////////////////////////////////////////////////////////////////////
