@@ -1,3 +1,6 @@
+
+///////////////////////////////////////////////////////////////////////////////
+
 var deck = [],
     chartWidth = 208,
     chartHeight = 100,
@@ -21,126 +24,7 @@ function help() {
   commands.forEach(function(c){console.log(c)});
 }
 
-///////////////////////////////////////////////////////////////////////////////
 
-function importDeck() {
-  $('#decklist-text').attr('rows', 16);
-  $('#decklist-text').val(deckList());
-  $('#myModal').modal();
-}
-
-$('#import-button').click(function(){
-  var cardNames = parseDeckList($('#decklist-text').val());
-  deck = cardNames.map(function(n){return cardByName(n);})
-  updateDeckList(deck);
-  updateCurveCharts(deck);
-  $('#myModal').modal('hide');
-});
-
-function deckList() {
-  var s = '',
-      deckList = d3.map();
-
-  deck.forEach(function(c) {
-    if(deckList.has(c.name)) {
-      deckList.set(c.name, deckList.get(c.name) + 1);
-    } else {
-      deckList.set(c.name, 1);
-    }
-  });
-
-  deckList.forEach(function(card, count){ s += count + ' ' + card + '\n'; });
-
-  return s;
-}
-
-function parseDeckList(s) {
-  var a = s.split('\n').filter(function(s){return s.length > 0;}),
-      d = [],
-      i,
-      n,
-      j;
-
-  for (i = 0; i < a.length; i++) {
-    n = +a[i].substring(0,1);
-    for (j = 0; j < n; j++) {
-      d.push(a[i].substring(2));
-    };
-  };
-
-  return d;
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-updateCurveCharts(deck);
-updateDeckList(deck);
-
-///////////////////////////////////////////////////////////////////////////////
-
-function updateDeckList(deck) {
-  var cards = d3.select('#deck-list').selectAll('.card')
-  .data(deck.sort(cardCompare));
-  
-  cards.enter().append('div')
-  .classed('card', true);
-  
-  cards.text(function(c){return c.cost + ' : ' +c.name;});
-}
-
-function cardCompare(a, b) {
-    var typeOrder = {
-      "Weapon": 1,
-      "Spell": 2,
-      "Minion": 3
-    }
-    if(a.cost !== b.cost) {
-      return a.cost - b.cost;
-    }
-    if(a.type !== b.type) {
-      return typeOrder[a.type] - typeOrder[b.type];
-    }
-    return a.name.localeCompare(b.name);
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-function saveDeck() {
-  localStorage.setItem('deck',JSON.stringify(deck.map(function(c){return c.name;})));
-}
-
-function loadDeck() {
-  var cardNames = JSON.parse(localStorage.getItem('deck'));
-  deck = cardNames.map(function(n){return cardByName(n);})
-  updateDeckList(deck);
-  updateCurveCharts(deck);
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-function clearPlayTracking() {
-  $('.card').removeClass('drawn');
-}
-
-function enablePlayTracking() {
-  $('.card').click(function() {
-    $(this).toggleClass('drawn');
-  });
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-$('input:text').on('doubletap', function(e){
-  e.preventDefault();
-  deck.push(cardByName($(this).val()));
-  $('.typeahead').typeahead('val', '');
-  updateDeckList(deck);
-  updateCurveCharts(deck);
-  $('.tt-input').css({
-    'background-color': 'transparent',
-  });
-  $('#the-basics .tt-input').first().focus();
-});
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -165,12 +49,6 @@ function updateCurveCharts(deck){
   generateCurveChart(minionChart, minionCurve);
   generateCurveChart(spellChart, spellCurve);
   generateCurveChart(weaponChart, weaponCurve);
-}
-
-function setRandomCardInput() {
-  $('input:text').each(function(index, element){
-    $(element).val(randomCard().name);
-  });
 }
 
 function generateCurveChart(chart, curve){
@@ -246,12 +124,6 @@ function generateCurveChart(chart, curve){
 
 ///////////////////////////////////////////////////////////////////////////////
 
-function cardByName(name){
-  return allCards.filter(function(c){
-    return c.name === cleanText(name);
-  })[0];
-}
-
 function curveByType(deck, cardType){
   
   var curve = d3.nest()
@@ -277,6 +149,3 @@ function maxCostCount(curve){
     return d.values.length;
   });
 }
-
-
-

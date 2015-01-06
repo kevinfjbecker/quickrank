@@ -20,3 +20,9 @@ function cleanText(text) {
       return text.indexOf(c.name) !== -1;
     })[0].name
 }
+
+function cardByName(name){
+  return allCards.filter(function(c){
+    return c.name === cleanText(name);
+  })[0];
+}
