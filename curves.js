@@ -24,8 +24,6 @@ function help() {
   commands.forEach(function(c){console.log(c)});
 }
 
-
-
 ///////////////////////////////////////////////////////////////////////////////
 
 function curveChart(parentElementSelector) {
