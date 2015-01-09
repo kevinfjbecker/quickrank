@@ -1,7 +1,11 @@
+quickrank.deckview = (function(my) {
+
+var that = {},
+    deck = my.deck;
 
 ///////////////////////////////////////////////////////////////////////////////
 
-function updateDeckList(deck) {
+that.updateDeckList = function(deck) {
   var cards = d3.select('#deck-list').selectAll('.card')
   .data(deck.sort(cardCompare));
   
@@ -28,12 +32,16 @@ function cardCompare(a, b) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-function clearPlayTracking() {
+that.clearPlayTracking = function() {
   $('.card').removeClass('drawn');
 }
 
-function enablePlayTracking() {
+that.enablePlayTracking = function() {
   $('.card').click(function() {
     $(this).toggleClass('drawn');
   });
 }
+
+return that;
+
+}(quickrank));

@@ -1,7 +1,9 @@
 
+quickrank.curves = (function(base) {
+
 ///////////////////////////////////////////////////////////////////////////////
 
-var deck = [],
+var deck = base.deck,
     chartWidth = 208,
     chartHeight = 100,
     minionChart = curveChart('#minion-curve'),
@@ -10,19 +12,6 @@ var deck = [],
     blockWidth = 16,
     blockHeight = 10,
     baseline = 80;
-
-///////////////////////////////////////////////////////////////////////////////
-
-function help() {
-  var commands = [
-    'importDeck() // open deck list text input',
-    'loadDeck() // retrieve deck from localStorage',
-    'saveDeck() // put deck in localStorage',
-    'enablePlayTracking() // clicking on a card greys it out',
-    'clearPlayTracking() // un-grey-out all cards'
-  ];
-  commands.forEach(function(c){console.log(c)});
-}
 
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -38,7 +27,7 @@ function curveChart(parentElementSelector) {
   };
 }
 
-function updateCurveCharts(deck){
+  my.updateCurveCharts = function(deck){
 
   var minionCurve = curveByType(deck, 'Minion'),
       spellCurve = curveByType(deck, 'Spell'),
@@ -147,3 +136,7 @@ function maxCostCount(curve){
     return d.values.length;
   });
 }
+
+return my;
+
+}(quickrank));

@@ -1,27 +1,15 @@
 
-///////////////////////////////////////////////////////////////////////////////
-
-$('input:text').on('doubletap', function(e){
-  e.preventDefault();
-  deck.push(cardByName($(this).val()));
-  $('.typeahead').typeahead('val', '');
-  updateDeckList(deck);
-  updateCurveCharts(deck);
-  $('.tt-input').css({
-    'background-color': 'transparent',
-  });
-  $('#the-basics .tt-input').first().focus();
-});
+(function(my) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-$(function(){ // menus layer over other controls
-	$('.tt-dropdown-menu').css('z-index', 1080);
-});
-
-///////////////////////////////////////////////////////////////////////////////
-
-var rankLookup = (function (heroClass) {
+var deck = my.deck,
+    getCardNames = my.cardranks.getCardNames,
+    updateDeckList = my.deckview.updateDeckList,
+    updateCurveCharts = my.curves.updateCurveCharts,
+    getCardsWithRanks = my.cardranks.getCardsWithRanks,
+    cardByName = my.dataconnector.cardByName,
+    rankLookup = (function (heroClass) {
 
     var o = {},
         currentHeroClass = heroClass || 'Mage',
@@ -115,6 +103,26 @@ $("#hero-selector button").click(function (e) {
     $(this).toggleClass('active');
 });
 
+///////////////////////////////////////////////////////////////////////////////
+
+$('input:text').on('doubletap', function(e){
+  e.preventDefault();
+  deck.push(cardByName($(this).val()));
+  $('.typeahead').typeahead('val', '');
+  updateDeckList(deck);
+  updateCurveCharts(deck);
+  $('.tt-input').css({
+    'background-color': 'transparent',
+  });
+  $('#the-basics .tt-input').first().focus();
+});
+
+///////////////////////////////////////////////////////////////////////////////
+
+$(function(){ // menus layer over other controls
+    $('.tt-dropdown-menu').css('z-index', 1080);
+});
+
 (function initialize() {
     rankLookup.setCurrentHeroClass('Hunter');
 }());
@@ -135,3 +143,5 @@ function getColorRanks() {
         'rgba(0,104,55,0.4)'
     ];
 }
+
+}(quickrank));

@@ -1,7 +1,13 @@
 
+quickrank.deckimport = (function (base) {
+
+  var my = {},
+      cardByName = base.dataconnector.cardByName,
+      deck = base.deck;
+
 ///////////////////////////////////////////////////////////////////////////////
 
-function importDeck() {
+my.importDeck = function() {
   $('#decklist-text').attr('rows', 16);
   $('#decklist-text').val(deckList());
   $('#myModal').modal();
@@ -48,3 +54,7 @@ function parseDeckList(s) {
 
   return d;
 }
+
+return my;
+
+}(quickrank));
