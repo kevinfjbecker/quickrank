@@ -3,6 +3,8 @@ quickrank.deckimport = (function (base) {
 
   var my = {},
       cardByName = base.dataconnector.cardByName,
+      updateDeckList = base.deckview.updateDeckList,
+      updateCurveCharts = base.curves.updateCurveCharts,
       deck = base.deck;
 
 ///////////////////////////////////////////////////////////////////////////////

@@ -1,6 +1,6 @@
 quickrank.dataconnector = (function(base) {
 
-  var my = {}
+  var my = {},
       carddata = base.carddata,
 
       basicCards = carddata.Basic.filter(function(c){

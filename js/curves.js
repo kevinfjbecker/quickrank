@@ -9,6 +9,9 @@ var deck = base.deck,
     minionChart = curveChart('#minion-curve'),
     spellChart = curveChart('#spell-curve'),
     weaponChart = curveChart('#weapon-curve'),
+    tauntChart = curveChart('#taunt-curve'),
+    mechChart = curveChart('#mech-curve'),
+    deathrattleChart = curveChart('#deathrattle-curve'),
     blockWidth = 16,
     blockHeight = 10,
     baseline = 80;
@@ -27,18 +30,69 @@ function curveChart(parentElementSelector) {
   };
 }
 
-  my.updateCurveCharts = function(deck){
+///////////////////////////////////////////////////////////////////////////////
 
-  var minionCurve = curveByType(deck, 'Minion'),
-      spellCurve = curveByType(deck, 'Spell'),
-      weaponCurve = curveByType(deck, 'Weapon');
+function updateCurveCharts(deck) {
+
+  var minionCurve = curveByType(deck, getCardTypeFilter('Minion')),
+      spellCurve = curveByType(deck, getCardTypeFilter('Spell')),
+      weaponCurve = curveByType(deck, getCardTypeFilter('Weapon')),
+
+      tauntCurve = curveByType(deck, getCardMechanicFilter('Taunt')),
+
+      mechCurve = curveByType(deck, getCardRaceFilter('Mech')),
+
+      deathrattleCurve = curveByType(deck, getCardMechanicFilter('Deathrattle'));
 
   generateCurveChart(minionChart, minionCurve);
   generateCurveChart(spellChart, spellCurve);
   generateCurveChart(weaponChart, weaponCurve);
+  generateCurveChart(tauntChart, tauntCurve);
+  generateCurveChart(mechChart, mechCurve);
+  generateCurveChart(deathrattleChart, deathrattleCurve);
 }
 
-function generateCurveChart(chart, curve){
+function getCardTypeFilter(typeName) {
+	return function(card) {
+		return card.type === typeName;
+	};
+}
+
+function getCardMechanicFilter(mechanicName) {
+	return function(card) {
+		return card.mechanics && card.mechanics.indexOf(mechanicName) > -1;
+	};
+}
+
+function getCardRaceFilter(raceName) {
+	return function(card) {
+		return card.race && card.race === 'Mech';
+	};
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+function curveByType(deck, cardFilter){
+  return d3.nest()
+    .key(function(c){return c.cost;})
+    .entries(deck.filter(cardFilter));
+}
+
+function maxCost(curve){
+  return d3.max(curve,function(d){
+    return +d.key;
+  });
+}
+
+function maxCostCount(curve){
+  return d3.max(curve,function(d){
+    return d.values.length;
+  });
+}
+
+///////////////////////////////////////////////////////////////////////////////
+
+function generateCurveChart(chart, curve) {
   
   var rects,
       labels,
@@ -111,32 +165,8 @@ function generateCurveChart(chart, curve){
 
 ///////////////////////////////////////////////////////////////////////////////
 
-function curveByType(deck, cardType){
-  
-  var curve = d3.nest()
-  .key(function(c){return c.type;})
-  .key(function(c){return c.cost;})
-  .entries(deck)
-  .filter(function(a) {
-    return a.key === cardType;
-  })[0];
-  
-  return curve && curve.values;
-  
-}
-
-function maxCost(curve){
-  return d3.max(curve,function(d){
-    return +d.key;
-  });
-}
-
-function maxCostCount(curve){
-  return d3.max(curve,function(d){
-    return d.values.length;
-  });
-}
-
-return my;
+return {
+	updateCurveCharts: updateCurveCharts
+};
 
 }(quickrank));
