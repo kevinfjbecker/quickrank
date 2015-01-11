@@ -1,7 +1,6 @@
 quickrank.dataconnector = (function(base) {
 
-  var my = {},
-      carddata = base.carddata,
+  var carddata = base.carddata,
 
       basicCards = carddata.Basic.filter(function(c){
         return c.collectible !== undefined 
@@ -20,18 +19,22 @@ quickrank.dataconnector = (function(base) {
       }),
       allCards = basicCards.concat(classicCards).concat(naxxCards).concat(gvgCards);
 
-      my.cleanText = function(text) {
+      function cleanText(text) {
 	      return allCards.filter(function(c){
             return text.indexOf(c.name) !== -1;
           })[0].name
       }
 
-      my.cardByName = function(name){
+      function cardByName(name){
         return allCards.filter(function(c){
-          return c.name === my.cleanText(name);
+          return c.name === cleanText(name);
         })[0];
       }
 
-return my;
+  return {
+    cleanText: cleanText,
+    cardByName: cardByName,
+    allCards: allCards
+  };
 
 }(quickrank));
