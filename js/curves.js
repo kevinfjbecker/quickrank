@@ -20,14 +20,9 @@ var deck = base.deck,
 
 function curveChart(parentElementSelector) {
   
-  var svg = d3.select(parentElementSelector).append('svg')
+  return d3.select(parentElementSelector).append('svg')
     .attr('width', chartWidth)
     .attr('height', chartHeight);
-  
-  return {
-    svg: svg,
-    blocks: svg.append('g')
-  };
 }
 
 ///////////////////////////////////////////////////////////////////////////////
@@ -37,11 +32,8 @@ function updateCurveCharts(deck) {
   var minionCurve = curveByType(deck, getCardTypeFilter('Minion')),
       spellCurve = curveByType(deck, getCardTypeFilter('Spell')),
       weaponCurve = curveByType(deck, getCardTypeFilter('Weapon')),
-
       tauntCurve = curveByType(deck, getCardMechanicFilter('Taunt')),
-
       mechCurve = curveByType(deck, getCardRaceFilter('Mech')),
-
       deathrattleCurve = curveByType(deck, getCardMechanicFilter('Deathrattle'));
 
   generateCurveChart(minionChart, minionCurve);
@@ -50,6 +42,12 @@ function updateCurveCharts(deck) {
   generateCurveChart(tauntChart, tauntCurve);
   generateCurveChart(mechChart, mechCurve);
   generateCurveChart(deathrattleChart, deathrattleCurve);
+}
+
+function curveByType(deck, cardFilter){
+  return d3.nest()
+    .key(function(c){return c.cost;})
+    .entries(deck.filter(cardFilter));
 }
 
 function getCardTypeFilter(typeName) {
@@ -72,94 +70,41 @@ function getCardRaceFilter(raceName) {
 
 ///////////////////////////////////////////////////////////////////////////////
 
-function curveByType(deck, cardFilter){
-  return d3.nest()
-    .key(function(c){return c.cost;})
-    .entries(deck.filter(cardFilter));
-}
+function generateCurveChart(svg, curve) {
 
-function maxCost(curve){
-  return d3.max(curve,function(d){
-    return +d.key;
-  });
-}
+  var cols,
+      labels;
 
-function maxCostCount(curve){
-  return d3.max(curve,function(d){
-    return d.values.length;
-  });
-}
-
-///////////////////////////////////////////////////////////////////////////////
-
-function generateCurveChart(chart, curve) {
-  
-  var rects,
-      labels,
-      hRule,
-      vRule,
-      svg = chart.svg,
-      blocks = chart.blocks;
-  
   if(curve === undefined) {
     return;
   }
-  
-  rects = blocks.selectAll('rect')
-  .data(curve);
-  
-  rects.enter().append('rect');
-  
-  rects.data(curve)
-  .attr('width', blockWidth)
-  .attr('height', function(d){return d.values.length * blockHeight;})
-  .attr('x', function(d){return +d.key * blockWidth;})
-  .attr('y', function(d){
-    return baseline - d.values.length * blockHeight;
-  });
 
+  cols = svg.selectAll('g')
+  .data(curve)
+  .enter().append('g')
+  .attr('transform', function(d){
+    var y = baseline - d.values.length * blockHeight,
+        x = +d.key * blockWidth;
+    
+    return 'translate('+(x-0.5)+','+(y-0.5)+')';
+  });
+  
+  cols.selectAll('rect')
+  .data(function(d){return d.values;})
+  .enter().append('rect')
+  .attr('width', blockWidth)
+  .attr('height', function(d){return blockHeight;})
+  .attr('x', 0)
+  .attr('y', function(d, i){ return blockHeight * i; });
+    
   labels = svg.selectAll('text')
   .data(curve.map(function(d){return +d.key;}));
-  
+
   labels.enter().append('text');
-  
+
   labels.attr('x', function(d){return d * blockWidth;})
   .attr('y', baseline + 14)
   .text(function(d){return +d;});
-
-  hRule = svg.selectAll('.h-rule')
-  .data(d3.range(maxCostCount(curve)));
-  
-  hRule.enter().append('line')
-  .classed('h-rule', true);
-  
-  hRule.attr('x1', 0)
-  .attr('y1', function(d){
-    return baseline - ((d+1) * blockHeight) + 0.5;
-  })
-  .attr('x2', chartWidth)
-  .attr('y2', function(d){
-    return baseline - ((d+1) * blockHeight) + 0.5;
-  })
-  .style('stroke', 'white')
-  .style('stroke-width', 1);
-
-  vRule = svg.selectAll('.v-rule')
-  .data(d3.range(maxCost(curve)));
-  
-  vRule.enter().append('line')
-  .classed('v-rule', true);
-  
-  vRule.attr('x1', function(d){
-    return ((d+1) * blockWidth) - 0.5;
-  })
-  .attr('y1', 0)
-  .attr('x2', function(d){
-    return ((d+1) * blockWidth) - 0.5;
-  })
-  .attr('y2', chartHeight)
-  .style('stroke', 'white')
-  .style('stroke-width', 1);
 
 }
 
