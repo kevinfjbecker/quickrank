@@ -8,10 +8,24 @@
 }
 
 /*
- *  curve blocks
+ *  curve charts
  */
+svg {
+  border: 1px solid lightgray;
+}
+.cost-axis-label {
+  font-size: 9px;
+}
+.chart-title {
+  font-family: sans-serif;
+  font-size: 12px;
+  fill: gray;
+}
 rect {
   stroke: white;
+}
+#curves > .row {
+	margin-top: 15px
 }
 
 .card {
