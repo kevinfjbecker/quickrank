@@ -82,6 +82,7 @@ function getCardRaceFilter(raceName) {
 function generateCurveChart(svg, curve, title) {
 
   var cols,
+      rects,
       labels;
 
   if(curve === undefined) {
@@ -89,37 +90,45 @@ function generateCurveChart(svg, curve, title) {
   }
 
   cols = svg.selectAll('g')
-  .data(curve)
-  .enter().append('g')
-  .attr('transform', function(d){
+  .data(curve, function(d) { return d.key; })
+  .enter().append('g');
+
+  cols.attr('transform', function(d){
     var y = baseline - d.values.length * blockHeight,
         x = +d.key * blockWidth;
 
     return 'translate('+(x-0.5)+','+(y-0.5)+')';
   });
 
-  cols.selectAll('rect')
-  .data(function(d){return d.values;})
-  .enter().append('rect')
+  rects = cols.selectAll('rect')
+  .data(function(d){return d.values;});
+  
+  rects.enter().append('rect')
   .attr('width', blockWidth)
-  .attr('height', function(d){return blockHeight;})
-  .attr('x', 0)
-  .attr('y', function(d, i){ return blockHeight * i; });
+  .attr('height', blockHeight)
+  .attr('x', 0);
+
+  rects.attr('y', function(d, i){
+    console.log(d.name + ':' + i);
+  	return blockHeight * i;
+  });
 
   labels = svg.selectAll('.cost-axis-label')
-  .data(curve.map(function(d){return +d.key;}))
+  .data(curve, function(d) { return d.key; })
   .enter().append('text')
-  .attr('x', function(d){return d * blockWidth + blockWidth/2;})
+  .attr('x', function(d){return +d.key * blockWidth + blockWidth/2;})
   .attr('y', baseline + 9)
   .classed('cost-axis-label', true)
   .attr('text-anchor', 'middle')
-  .text(function(d){return +d;});
+  .text(function(d){return d.key;});
 
-  svg.append('text')
+  svg.selectAll('.chart-title')
+  .data([title])
+  .enter().append('text')
   .attr('x', width)
   .attr('text-anchor', 'end')
   .classed('chart-title', true)
-  .text(title);
+  .text(function(d){ return d; });
 }
 
 ///////////////////////////////////////////////////////////////////////////////
