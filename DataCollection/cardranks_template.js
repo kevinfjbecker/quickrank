@@ -1,15 +1,23 @@
-function getCardNames(pHeroClass) {
-    return getCardsWithRanks(pHeroClass).map(function (c) {
-        return c.name;
-    });
-}
+quickrank.cardranks = (function() {
 
-function getCardsWithRanks(pHeroClass) {
+	my = {};
 
-	var perClassList = ['REPLACE_THIS_ARRAY'];
+	my.getCardsWithRanks = function(pHeroClass) {
 
-    return perClassList.filter(function(c){
-    	return c.heroClass ===  pHeroClass;
-    });
+		var perClassList = ['REPLACE_THIS_ARRAY'];
 
-}
+		return perClassList.filter(function(c){
+			return c.heroClass ===  pHeroClass;
+		});
+
+	}
+
+	my.getCardNames = function(pHeroClass) {
+		return my.getCardsWithRanks(pHeroClass).map(function (c) {
+			return c.name;
+		});
+	}
+
+	return my;
+
+}());

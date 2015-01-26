@@ -4,7 +4,7 @@ quickrank.curves = (function(base) {
 ///////////////////////////////////////////////////////////////////////////////
 
 var deck = base.deck,
-    chartWidth = 130,
+    chartWidth = 130, // only accommodates up to cost 10!
     chartHeight = 80,
     margin = {top: 20, right: 10, bottom: 20, left: 10},
     width = chartWidth - margin.left - margin.right,
@@ -81,7 +81,7 @@ function getCardRaceFilter(raceName) {
 
 function generateCurveChart(svg, curve, title) {
 
-  var cols,
+  var cards = [],
       rects,
       labels;
 
@@ -89,34 +89,30 @@ function generateCurveChart(svg, curve, title) {
     return;
   }
 
-  cols = svg.selectAll('g')
-  .data(curve, function(d) { return d.key; })
-  .enter().append('g');
-
-  cols.attr('transform', function(d){
-    var y = baseline - d.values.length * blockHeight,
-        x = +d.key * blockWidth;
-
-    return 'translate('+(x-0.5)+','+(y-0.5)+')';
+  curve.forEach(function(costGroup){
+  	costGroup.values.forEach(function(card, index){
+      cards.push({i: index, data: card});
+  	});
   });
 
-  rects = cols.selectAll('rect')
-  .data(function(d){return d.values;});
+  rects = svg.selectAll('rect')
+  .data(cards);
   
   rects.enter().append('rect')
   .attr('width', blockWidth)
-  .attr('height', blockHeight)
-  .attr('x', 0);
+  .attr('height', blockHeight);
 
-  rects.attr('y', function(d, i){
-    console.log(d.name + ':' + i);
-  	return blockHeight * i;
+  rects.attr('x', function(c){
+    return +c.data.cost * blockWidth - 0.5;
+  })
+  .attr('y', function(c){
+  	return baseline - blockHeight * (c.i + 1) - 0.5;
   });
 
   labels = svg.selectAll('.cost-axis-label')
   .data(curve, function(d) { return d.key; })
   .enter().append('text')
-  .attr('x', function(d){return +d.key * blockWidth + blockWidth/2;})
+  .attr('x', function(d){return +d.key * blockWidth + blockWidth/2 - 0.5;})
   .attr('y', baseline + 9)
   .classed('cost-axis-label', true)
   .attr('text-anchor', 'middle')

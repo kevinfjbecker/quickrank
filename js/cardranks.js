@@ -26,7 +26,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Druid"
 			},
@@ -46,17 +46,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Piloted Sky Golem",
+				"value" : "9",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Ancient of War",
 				"value" : "9",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Argent Commander",
 				"value" : "9",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Argent Commander",
+				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Druid"
 			},
@@ -71,7 +76,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Swipe",
+				"name" : "^Swipe^",
+				"value" : "9",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Chillwind Yeti",
+				"value" : "9",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Druid of the Claw",
 				"value" : "9",
 				"heroClass" : "Druid"
 			},
@@ -81,12 +96,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
@@ -96,17 +111,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Piloted Sky Golem",
-				"value" : "8",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Sea Giant",
+				"value" : "8",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Sunwalker",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
@@ -116,7 +126,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Sunwalker",
+				"name" : "Defender of Argus",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
@@ -127,16 +137,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Stampeding Kodo (max 2)",
-				"value" : "8",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Chillwind Yeti",
-				"value" : "8",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Druid of the Claw",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
@@ -161,12 +161,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Boulderfist Ogre",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
 			{
 				"name" : "Ironbark Protector",
+				"value" : "8",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Power of the Wild",
 				"value" : "8",
 				"heroClass" : "Druid"
 			},
@@ -186,6 +196,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Gruul",
 				"value" : "7",
 				"heroClass" : "Druid"
@@ -201,6 +216,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Malorne",
 				"value" : "7",
 				"heroClass" : "Druid"
@@ -211,12 +231,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Blood Knight",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Faceless Manipulator",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Fel Reaver",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
@@ -226,27 +261,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Recombobulator",
-				"value" : "7",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Shade of Naxxramas",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Defender of Argus",
-				"value" : "7",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Knife Juggler",
-				"value" : "7",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Nourish (max 2)",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
@@ -261,7 +281,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
+				"name" : "Mind Control Tech",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Nourish (max 2)",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
@@ -271,17 +296,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Anodized Robo Cub",
-				"value" : "7",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Power of the Wild",
+				"name" : "Shattered Sun Cleric",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
@@ -291,17 +306,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Shattered Sun Cleric",
+				"name" : "Anodized Robo Cub",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
 			{
 				"name" : "Silver Hand Knight",
-				"value" : "7",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Druid"
 			},
@@ -331,6 +341,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Deathwing",
 				"value" : "6",
 				"heroClass" : "Druid"
@@ -341,17 +356,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
@@ -381,27 +386,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Blood Knight",
-				"value" : "6",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Mind Control Tech",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
 			{
 				"name" : "Violet Teacher",
-				"value" : "6",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Arcane Nullifier X-21",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
@@ -416,12 +406,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Recycle",
+				"name" : "Madder Bomber (max 2)",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Arcane Nullifier X-21",
+				"value" : "6",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Injured Blademaster",
+				"value" : "6",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "^Recycle^",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
@@ -436,7 +436,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
+				"value" : "6",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
@@ -451,12 +456,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Raging Worgen",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
@@ -477,6 +482,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Haunted Creeper",
+				"value" : "6",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Druid"
 			},
@@ -521,16 +531,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Gadgetzan Auctioneer",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Sunfury Protector",
 				"value" : "5",
 				"heroClass" : "Druid"
@@ -541,7 +541,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Demolisher",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Gadgetzan Auctioneer (max 2)",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Nerubian Egg (max 2)",
 				"value" : "5",
 				"heroClass" : "Druid"
 			},
@@ -566,17 +576,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Druid"
 			},
@@ -586,12 +586,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Tinkertown Technician",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Druid"
 			},
@@ -606,27 +601,42 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Darkscale Healer",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Explosive Sheep (max 2)",
-				"value" : "5",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Frostwolf Warlord",
 				"value" : "5",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Mechwarper",
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Puddlestomper",
 				"value" : "5",
 				"heroClass" : "Druid"
 			},
 			{
 				"name" : "Spiteful Smith",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Darkscale Healer",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Jungle Panther",
+				"value" : "5",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Mechwarper",
 				"value" : "5",
 				"heroClass" : "Druid"
 			},
@@ -651,11 +661,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Demolisher",
-				"value" : "4",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Goblin Sapper",
 				"value" : "4",
 				"heroClass" : "Druid"
@@ -666,7 +671,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Nerubian Egg (max 2)",
+				"name" : "Kezan Mystic (max 1)",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
@@ -681,17 +686,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Lil' Exorcist (max 2)",
+				"value" : "4",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Pint-Sized Summoner",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Wailing Soul",
+				"name" : "Arcane Golem (max 2)",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Acolyte of Pain",
+				"name" : "Wailing Soul",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
@@ -706,22 +716,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "^^Innervate^^ (max 2)",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Jungle Panther",
-				"value" : "4",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Ogre Magi",
+				"name" : "Mark of the Wild (max 2)",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
@@ -741,7 +741,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Acolyte of Pain",
+				"value" : "4",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Explosive Sheep (max 2)",
+				"value" : "4",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Stormpike Commando",
+				"value" : "4",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
@@ -756,27 +776,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Mark of Nature (max 2)",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Mark of the Wild (max 2)",
-				"value" : "4",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Oasis Snapjaw",
+				"name" : "Ogre Magi",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
 			{
 				"name" : "Razorfen Hunter",
+				"value" : "4",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Soul of the Forest (max 2)",
 				"value" : "4",
 				"heroClass" : "Druid"
 			},
@@ -796,17 +811,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Captain Greenskin",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Mimiron's Head",
 				"value" : "3",
 				"heroClass" : "Druid"
 			},
@@ -816,7 +821,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Tinkmaster Overspark",
+				"value" : "3",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Druid"
 			},
@@ -836,21 +851,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Gnomish Experimenter",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Bloodsail Raider",
 				"value" : "3",
 				"heroClass" : "Druid"
@@ -861,7 +861,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Kobold Geomancer",
+				"name" : "Ironfur Grizzly",
 				"value" : "3",
 				"heroClass" : "Druid"
 			},
@@ -891,32 +891,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Soul of the Forest (max 2)",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Antique Healbot (max 1)",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Ironbeak Owl",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Druid"
 			},
@@ -926,7 +901,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Druid of the Fang",
+				"value" : "3",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Kobold Geomancer",
+				"value" : "3",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Oasis Snapjaw",
+				"value" : "3",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Dragonling Mechanic",
+				"value" : "3",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Ironforge Rifleman",
 				"value" : "3",
 				"heroClass" : "Druid"
 			},
@@ -951,7 +946,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Blingtron 3000",
+				"value" : "2",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Gazlowe",
+				"value" : "2",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
@@ -961,22 +966,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Stalagg",
-				"value" : "2",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Mountain Giant",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Gnomish Experimenter",
+				"value" : "2",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
@@ -1006,12 +1011,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Druid of the Fang",
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
@@ -1031,27 +1041,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Wild Growth",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Core Hound",
-				"value" : "2",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Elven Archer",
-				"value" : "2",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Ironforge Rifleman",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
@@ -1076,7 +1071,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Windfury Harpy",
+				"value" : "2",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Druid"
 			},
@@ -1106,17 +1111,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Hungry Crab (max 1)",
+				"value" : "1",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Bloodsail Corsair (max 1)",
 				"value" : "1",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Druid"
 			},
@@ -1142,6 +1152,16 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Ancient Watcher (max 2)",
+				"value" : "1",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Druid"
+			},
+			{
+				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Druid"
 			},
@@ -1196,6 +1216,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
+				"name" : "Southsea Deckhand",
+				"value" : "1",
+				"heroClass" : "Druid"
+			},
+			{
 				"name" : "Thrallmar Farseer",
 				"value" : "1",
 				"heroClass" : "Druid"
@@ -1207,11 +1232,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Lorewalker Cho",
-				"value" : "0",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Hungry Crab",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
@@ -1231,22 +1251,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Druid"
-			},
-			{
 				"name" : "Murloc Tidecaller",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Secretkeeper",
-				"value" : "0",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Target Dummy",
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
@@ -1256,12 +1266,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Shieldbearer",
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Southsea Deckhand",
+				"name" : "Shieldbearer",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
@@ -1276,22 +1286,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Druid"
 			},
 			{
-				"name" : "Goldshire Footman",
+				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
 			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Druid"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Druid"
 			},
@@ -1316,7 +1316,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Hunter"
 			},
@@ -1331,7 +1331,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Gladiator's Longbow (max 2)",
+				"name" : "Piloted Sky Golem",
+				"value" : "9",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Gladiator's Longbow",
 				"value" : "9",
 				"heroClass" : "Hunter"
 			},
@@ -1346,28 +1351,23 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Explosive Shot",
+				"value" : "9",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Explosive Shot",
+				"name" : "Chillwind Yeti",
 				"value" : "9",
 				"heroClass" : "Hunter"
 			},
 			{
 				"name" : "Mechanical Yeti",
 				"value" : "9",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Dr. Boom",
-				"value" : "8",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Gahz'rilla",
-				"value" : "8",
 				"heroClass" : "Hunter"
 			},
 			{
@@ -1381,17 +1381,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Sneed's Old Shredder",
+				"value" : "8",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "The Black Knight",
 				"value" : "8",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Foe Reaper 4000",
+				"name" : "Tier 2 (84-80)",
 				"value" : "8",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Piloted Sky Golem",
+				"name" : "Gahz'rilla",
 				"value" : "8",
 				"heroClass" : "Hunter"
 			},
@@ -1416,22 +1421,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Sludge Belcher",
-				"value" : "8",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Sunwalker",
 				"value" : "8",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Animal Companion",
+				"name" : "Sludge Belcher",
 				"value" : "8",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Chillwind Yeti",
+				"name" : "Defender of Argus",
+				"value" : "8",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Animal Companion",
 				"value" : "8",
 				"heroClass" : "Hunter"
 			},
@@ -1456,6 +1461,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Boulderfist Ogre",
 				"value" : "8",
 				"heroClass" : "Hunter"
@@ -1468,6 +1478,16 @@ quickrank.cardranks = (function() {
 			{
 				"name" : "Spectral Knight",
 				"value" : "8",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "^^Unleash the Hounds^^",
+				"value" : "8",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
 				"heroClass" : "Hunter"
 			},
 			{
@@ -1486,6 +1506,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Maexxna",
 				"value" : "7",
 				"heroClass" : "Hunter"
@@ -1496,7 +1521,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Shade of Naxxramas",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Blood Knight",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
@@ -1506,17 +1546,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Fel Reaver",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Recombobulator",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Defender of Argus",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
@@ -1536,7 +1566,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
+				"name" : "Mind Control Tech",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
@@ -1546,32 +1576,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "^^Glaivezooka^^",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "^^Unleash the Hounds^^",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "^Deadly Shot^",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Kill Command",
-				"value" : "7",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Multi Shot (max 2)",
+				"name" : "^Glaivezooka^",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
@@ -1581,17 +1586,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "^Deadly Shot^",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Multi Shot (max 2)",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Silver Hand Knight",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Venture Co. Mercenary (max 2)",
+				"name" : "^^Cult Master^^ (max 2)",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "^^Cult Master^^ (max 2)",
+				"name" : "Kill Command",
 				"value" : "7",
 				"heroClass" : "Hunter"
 			},
@@ -1611,22 +1626,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Stranglethorn Tiger",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Deathwing",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
 			{
 				"name" : "Illidan Stormrage",
-				"value" : "6",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1651,12 +1666,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Blood Knight",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1666,12 +1676,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Mind Control Tech",
+				"name" : "Violet Teacher",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Violet Teacher",
+				"name" : "Madder Bomber (max 2)",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1681,7 +1691,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Injured Blademaster",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1701,17 +1711,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Ogre Brute",
-				"value" : "6",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Stranglethorn Tiger",
-				"value" : "6",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Arcane Shot",
+				"value" : "6",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1727,6 +1732,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "^Houndmaster^",
+				"value" : "6",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1751,7 +1761,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Lost Tallstrider",
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Hunter"
 			},
@@ -1806,12 +1816,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Gadgetzan Auctioneer",
+				"name" : "Arcane Golem (max 2)",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
@@ -1826,22 +1831,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "5",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Crazed Alchemist (max 2)",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Illuminator",
+				"name" : "Demolisher",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Gadgetzan Auctioneer (max 2)",
+				"value" : "5",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Illuminator",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
@@ -1866,12 +1871,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Bloodfen Raptor",
+				"name" : "Loot Hoarder",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Loot Hoarder",
+				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
@@ -1881,17 +1886,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Tinkertown Technician",
-				"value" : "5",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "^Tracking^",
+				"name" : "Tracking",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
@@ -1901,12 +1896,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Dire Wolf Alpha",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Explosive Trap (max 2)",
+				"name" : "Dire Wolf Alpha",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
@@ -1921,16 +1916,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Darkscale Healer",
-				"value" : "5",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Explosive Sheep (max 2)",
-				"value" : "5",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Frostwolf Warlord",
 				"value" : "5",
 				"heroClass" : "Hunter"
@@ -1941,12 +1926,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Mechwarper",
+				"name" : "Puddlestomper",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
 			{
 				"name" : "Spiteful Smith",
+				"value" : "5",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Darkscale Healer",
+				"value" : "5",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Explosive Trap (max 2)",
+				"value" : "5",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Mechwarper",
 				"value" : "5",
 				"heroClass" : "Hunter"
 			},
@@ -1971,12 +1976,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Demolisher",
+				"name" : "Goblin Sapper",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Goblin Sapper",
+				"name" : "Kezan Mystic (max 1)",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
@@ -1986,17 +1991,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Flare",
-				"value" : "4",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "King of Beasts",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Pint-Sized Summoner",
+				"name" : "Lil' Exorcist (max 2)",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
@@ -2006,27 +2006,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Pint-Sized Summoner",
+				"value" : "4",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Flare",
+				"value" : "4",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Wailing Soul",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Acolyte of Pain",
-				"value" : "4",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Flesheating Ghoul",
-				"value" : "4",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Scavenging Hyena",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
@@ -2041,17 +2036,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "^^Freezing Trap^^ (max 2)",
+				"name" : "Acolyte of Pain",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Oasis Snapjaw",
+				"name" : "Explosive Sheep (max 2)",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Ogre Magi",
+				"name" : "^Freezing Trap^ (max 2)",
+				"value" : "4",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "^Hunter's Mark^ (max 2)",
+				"value" : "4",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Scavenging Hyena",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
@@ -2061,17 +2066,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Annoy-o-Tron",
+				"value" : "4",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Archmage",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Bluegill Warrior",
+				"name" : "Bloodsail Raider",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Hunter's Mark (max 2)",
+				"name" : "Bluegill Warrior",
 				"value" : "4",
 				"heroClass" : "Hunter"
 			},
@@ -2111,17 +2126,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Mimiron's Head",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Nat Pagle",
+				"value" : "3",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Stalagg",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2131,7 +2141,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Bestial Wrath (max 2)",
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2146,17 +2156,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Bestial Wrath (max 2)",
+				"value" : "3",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Mini-Mage",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Misdirection (max 2)",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2166,7 +2171,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Bloodsail Raider",
+				"name" : "Misdirection (max 2)",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2176,12 +2181,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Ironbeak Owl",
+				"name" : "Lord of the Arena",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Lord of the Arena",
+				"name" : "Oasis Snapjaw",
+				"value" : "3",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Ogre Magi",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2201,12 +2211,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Antique Healbot (max 1)",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Kobold Geomancer",
+				"name" : "Clockwork Gnome",
+				"value" : "3",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Ironforge Rifleman",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2226,27 +2241,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Clockwork Gnome",
-				"value" : "3",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Dragonling Mechanic",
+				"value" : "3",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Ironbeak Owl",
+				"value" : "3",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Kobold Geomancer",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2256,7 +2261,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "^^Starving Buzzard^^ (max 2)",
+				"name" : "Starving Buzzard (max 2)",
 				"value" : "3",
 				"heroClass" : "Hunter"
 			},
@@ -2266,7 +2271,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Blingtron 3000",
+				"value" : "2",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Gazlowe",
+				"value" : "2",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2276,27 +2291,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Stalagg",
-				"value" : "2",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Mountain Giant",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Hobgoblin",
-				"value" : "2",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Call Pet",
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2307,6 +2312,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Ancient Mage",
+				"value" : "2",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Call Pet",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2326,7 +2336,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Core Hound",
+				"name" : "Booty Bay Bodyguard",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2337,11 +2347,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Elven Archer",
-				"value" : "2",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Ironforge Rifleman",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2361,17 +2366,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Timber Wolf (max 2)",
-				"value" : "2",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Cobra Shot",
+				"value" : "2",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2382,6 +2382,16 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Nightblade",
+				"value" : "2",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Timber Wolf (max 2)",
 				"value" : "2",
 				"heroClass" : "Hunter"
 			},
@@ -2406,7 +2416,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Feign Death",
+				"name" : "Feign Death (max 2)",
+				"value" : "1",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Hungry Crab (max 1)",
 				"value" : "1",
 				"heroClass" : "Hunter"
 			},
@@ -2416,12 +2431,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Hunter"
 			},
@@ -2436,12 +2451,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Secretkeeper",
+				"value" : "1",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Alarm-o-Bot",
 				"value" : "1",
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Secretkeeper",
+				"name" : "Lightwarden",
 				"value" : "1",
 				"heroClass" : "Hunter"
 			},
@@ -2501,6 +2521,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Southsea Deckhand",
+				"value" : "1",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Thrallmar Farseer",
 				"value" : "1",
 				"heroClass" : "Hunter"
@@ -2512,11 +2537,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Lorewalker Cho",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Hungry Crab",
 				"value" : "0",
 				"heroClass" : "Hunter"
 			},
@@ -2536,37 +2556,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
 				"name" : "Murloc Tidecaller",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Target Dummy",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Magma Rager",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Shieldbearer",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Southsea Deckhand",
-				"value" : "0",
-				"heroClass" : "Hunter"
-			},
-			{
-				"name" : "Stoneskin Gargoyle",
 				"value" : "0",
 				"heroClass" : "Hunter"
 			},
@@ -2576,7 +2566,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
-				"name" : "Grimscale Oracle",
+				"name" : "Magma Rager",
 				"value" : "0",
 				"heroClass" : "Hunter"
 			},
@@ -2586,7 +2576,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Hunter"
 			},
 			{
+				"name" : "Shieldbearer",
+				"value" : "0",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Stoneskin Gargoyle",
+				"value" : "0",
+				"heroClass" : "Hunter"
+			},
+			{
 				"name" : "Wisp",
+				"value" : "0",
+				"heroClass" : "Hunter"
+			},
+			{
+				"name" : "Grimscale Oracle",
 				"value" : "0",
 				"heroClass" : "Hunter"
 			},
@@ -2611,7 +2616,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Mage"
 			},
@@ -2626,12 +2631,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Piloted Sky Golem",
 				"value" : "9",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Argent Commander",
+				"value" : "9",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Mage"
 			},
@@ -2651,17 +2661,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Chillwind Yeti",
+				"value" : "9",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Mechanical Yeti",
 				"value" : "9",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Mage"
 			},
@@ -2676,22 +2691,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Piloted Sky Golem",
-				"value" : "8",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Pyroblast (max 2)",
 				"value" : "8",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Sea Giant",
+				"value" : "8",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Sunwalker",
 				"value" : "8",
 				"heroClass" : "Mage"
 			},
@@ -2706,17 +2716,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Sunwalker",
+				"name" : "Defender of Argus",
 				"value" : "8",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Stampeding Kodo (max 2)",
-				"value" : "8",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Chillwind Yeti",
 				"value" : "8",
 				"heroClass" : "Mage"
 			},
@@ -2751,6 +2756,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Boulderfist Ogre",
 				"value" : "8",
 				"heroClass" : "Mage"
@@ -2763,6 +2773,11 @@ quickrank.cardranks = (function() {
 			{
 				"name" : "Spectral Knight",
 				"value" : "8",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
 				"heroClass" : "Mage"
 			},
 			{
@@ -2781,7 +2796,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Toshley",
+				"value" : "7",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Blood Knight",
 				"value" : "7",
 				"heroClass" : "Mage"
 			},
@@ -2791,22 +2826,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Fel Reaver",
-				"value" : "7",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Recombobulator",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Shade of Naxxramas",
-				"value" : "7",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Defender of Argus",
 				"value" : "7",
 				"heroClass" : "Mage"
 			},
@@ -2826,22 +2851,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Mind Control Tech",
+				"value" : "7",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Kirin Tor Mage",
 				"value" : "7",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
-				"value" : "7",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Twilight Drake",
-				"value" : "7",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Acidic Swamp Ooze",
 				"value" : "7",
 				"heroClass" : "Mage"
 			},
@@ -2857,11 +2877,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Silver Hand Knight",
-				"value" : "7",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Mage"
 			},
@@ -2891,6 +2906,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Deathwing",
 				"value" : "6",
 				"heroClass" : "Mage"
@@ -2901,17 +2921,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
@@ -2936,17 +2946,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Blood Knight",
-				"value" : "6",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Mind Control Tech",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
@@ -2961,11 +2961,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Arcane Nullifier X-21",
-				"value" : "6",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Emperor Cobra",
 				"value" : "6",
 				"heroClass" : "Mage"
@@ -2976,7 +2971,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Madder Bomber (max 2)",
+				"value" : "6",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Arcane Nullifier X-21",
+				"value" : "6",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Injured Blademaster",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
@@ -2991,12 +2996,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Amani Berserker",
+				"value" : "6",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
@@ -3011,12 +3021,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Ogre Brute",
+				"value" : "6",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Snowchugger",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
@@ -3046,7 +3061,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Snowchugger",
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Mage"
 			},
@@ -3081,7 +3096,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Echo of Medivh",
+				"name" : "Echo of Medivh (max 2)",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
@@ -3096,17 +3111,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Gadgetzan Auctioneer",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Sunfury Protector",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Unstable Portal",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
@@ -3116,22 +3126,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Demolisher",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Gadgetzan Auctioneer (max 2)",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Illuminator",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Lil' Exorcist",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Ravenholdt Assassin",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Unstable Portal",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
@@ -3146,37 +3156,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Loot Hoarder",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Lost Tallstrider",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Micro Machine",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Tinkertown Technician",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Acolyte of Pain",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
@@ -3191,7 +3176,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Explosive Sheep (max 2)",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
@@ -3206,22 +3191,52 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Darkscale Healer",
-				"value" : "5",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Frostwolf Warlord",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Mechwarper",
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Puddlestomper",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Spiteful Smith",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Acolyte of Pain",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Darkscale Healer",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Explosive Sheep (max 2)",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Jungle Panther",
+				"value" : "5",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Mechwarper",
 				"value" : "5",
 				"heroClass" : "Mage"
 			},
@@ -3232,6 +3247,16 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Malygos",
+				"value" : "4",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Tier 2 (44-40)",
+				"value" : "4",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Flame Leviathan",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
@@ -3251,12 +3276,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Demolisher",
+				"name" : "Goblin Sapper",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Goblin Sapper",
+				"name" : "Kezan Mystic (max 1)",
+				"value" : "4",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Nerubian Egg (max 2)",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
@@ -3266,12 +3296,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Counterspell",
-				"value" : "4",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Nerubian Egg (max 2)",
+				"name" : "Lil' Exorcist (max 2)",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
@@ -3282,6 +3307,16 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Vaporize",
+				"value" : "4",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Arcane Golem (max 2)",
+				"value" : "4",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Counterspell",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
@@ -3301,16 +3336,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Jungle Panther",
-				"value" : "4",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Stormwind Knight",
 				"value" : "4",
 				"heroClass" : "Mage"
@@ -3326,12 +3351,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Ogre Magi",
+				"name" : "Stormpike Commando",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Stormpike Commando",
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Mage"
 			},
@@ -3361,16 +3391,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Oasis Snapjaw",
-				"value" : "4",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Razorfen Hunter",
 				"value" : "4",
 				"heroClass" : "Mage"
@@ -3378,11 +3398,6 @@ quickrank.cardranks = (function() {
 			{
 				"name" : "Wolfrider",
 				"value" : "4",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Flame Leviathan",
-				"value" : "3",
 				"heroClass" : "Mage"
 			},
 			{
@@ -3396,17 +3411,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Captain Greenskin",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Mimiron's Head",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3416,7 +3421,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Tinkmaster Overspark",
+				"value" : "3",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3431,22 +3446,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Mini-Mage",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Wee Spellstopper",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Kezan Mystic",
+				"name" : "Mini-Mage",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3456,12 +3461,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Gnomish Experimenter",
+				"name" : "Bloodsail Raider",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Bloodsail Raider",
+				"name" : "Ironfur Grizzly",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3472,6 +3477,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Mad Scientist",
+				"value" : "3",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Ogre Magi",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3496,7 +3506,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Antique Healbot (max 1)",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3506,32 +3516,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Ironbeak Owl",
+				"name" : "Clockwork Gnome",
+				"value" : "3",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Oasis Snapjaw",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Kobold Geomancer",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
-				"value" : "3",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Clockwork Gnome",
 				"value" : "3",
 				"heroClass" : "Mage"
 			},
@@ -3551,17 +3546,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Blingtron 3000",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Gazlowe",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Nozdormu",
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Stalagg",
+				"name" : "Nozdormu",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
@@ -3581,12 +3581,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Gnomish Experimenter",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
@@ -3616,12 +3621,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Dragonling Mechanic",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Ironbeak Owl",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Ironforge Rifleman",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
@@ -3646,16 +3666,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Core Hound",
-				"value" : "2",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Murloc Tidehunter",
 				"value" : "2",
 				"heroClass" : "Mage"
@@ -3666,7 +3676,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Windfury Harpy",
+				"value" : "2",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Mage"
 			},
@@ -3691,12 +3711,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Ironforge Rifleman",
-				"value" : "2",
+				"name" : "Clockwork Giant",
+				"value" : "1",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Clockwork Giant",
+				"name" : "Hungry Crab (max 1)",
 				"value" : "1",
 				"heroClass" : "Mage"
 			},
@@ -3706,12 +3726,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Mage"
 			},
@@ -3726,17 +3746,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Alarm-o-Bot",
-				"value" : "1",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Mage"
 			},
 			{
+				"name" : "Alarm-o-Bot",
+				"value" : "1",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Mage"
+			},
+			{
 				"name" : "Dread Corsair",
+				"value" : "1",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Ice Lance",
 				"value" : "1",
 				"heroClass" : "Mage"
 			},
@@ -3766,11 +3796,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Ice Lance",
-				"value" : "1",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Undertaker",
 				"value" : "1",
 				"heroClass" : "Mage"
@@ -3782,6 +3807,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Raid Leader",
+				"value" : "1",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Southsea Deckhand",
 				"value" : "1",
 				"heroClass" : "Mage"
 			},
@@ -3801,11 +3831,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Hungry Crab",
-				"value" : "0",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Junkbot",
 				"value" : "0",
 				"heroClass" : "Mage"
@@ -3821,22 +3846,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Murloc Tidecaller",
 				"value" : "0",
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Target Dummy",
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Magma Rager",
+				"value" : "0",
+				"heroClass" : "Mage"
+			},
+			{
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Mage"
 			},
@@ -3851,11 +3876,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Southsea Deckhand",
-				"value" : "0",
-				"heroClass" : "Mage"
-			},
-			{
 				"name" : "Stoneskin Gargoyle",
 				"value" : "0",
 				"heroClass" : "Mage"
@@ -3866,22 +3886,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Mage"
 			},
 			{
-				"name" : "Goldshire Footman",
+				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Mage"
 			},
 			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Mage"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Mage"
 			},
@@ -3911,7 +3921,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Paladin"
 			},
@@ -3922,6 +3932,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Ysera",
+				"value" : "9",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Piloted Sky Golem",
 				"value" : "9",
 				"heroClass" : "Paladin"
 			},
@@ -3941,12 +3956,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Argent Commander",
 				"value" : "9",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Argent Commander",
+				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Paladin"
 			},
@@ -3956,7 +3971,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "^^Consecration^^",
+				"name" : "^Consecration^",
+				"value" : "9",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Argent Protector",
+				"value" : "9",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Chillwind Yeti",
 				"value" : "9",
 				"heroClass" : "Paladin"
 			},
@@ -3966,12 +3991,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
@@ -3981,12 +4006,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Piloted Sky Golem",
+				"name" : "Coghammer",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
@@ -3996,22 +4016,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Coghammer",
-				"value" : "8",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Lay on Hands (max 1)",
-				"value" : "8",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Sunwalker",
-				"value" : "8",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Knife Juggler",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
@@ -4021,17 +4026,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Defender of Argus",
+				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Knife Juggler",
+				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Muster for Battle",
+				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Stampeding Kodo (max 2)",
-				"value" : "8",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Argent Protector",
-				"value" : "8",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Chillwind Yeti",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
@@ -4056,7 +4066,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Shielded Minibot",
+				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Stormwind Champion",
+				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "^Blessing of Kings^",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
@@ -4071,13 +4096,18 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Shielded Minibot",
+				"name" : "Shattered Sun Cleric",
 				"value" : "8",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Spectral Knight",
 				"value" : "8",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
 				"heroClass" : "Paladin"
 			},
 			{
@@ -4091,7 +4121,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Toshley",
+				"value" : "7",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Lay on Hands (max 1)",
+				"value" : "7",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Blood Knight",
 				"value" : "7",
 				"heroClass" : "Paladin"
 			},
@@ -4101,22 +4156,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Fel Reaver",
-				"value" : "7",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Recombobulator",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Shade of Naxxramas",
-				"value" : "7",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Defender of Argus",
 				"value" : "7",
 				"heroClass" : "Paladin"
 			},
@@ -4136,7 +4181,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
+				"name" : "Mind Control Tech",
 				"value" : "7",
 				"heroClass" : "Paladin"
 			},
@@ -4146,22 +4191,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "^Blessing of Kings^",
-				"value" : "7",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "^^Cult Master^^ (max 2)",
-				"value" : "7",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Shattered Sun Cleric",
 				"value" : "7",
 				"heroClass" : "Paladin"
 			},
@@ -4172,11 +4202,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Silver Hand Knight",
-				"value" : "7",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Paladin"
 			},
@@ -4196,6 +4221,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Deathwing",
 				"value" : "6",
 				"heroClass" : "Paladin"
@@ -4206,17 +4236,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
@@ -4246,27 +4266,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Blood Knight",
-				"value" : "6",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Quartermaster",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Mind Control Tech",
-				"value" : "6",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Muster for Battle",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
@@ -4276,17 +4281,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Arcane Nullifier X-21",
-				"value" : "6",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Emperor Cobra",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Madder Bomber (max 2)",
+				"value" : "6",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Arcane Nullifier X-21",
+				"value" : "6",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Injured Blademaster",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
@@ -4301,7 +4311,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
+				"value" : "6",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
@@ -4316,12 +4331,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Raging Worgen",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
@@ -4341,12 +4356,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Frostwolf Warlord",
+				"value" : "6",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Gilblin Stalker",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Haunted Creeper",
+				"value" : "6",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Paladin"
 			},
@@ -4386,22 +4411,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Sunfury Protector",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Abomination (max 2)",
-				"value" : "5",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Gadgetzan Auctioneer",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
@@ -4416,12 +4431,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Illuminator",
+				"name" : "Demolisher",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Gadgetzan Auctioneer (max 2)",
+				"value" : "5",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Illuminator",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
@@ -4446,22 +4466,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Frostwolf Warlord",
-				"value" : "5",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
@@ -4471,12 +4476,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Puddlestomper",
+				"name" : "Spiteful Smith",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Tinkertown Technician",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
@@ -4496,7 +4501,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Spiteful Smith",
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Puddlestomper",
+				"value" : "5",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Avenge",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
@@ -4506,17 +4521,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Explosive Sheep (max 2)",
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Jungle Panther",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Mechwarper",
-				"value" : "5",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Seal of Light",
 				"value" : "5",
 				"heroClass" : "Paladin"
 			},
@@ -4551,12 +4566,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Deathlord",
+				"name" : "Enhance-o Mechano",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Demolisher",
+				"name" : "Deathlord",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
@@ -4566,7 +4581,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Questing Adventurer",
+				"name" : "Kezan Mystic (max 1)",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
@@ -4576,7 +4591,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Questing Adventurer",
+				"value" : "4",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Lil' Exorcist (max 2)",
+				"value" : "4",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Pint-Sized Summoner",
+				"value" : "4",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Arcane Golem (max 2)",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
@@ -4596,27 +4626,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Acolyte of Pain",
-				"value" : "4",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Avenge",
-				"value" : "4",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Flesheating Ghoul",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Force-Tank MAX",
+				"name" : "Hand of Protection (max 2)",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Jungle Panther",
+				"name" : "Seal of Light",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
@@ -4631,17 +4651,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Hand of Protection (max 2)",
+				"name" : "Acolyte of Pain",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Ogre Magi",
+				"name" : "Explosive Sheep (max 2)",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Stormpike Commando",
+				"value" : "4",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
@@ -4661,17 +4691,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "^Light's Justice^ (max 2)",
-				"value" : "4",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Oasis Snapjaw",
 				"value" : "4",
 				"heroClass" : "Paladin"
 			},
@@ -4696,17 +4716,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Mimiron's Head",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Nat Pagle",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Stalagg",
 				"value" : "3",
 				"heroClass" : "Paladin"
 			},
@@ -4726,32 +4741,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Cobalt Guardian",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Gnomish Experimenter",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Gurubashi Berserker",
 				"value" : "3",
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Ironfur Grizzly",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Lord of the Arena",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Noble Sacrifice",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Ogre Magi",
 				"value" : "3",
 				"heroClass" : "Paladin"
 			},
@@ -4771,37 +4781,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Antique Healbot (max 1)",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Ironbeak Owl",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Kobold Geomancer",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Noble Sacrifice",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Reckless Rocketeer",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Annoy-o-Tron",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Paladin"
 			},
@@ -4811,12 +4791,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Booty Bay Bodyguard",
+				"name" : "Clockwork Gnome",
 				"value" : "3",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Clockwork Gnome",
+				"name" : "Ironforge Rifleman",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Oasis Snapjaw",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Reckless Rocketeer",
 				"value" : "3",
 				"heroClass" : "Paladin"
 			},
@@ -4831,6 +4821,16 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Kobold Geomancer",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Redemption",
+				"value" : "3",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Salty Dog",
 				"value" : "3",
 				"heroClass" : "Paladin"
@@ -4841,7 +4841,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Blingtron 3000",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Gazlowe",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
@@ -4851,27 +4861,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Stalagg",
-				"value" : "2",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Enhance-o Mechano",
-				"value" : "2",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Mountain Giant",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Blessed Champion (max 2)",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Gnomish Experimenter",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
@@ -4882,6 +4892,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Ancient Mage",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Cobalt Guardian (max 2)",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
@@ -4901,6 +4916,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Paladin"
@@ -4911,7 +4931,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Ironforge Rifleman",
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
@@ -4931,22 +4951,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Redemption",
-				"value" : "2",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Unstable Ghoul",
-				"value" : "2",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
@@ -4971,7 +4976,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Windfury Harpy",
+				"value" : "2",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Paladin"
 			},
@@ -4996,17 +5011,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Hungry Crab (max 1)",
+				"value" : "1",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Bloodsail Corsair (max 1)",
 				"value" : "1",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Paladin"
 			},
@@ -5021,17 +5041,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Alarm-o-Bot",
-				"value" : "1",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Paladin"
 			},
 			{
+				"name" : "Alarm-o-Bot",
+				"value" : "1",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Paladin"
+			},
+			{
 				"name" : "Leper Gnome",
+				"value" : "1",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Repentance",
+				"value" : "1",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Southsea Deckhand",
 				"value" : "1",
 				"heroClass" : "Paladin"
 			},
@@ -5047,16 +5082,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Raid Leader",
-				"value" : "1",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Repentance",
-				"value" : "1",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Southsea Deckhand",
 				"value" : "1",
 				"heroClass" : "Paladin"
 			},
@@ -5101,11 +5126,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Hungry Crab",
-				"value" : "0",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Junkbot",
 				"value" : "0",
 				"heroClass" : "Paladin"
@@ -5121,22 +5141,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Paladin"
-			},
-			{
 				"name" : "Murloc Tidecaller",
 				"value" : "0",
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Target Dummy",
+				"name" : "Eye for an Eye",
+				"value" : "0",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Magma Rager",
+				"value" : "0",
+				"heroClass" : "Paladin"
+			},
+			{
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Paladin"
 			},
@@ -5156,27 +5181,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Paladin"
 			},
 			{
-				"name" : "Eye for an Eye",
-				"value" : "0",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Goldshire Footman",
+				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Paladin"
 			},
 			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Paladin"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Paladin"
 			},
@@ -5201,7 +5211,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Priest"
 			},
@@ -5221,12 +5231,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Cabal Shadow Priest",
+				"name" : "Cabal Shadow Priest (max 2)",
 				"value" : "9",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Piloted Sky Golem",
 				"value" : "9",
 				"heroClass" : "Priest"
 			},
@@ -5236,7 +5246,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Azure Drake",
+				"value" : "9",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Shadow Madness (max 2)",
+				"value" : "9",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Temple Enforcer",
 				"value" : "9",
 				"heroClass" : "Priest"
 			},
@@ -5251,22 +5271,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Chillwind Yeti",
+				"value" : "9",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Mechanical Yeti",
 				"value" : "9",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Temple Enforcer",
-				"value" : "9",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Priest"
 			},
@@ -5276,17 +5296,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Piloted Sky Golem",
-				"value" : "8",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Sea Giant",
+				"value" : "8",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Sunwalker",
 				"value" : "8",
 				"heroClass" : "Priest"
 			},
@@ -5301,7 +5316,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Sunwalker",
+				"name" : "Defender of Argus",
 				"value" : "8",
 				"heroClass" : "Priest"
 			},
@@ -5312,11 +5327,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Stampeding Kodo (max 2)",
-				"value" : "8",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Chillwind Yeti",
 				"value" : "8",
 				"heroClass" : "Priest"
 			},
@@ -5346,7 +5356,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "^^Shadow Word: Death^^ (max 2)",
+				"value" : "8",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Shrinkmeister",
+				"value" : "8",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "^Velen's Chosen^",
+				"value" : "8",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Acidic Swamp Ooze",
 				"value" : "8",
 				"heroClass" : "Priest"
 			},
@@ -5361,8 +5386,8 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "^^Shadow Word: Death^^ (max 2)",
-				"value" : "8",
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
 				"heroClass" : "Priest"
 			},
 			{
@@ -5372,6 +5397,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Hogger",
+				"value" : "7",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Loatheb",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
@@ -5386,27 +5416,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Blood Knight",
+				"value" : "7",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Faceless Manipulator",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Fel Reaver",
-				"value" : "7",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Recombobulator",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
 			{
 				"name" : "Shade of Naxxramas",
-				"value" : "7",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Defender of Argus",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
@@ -5426,12 +5461,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Injured Blademaster",
+				"name" : "Mind Control Tech",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
+				"name" : "Injured Blademaster",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
@@ -5446,7 +5481,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Acidic Swamp Ooze",
+				"name" : "Upgraded Repair Bot",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
@@ -5456,27 +5491,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Spectral Knight",
-				"value" : "7",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Shattered Sun Cleric",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Spectral Knight",
+				"value" : "7",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Silver Hand Knight",
-				"value" : "7",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Velen's Chosen",
-				"value" : "7",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Priest"
 			},
@@ -5501,6 +5526,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Baron Geddon",
 				"value" : "6",
 				"heroClass" : "Priest"
@@ -5521,17 +5551,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5551,12 +5571,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Big Game Hunter",
-				"value" : "6",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Blood Knight",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5566,17 +5581,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Mind Control Tech",
-				"value" : "6",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Violet Teacher",
-				"value" : "6",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Arcane Nullifier X-21",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5586,12 +5591,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Upgraded Repair Bot",
+				"name" : "Madder Bomber (max 2)",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Arcane Nullifier X-21",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5621,7 +5626,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
+				"value" : "6",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5636,7 +5646,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5667,6 +5677,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Raging Worgen",
+				"value" : "6",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Priest"
 			},
@@ -5721,11 +5736,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Gadgetzan Auctioneer",
-				"value" : "5",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Sunfury Protector",
 				"value" : "5",
 				"heroClass" : "Priest"
@@ -5736,7 +5746,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Demolisher",
+				"value" : "5",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Gadgetzan Auctioneer (max 2)",
 				"value" : "5",
 				"heroClass" : "Priest"
 			},
@@ -5756,17 +5771,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Priest"
 			},
@@ -5776,12 +5781,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Tinkertown Technician",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Priest"
 			},
@@ -5801,22 +5801,37 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Explosive Sheep (max 2)",
-				"value" : "5",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Frostwolf Warlord",
 				"value" : "5",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Mechwarper",
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Puddlestomper",
 				"value" : "5",
 				"heroClass" : "Priest"
 			},
 			{
 				"name" : "Spiteful Smith",
+				"value" : "5",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Jungle Panther",
+				"value" : "5",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Mechwarper",
 				"value" : "5",
 				"heroClass" : "Priest"
 			},
@@ -5851,12 +5866,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Lightbomb",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Demolisher",
+				"name" : "Lightbomb (max 1)",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
@@ -5871,7 +5881,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Kezan Mystic (max 1)",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Questing Adventurer",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Lil' Exorcist (max 2)",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Nerubian Egg (max 2)",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
@@ -5886,27 +5916,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Mass Dispel",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Nerubian Egg (max 2)",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Wailing Soul",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Acolyte of Pain",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
@@ -5921,16 +5936,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Jungle Panther",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Stormwind Knight",
 				"value" : "4",
 				"heroClass" : "Priest"
@@ -5941,17 +5946,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "^Mind Vision^",
+				"name" : "Acolyte of Pain",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Ogre Magi",
+				"name" : "Explosive Sheep (max 2)",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Mind Vision",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
 			{
 				"name" : "Stormpike Commando",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Priest"
 			},
@@ -5971,16 +5991,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Oasis Snapjaw",
-				"value" : "4",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Razorfen Hunter",
 				"value" : "4",
 				"heroClass" : "Priest"
@@ -5991,12 +6001,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Blingtron 3000",
+				"name" : "Hemet Nesingwary",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Hemet Nesingwary",
+				"name" : "Blingtron 3000",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
@@ -6006,17 +6016,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Mimiron's Head",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Nat Pagle",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Tinkmaster Overspark",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
@@ -6041,22 +6056,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Gnomish Experimenter",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Bloodsail Raider",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Ironfur Grizzly",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Lord of the Arena",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Ogre Magi",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
@@ -6081,42 +6096,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Antique Healbot (max 1)",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Divine Spirit (max 2)",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Ironbeak Owl",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Kobold Geomancer",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Unstable Ghoul",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
@@ -6126,7 +6106,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Divine Spirit (max 2)",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Ironforge Rifleman",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Oasis Snapjaw",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Unstable Ghoul",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Dragonling Mechanic",
+				"value" : "3",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Kobold Geomancer",
 				"value" : "3",
 				"heroClass" : "Priest"
 			},
@@ -6146,12 +6151,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Nozdormu",
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Stalagg",
+				"name" : "Nozdormu",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
@@ -6161,17 +6166,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Gnomish Experimenter",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Shadowbomber",
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
@@ -6201,6 +6206,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Priest"
@@ -6211,7 +6221,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Ironforge Rifleman",
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
@@ -6231,16 +6241,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Core Hound",
-				"value" : "2",
-				"heroClass" : "Priest"
-			},
-			{
 				"name" : "Murloc Tidehunter",
 				"value" : "2",
 				"heroClass" : "Priest"
@@ -6251,12 +6251,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Silence (max 1)",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
 			{
 				"name" : "Windfury Harpy",
+				"value" : "2",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Priest"
 			},
@@ -6286,12 +6296,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Bloodsail Corsair (max 1)",
+				"name" : "Shadowbomber",
 				"value" : "1",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Hungry Crab (max 1)",
+				"value" : "1",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Bloodsail Corsair (max 1)",
 				"value" : "1",
 				"heroClass" : "Priest"
 			},
@@ -6302,6 +6317,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Mana Addict",
+				"value" : "1",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Priest"
 			},
@@ -6317,6 +6337,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Alarm-o-Bot",
+				"value" : "1",
+				"heroClass" : "Priest"
+			},
+			{
+				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Priest"
 			},
@@ -6381,6 +6406,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
+				"name" : "Southsea Deckhand",
+				"value" : "1",
+				"heroClass" : "Priest"
+			},
+			{
 				"name" : "Stonetusk Boar",
 				"value" : "1",
 				"heroClass" : "Priest"
@@ -6392,11 +6422,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Lorewalker Cho",
-				"value" : "0",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Hungry Crab",
 				"value" : "0",
 				"heroClass" : "Priest"
 			},
@@ -6421,12 +6446,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Secretkeeper",
-				"value" : "0",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Target Dummy",
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Priest"
 			},
@@ -6441,12 +6461,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Shieldbearer",
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Southsea Deckhand",
+				"name" : "Shieldbearer",
 				"value" : "0",
 				"heroClass" : "Priest"
 			},
@@ -6456,22 +6476,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Priest"
 			},
 			{
-				"name" : "Goldshire Footman",
+				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Priest"
 			},
 			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Priest"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Priest"
 			},
@@ -6496,7 +6506,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Rogue"
 			},
@@ -6511,7 +6521,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Piloted Sky Golem",
 				"value" : "9",
 				"heroClass" : "Rogue"
 			},
@@ -6526,7 +6536,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Eviscerate",
+				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Rogue"
 			},
@@ -6536,7 +6546,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "^Deadly Poison^",
+				"name" : "Deadly Poison",
+				"value" : "9",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Chillwind Yeti",
 				"value" : "9",
 				"heroClass" : "Rogue"
 			},
@@ -6546,12 +6561,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Rogue"
 			},
@@ -6561,17 +6576,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Trade Prince Gallywix",
-				"value" : "8",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Piloted Sky Golem",
 				"value" : "8",
 				"heroClass" : "Rogue"
 			},
@@ -6581,17 +6586,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Sludge Belcher",
-				"value" : "8",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Sunwalker",
 				"value" : "8",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Perdition's Blade",
+				"name" : "Sludge Belcher",
+				"value" : "8",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Defender of Argus",
 				"value" : "8",
 				"heroClass" : "Rogue"
 			},
@@ -6606,7 +6611,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Chillwind Yeti",
+				"name" : "Eviscerate",
 				"value" : "8",
 				"heroClass" : "Rogue"
 			},
@@ -6631,6 +6636,21 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Spiteful Smith",
+				"value" : "8",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "^Assassin's Blade^ (max 1)",
+				"value" : "8",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Boulderfist Ogre",
 				"value" : "8",
 				"heroClass" : "Rogue"
@@ -6646,8 +6666,8 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Spiteful Smith",
-				"value" : "8",
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
 				"heroClass" : "Rogue"
 			},
 			{
@@ -6671,7 +6691,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Toshley",
+				"value" : "7",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Blood Knight",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
@@ -6681,7 +6721,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Fel Reaver",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
@@ -6691,7 +6731,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Recombobulator",
+				"name" : "Sabotage",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
@@ -6701,17 +6741,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Defender of Argus",
-				"value" : "7",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Knife Juggler",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Madder Bomber",
+				"name" : "Perdition's Blade",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
@@ -6726,22 +6761,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Mind Control Tech",
+				"value" : "7",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Twilight Drake",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Violet Teacher",
-				"value" : "7",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "^Assassin's Blade^ (max 2)",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
@@ -6757,11 +6787,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Silver Hand Knight",
-				"value" : "7",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Rogue"
 			},
@@ -6791,6 +6816,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Alexstrasza",
 				"value" : "6",
 				"heroClass" : "Rogue"
@@ -6816,17 +6846,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6851,17 +6871,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Blood Knight",
-				"value" : "6",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Sabotage",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6871,17 +6881,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Mind Control Tech",
-				"value" : "6",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Ogre Ninja",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Arcane Nullifier X-21",
+				"name" : "Blade Flurry (max 2)",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6891,7 +6896,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Gadgetzan Auctioneer",
+				"name" : "Madder Bomber (max 2)",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6901,12 +6906,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "^^Betrayal^^",
+				"name" : "Arcane Nullifier X-21",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Gadgetzan Auctioneer (max 2)",
+				"value" : "6",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Injured Blademaster",
+				"value" : "6",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "^^Betrayal^^ (max 2)",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6921,17 +6936,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Ogre Brute",
-				"value" : "6",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Defias Ringleader",
+				"name" : "Stranglethorn Tiger",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Bloodsail Raider",
+				"value" : "6",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
+				"value" : "6",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Defias Ringleader",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6946,12 +6966,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Raging Worgen",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -6966,12 +6986,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "^Fan of Knives^",
+				"value" : "6",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Gilblin Stalker",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Haunted Creeper",
+				"value" : "6",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Rogue"
 			},
@@ -7001,16 +7031,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Blade Flurry (max 2)",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Questing Adventurer",
 				"value" : "5",
 				"heroClass" : "Rogue"
@@ -7031,7 +7051,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Demolisher",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
@@ -7056,17 +7076,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
@@ -7076,27 +7086,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "^^Sprint^^ (max 1)",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Tinkertown Technician",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Darkscale Healer",
-				"value" : "5",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "^Fan of Knives^",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
@@ -7111,12 +7106,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Explosive Sheep (max 2)",
+				"name" : "Frostwolf Warlord",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Frostwolf Warlord",
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Puddlestomper",
+				"value" : "5",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Jungle Panther",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
@@ -7126,12 +7136,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Ogre Magi",
+				"name" : "^^Sprint^^ (max 1)",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Stonesplinter Trogg",
+				"value" : "5",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "^Tinker's Sharpsword Oil^ (max 2)",
 				"value" : "5",
 				"heroClass" : "Rogue"
 			},
@@ -7151,11 +7166,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Demolisher",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Goblin Sapper",
 				"value" : "4",
 				"heroClass" : "Rogue"
@@ -7166,7 +7176,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Pint-Sized Summoner",
+				"name" : "Kezan Mystic (max 1)",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Lil' Exorcist (max 2)",
 				"value" : "4",
 				"heroClass" : "Rogue"
 			},
@@ -7176,12 +7191,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Wailing Soul",
+				"name" : "Pint-Sized Summoner",
 				"value" : "4",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Acolyte of Pain",
+				"name" : "Arcane Golem (max 2)",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Wailing Soul",
 				"value" : "4",
 				"heroClass" : "Rogue"
 			},
@@ -7196,32 +7216,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Jungle Panther",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Shiv",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Stormwind Knight",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "^Tinker's Sharpsword Oil^ (max 2)",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "War Golem",
 				"value" : "4",
 				"heroClass" : "Rogue"
 			},
@@ -7231,7 +7226,42 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Stormwind Knight",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "War Golem",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Acolyte of Pain",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Explosive Sheep (max 2)",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Ogre Magi",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Stormpike Commando",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Rogue"
 			},
@@ -7246,16 +7276,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Oasis Snapjaw",
-				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Razorfen Hunter",
 				"value" : "4",
 				"heroClass" : "Rogue"
@@ -7263,11 +7283,6 @@ quickrank.cardranks = (function() {
 			{
 				"name" : "Wolfrider",
 				"value" : "4",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
 				"heroClass" : "Rogue"
 			},
 			{
@@ -7281,7 +7296,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Mimiron's Head",
+				"name" : "Blingtron 3000",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
@@ -7291,7 +7306,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Tinkmaster Overspark",
+				"value" : "3",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
@@ -7306,27 +7331,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Iron Sensei",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Gnomish Experimenter",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Antique Healbot (max 1)",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
@@ -7346,7 +7356,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Kobold Geomancer",
+				"name" : "Ironfur Grizzly",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
@@ -7381,32 +7391,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Ironbeak Owl",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
-				"value" : "3",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Clockwork Gnome",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Kobold Geomancer",
+				"value" : "3",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Oasis Snapjaw",
+				"value" : "3",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Dragonling Mechanic",
+				"value" : "3",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Ironforge Rifleman",
 				"value" : "3",
 				"heroClass" : "Rogue"
 			},
@@ -7436,12 +7441,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Nozdormu",
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Stalagg",
+				"name" : "Nozdormu",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
@@ -7461,17 +7466,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Preparation (max 1)",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Preparation",
+				"name" : "Gnomish Experimenter",
+				"value" : "2",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
@@ -7501,7 +7511,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Dancing Swords",
+				"value" : "2",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
@@ -7521,22 +7541,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Core Hound",
-				"value" : "2",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Elven Archer",
-				"value" : "2",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Ironforge Rifleman",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
@@ -7551,12 +7556,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Windfury Harpy",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Conceal (max 2)",
+				"value" : "2",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Rogue"
 			},
@@ -7581,17 +7596,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
+				"name" : "Hungry Crab (max 1)",
+				"value" : "1",
+				"heroClass" : "Rogue"
+			},
+			{
 				"name" : "Bloodsail Corsair (max 1)",
 				"value" : "1",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Rogue"
 			},
@@ -7611,7 +7631,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Headcrack",
+				"name" : "Headcrack (max 2)",
+				"value" : "1",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "One-eyed Cheat",
+				"value" : "1",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Rogue"
 			},
@@ -7681,12 +7716,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Lorewalker Cho",
-				"value" : "0",
+				"name" : "Wisp",
+				"value" : "1",
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Hungry Crab",
+				"name" : "Lorewalker Cho",
 				"value" : "0",
 				"heroClass" : "Rogue"
 			},
@@ -7711,27 +7746,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "One-eyed Cheat",
-				"value" : "0",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Secretkeeper",
-				"value" : "0",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Target Dummy",
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Rogue"
 			},
 			{
 				"name" : "Magma Rager",
+				"value" : "0",
+				"heroClass" : "Rogue"
+			},
+			{
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Rogue"
 			},
@@ -7751,22 +7776,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Rogue"
 			},
 			{
-				"name" : "Wisp",
-				"value" : "0",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Goldshire Footman",
-				"value" : "0",
-				"heroClass" : "Rogue"
-			},
-			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Rogue"
-			},
-			{
-				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Rogue"
 			},
@@ -7791,12 +7801,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Neptulon",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Neptulon",
 				"value" : "9",
 				"heroClass" : "Shaman"
 			},
@@ -7816,6 +7826,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Piloted Sky Golem",
+				"value" : "9",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Sea Giant",
 				"value" : "9",
 				"heroClass" : "Shaman"
@@ -7826,12 +7841,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Argent Commander",
 				"value" : "9",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Argent Commander",
+				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Shaman"
 			},
@@ -7846,22 +7861,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Chillwind Yeti",
+				"value" : "9",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Mechanical Yeti",
 				"value" : "9",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "^^Stormforged Axe^^ (max 2)",
-				"value" : "9",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
@@ -7871,27 +7886,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Piloted Sky Golem",
-				"value" : "8",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Doomhammer (max 1)",
-				"value" : "8",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Powermace",
-				"value" : "8",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Sludge Belcher",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
@@ -7901,7 +7896,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Feral Spirit",
+				"name" : "Sludge Belcher",
+				"value" : "8",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Defender of Argus",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
@@ -7911,12 +7911,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Stampeding Kodo (max 2)",
+				"name" : "Powermace",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Chillwind Yeti",
+				"name" : "Stampeding Kodo (max 2)",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
@@ -7941,12 +7941,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "^Stormforged Axe^ (max 2)",
+				"value" : "8",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Boulderfist Ogre",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "Sen'jin Shieldmasta",
+				"value" : "8",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Shattered Sun Cleric",
 				"value" : "8",
 				"heroClass" : "Shaman"
 			},
@@ -7966,6 +7981,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Gruul",
 				"value" : "7",
 				"heroClass" : "Shaman"
@@ -7976,7 +7996,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Toshley",
+				"value" : "7",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Blood Knight",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -7986,12 +8026,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Fel Reaver",
-				"value" : "7",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Recombobulator",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -8001,7 +8036,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Defender of Argus",
+				"name" : "Feral Spirit",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -8016,7 +8051,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
+				"name" : "Mind Control Tech",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -8031,22 +8066,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "^^Flametongue Totem^^",
-				"value" : "7",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Shattered Sun Cleric",
-				"value" : "7",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Lightning Bolt",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -8066,17 +8086,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Venture Co. Mercenary (max 2)",
-				"value" : "7",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Crackle",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "^^Cult Master^^ (max 2)",
+				"value" : "7",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Lightning Bolt",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -8091,7 +8111,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Whirling Zap-o-matic",
+				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Shaman"
 			},
@@ -8111,17 +8131,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8151,12 +8161,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Blood Knight",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8166,7 +8171,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Mind Control Tech",
+				"name" : "Emperor Cobra",
+				"value" : "6",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Madder Bomber (max 2)",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8176,12 +8186,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Emperor Cobra",
+				"name" : "Gadgetzan Auctioneer (max 2)",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Gadgetzan Auctioneer",
+				"name" : "Injured Blademaster",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8192,11 +8202,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "^Bloodlust^ (max 1)",
-				"value" : "6",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8216,7 +8221,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
+				"value" : "6",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Whirling Zap-o-matic",
+				"value" : "6",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8231,12 +8246,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Raging Worgen",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8251,12 +8266,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Frostwolf Warlord",
+				"value" : "6",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Gilblin Stalker",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "Haunted Creeper",
+				"value" : "6",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Shaman"
 			},
@@ -8291,11 +8316,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Sunfury Protector",
 				"value" : "5",
 				"heroClass" : "Shaman"
@@ -8316,7 +8336,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Demolisher",
+				"value" : "5",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Nerubian Egg (max 2)",
 				"value" : "5",
 				"heroClass" : "Shaman"
 			},
@@ -8346,22 +8371,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Frostwolf Warlord",
-				"value" : "5",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Shaman"
 			},
@@ -8371,12 +8381,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Tinkertown Technician",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Shaman"
 			},
@@ -8396,7 +8401,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Windspeaker (max 2)",
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Puddlestomper",
+				"value" : "5",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Spiteful Smith",
 				"value" : "5",
 				"heroClass" : "Shaman"
 			},
@@ -8406,12 +8421,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Mechwarper",
+				"name" : "Force-Tank MAX",
 				"value" : "5",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Spiteful Smith",
+				"name" : "Jungle Panther",
+				"value" : "5",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Mechwarper",
 				"value" : "5",
 				"heroClass" : "Shaman"
 			},
@@ -8446,11 +8466,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Demolisher",
-				"value" : "4",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Dunemaul Shaman",
 				"value" : "4",
 				"heroClass" : "Shaman"
@@ -8466,7 +8481,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Nerubian Egg (max 2)",
+				"name" : "Kezan Mystic (max 1)",
+				"value" : "4",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Lil' Exorcist (max 2)",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
@@ -8476,37 +8496,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Arcane Golem (max 2)",
+				"value" : "4",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Wailing Soul",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Acolyte of Pain",
-				"value" : "4",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Explosive Sheep (max 2)",
-				"value" : "4",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Flesheating Ghoul",
-				"value" : "4",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Jungle Panther",
-				"value" : "4",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Ogre Magi",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
@@ -8521,12 +8521,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Windspeaker (max 2)",
+				"value" : "4",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Acolyte of Pain",
+				"value" : "4",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Earth Shock (max 2)",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "Stormpike Commando",
+				"value" : "4",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
@@ -8546,12 +8566,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Ironfur Grizzly",
+				"name" : "Explosive Sheep (max 2)",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Oasis Snapjaw",
+				"name" : "Ogre Magi",
 				"value" : "4",
 				"heroClass" : "Shaman"
 			},
@@ -8576,17 +8596,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Mimiron's Head",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Nat Pagle",
+				"value" : "3",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Shaman"
 			},
@@ -8611,27 +8631,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Gnomish Experimenter",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Gurubashi Berserker",
 				"value" : "3",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Kobold Geomancer",
+				"name" : "Ironfur Grizzly",
 				"value" : "3",
 				"heroClass" : "Shaman"
 			},
@@ -8661,37 +8666,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Antique Healbot (max 1)",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Ironbeak Owl",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Unstable Ghoul",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
+				"name" : "Antique Healbot (max 2)",
 				"value" : "3",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "Clockwork Gnome",
+				"value" : "3",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Ironforge Rifleman",
+				"value" : "3",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Kobold Geomancer",
+				"value" : "3",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Oasis Snapjaw",
+				"value" : "3",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Unstable Ghoul",
 				"value" : "3",
 				"heroClass" : "Shaman"
 			},
@@ -8711,7 +8711,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Blingtron 3000",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Gazlowe",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
@@ -8721,22 +8731,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Stalagg",
-				"value" : "2",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Mountain Giant",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Gnomish Experimenter",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
@@ -8746,7 +8756,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Vitality Totem (max 1)",
+				"name" : "Vitality Totem (max 2)",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
@@ -8771,6 +8781,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Shaman"
@@ -8781,7 +8796,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Ironforge Rifleman",
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
@@ -8801,21 +8816,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Windfury (max 1)",
-				"value" : "2",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Core Hound",
-				"value" : "2",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Frost Shock (max 2)",
 				"value" : "2",
 				"heroClass" : "Shaman"
@@ -8831,7 +8831,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Windfury Harpy",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Shaman"
 			},
@@ -8851,12 +8861,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Windfury (max 1)",
+				"value" : "2",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Clockwork Giant",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "Doomsayer",
+				"value" : "1",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Hungry Crab (max 1)",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
@@ -8871,12 +8891,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
@@ -8891,12 +8911,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Alarm-o-Bot",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Lightwarden",
+				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
@@ -8916,6 +8941,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Southsea Deckhand",
+				"value" : "1",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Gnomeregan Infantry",
 				"value" : "1",
 				"heroClass" : "Shaman"
@@ -8927,11 +8957,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Reincarnate (max 1)",
-				"value" : "1",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Southsea Deckhand",
 				"value" : "1",
 				"heroClass" : "Shaman"
 			},
@@ -8981,11 +9006,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Hungry Crab",
-				"value" : "0",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Junkbot",
 				"value" : "0",
 				"heroClass" : "Shaman"
@@ -9006,17 +9026,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Secretkeeper",
-				"value" : "0",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Target Dummy",
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Shaman"
 			},
 			{
 				"name" : "Magma Rager",
+				"value" : "0",
+				"heroClass" : "Shaman"
+			},
+			{
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Shaman"
 			},
@@ -9041,27 +9061,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Shaman"
 			},
 			{
+				"name" : "Wisp",
+				"value" : "0",
+				"heroClass" : "Shaman"
+			},
+			{
 				"name" : "Dust Devil",
 				"value" : "0",
 				"heroClass" : "Shaman"
 			},
 			{
-				"name" : "Goldshire Footman",
-				"value" : "0",
-				"heroClass" : "Shaman"
-			},
-			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Shaman"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Shaman"
 			},
@@ -9086,12 +9096,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Lord Jaraxxus",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Lord Jaraxxus",
 				"value" : "9",
 				"heroClass" : "Warlock"
 			},
@@ -9106,12 +9116,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Piloted Sky Golem",
+				"value" : "9",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Argent Commander",
 				"value" : "9",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Chillwind Yeti",
 				"value" : "9",
 				"heroClass" : "Warlock"
 			},
@@ -9121,12 +9136,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
@@ -9136,22 +9151,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Piloted Sky Golem",
-				"value" : "8",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Sea Giant",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Doomguard",
+				"name" : "Azure Drake",
+				"value" : "8",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Sunwalker",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
@@ -9161,7 +9171,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Sunwalker",
+				"name" : "Defender of Argus",
+				"value" : "8",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Doomguard",
+				"value" : "8",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Imp-losion",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
@@ -9177,11 +9197,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Stampeding Kodo (max 2)",
-				"value" : "8",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Chillwind Yeti",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
@@ -9206,7 +9221,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Darkbomb",
+				"value" : "8",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Harvest Golem",
+				"value" : "8",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Acidic Swamp Ooze",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
@@ -9217,6 +9242,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Flame Imp",
+				"value" : "8",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "^Floating Watcher^",
 				"value" : "8",
 				"heroClass" : "Warlock"
 			},
@@ -9232,6 +9262,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Deathwing",
+				"value" : "7",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Foe Reaper 4000",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
@@ -9256,6 +9291,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Mal'Ganis",
 				"value" : "7",
 				"heroClass" : "Warlock"
@@ -9266,12 +9306,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Blood Knight",
+				"value" : "7",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Faceless Manipulator",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Fel Reaver",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
@@ -9286,17 +9341,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Recombobulator",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Shade of Naxxramas",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Defender of Argus",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
@@ -9316,32 +9361,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Imp-losion",
+				"name" : "Mind Control Tech",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
 			{
 				"name" : "Shadowflame (max 2)",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Madder Bomber (max 2)",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Soulfire",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Darkbomb",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
@@ -9356,22 +9381,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Venture Co. Mercenary (max 2)",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "^^Cult Master^^ (max 2)",
+				"name" : "Soulfire",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
 			{
 				"name" : "Earthen Ring Farseer",
-				"value" : "7",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Floating Watcher",
 				"value" : "7",
 				"heroClass" : "Warlock"
 			},
@@ -9396,22 +9411,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Venture Co. Mercenary (max 2)",
+				"value" : "7",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Baron Geddon",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
@@ -9436,17 +9446,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
-				"value" : "6",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Blood Knight",
-				"value" : "6",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Mind Control Tech",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
@@ -9456,22 +9456,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Arcane Nullifier X-21",
-				"value" : "6",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Emperor Cobra",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Madder Bomber (max 2)",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "^^Hellfire^^ (max 2)",
+				"name" : "Arcane Nullifier X-21",
+				"value" : "6",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Injured Blademaster",
+				"value" : "6",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "^^Cult Master^^ (max 2)",
+				"value" : "6",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "^Hellfire^ (max 2)",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
@@ -9481,7 +9491,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
@@ -9491,17 +9501,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Burly Rockjaw Trogg",
+				"value" : "6",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Faerie Dragon",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Raging Worgen",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
@@ -9527,6 +9542,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Mortal Coil",
+				"value" : "6",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Tinkertown Technician",
 				"value" : "6",
 				"heroClass" : "Warlock"
 			},
@@ -9566,16 +9586,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Gadgetzan Auctioneer",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Sunfury Protector",
 				"value" : "5",
 				"heroClass" : "Warlock"
@@ -9586,12 +9596,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Demolisher",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Fel Cannon",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Gadgetzan Auctioneer (max 2)",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
@@ -9616,37 +9631,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Micro Machine",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Blood Imp (max 2)",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
 			{
 				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Lost Tallstrider",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Micro Machine",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Tinkertown Technician",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
@@ -9671,22 +9666,52 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Explosive Sheep (max 2)",
-				"value" : "5",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Frostwolf Warlord",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Mechwarper",
+				"name" : "Loot Hoarder",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Puddlestomper",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
 			{
 				"name" : "Spiteful Smith",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Voidcaller",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Antique Healbot (max 2)",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Force-Tank MAX",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Jungle Panther",
+				"value" : "5",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Mechwarper",
 				"value" : "5",
 				"heroClass" : "Warlock"
 			},
@@ -9716,11 +9741,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Demolisher",
-				"value" : "4",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Goblin Sapper",
 				"value" : "4",
 				"heroClass" : "Warlock"
@@ -9731,12 +9751,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Kezan Mystic (max 1)",
+				"value" : "4",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Questing Adventurer",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Pint-Sized Summoner",
+				"name" : "Lil' Exorcist (max 2)",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
@@ -9746,12 +9771,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Pint-Sized Summoner",
+				"value" : "4",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Arcane Golem (max 2)",
+				"value" : "4",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Wailing Soul",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Acolyte of Pain",
+				"name" : "Abusive Sergeant",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
@@ -9766,12 +9801,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Jungle Panther",
+				"name" : "^Power Overwhelming^ (max 2)",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
@@ -9781,17 +9811,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Voidcaller",
-				"value" : "4",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "War Golem",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Ogre Magi",
+				"name" : "Explosive Sheep (max 2)",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
@@ -9801,7 +9826,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Antique Healbot (max 1)",
+				"name" : "Acolyte of Pain",
+				"value" : "4",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Annoy-o-Tron",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
@@ -9812,21 +9842,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Bluegill Warrior",
-				"value" : "4",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Oasis Snapjaw",
-				"value" : "4",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Power Overwhelming (max 2)",
 				"value" : "4",
 				"heroClass" : "Warlock"
 			},
@@ -9851,17 +9866,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Captain Greenskin",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Mimiron's Head",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9871,7 +9876,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Tinkmaster Overspark",
+				"value" : "3",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9886,7 +9901,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Anima Golem (max 1)",
+				"name" : "Anima Golem (max 2)",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9901,7 +9916,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
+				"name" : "Twisting Nether (max 2)",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9911,17 +9926,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Void Terror",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Gnomish Experimenter",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9946,7 +9951,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Ironfur Grizzly",
+				"value" : "3",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Lord of the Arena",
+				"value" : "3",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Ogre Magi",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9971,22 +9986,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Abusive Sergeant",
+				"name" : "Clockwork Gnome",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Ironbeak Owl",
+				"name" : "Oasis Snapjaw",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Kobold Geomancer",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Annoy-o-Tron",
+				"name" : "Voidwalker",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -9996,22 +10006,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Booty Bay Bodyguard",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Clockwork Gnome",
-				"value" : "3",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Dragonling Mechanic",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Priestess of Elune",
+				"name" : "Ironforge Rifleman",
+				"value" : "3",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Kobold Geomancer",
 				"value" : "3",
 				"heroClass" : "Warlock"
 			},
@@ -10026,12 +10031,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Voidwalker",
-				"value" : "3",
+				"name" : "Baron Rivendare",
+				"value" : "2",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Baron Rivendare",
+				"name" : "Blingtron 3000",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
@@ -10041,27 +10046,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Mimiron's Head",
+				"value" : "2",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Nozdormu",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Stalagg",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Twisting Nether (max 2)",
+				"name" : "Gnomish Experimenter",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Enhance-o Mechano",
-				"value" : "2",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Hobgoblin",
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
@@ -10086,6 +10091,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Warlock"
@@ -10096,7 +10106,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Ironforge Rifleman",
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
@@ -10111,12 +10121,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Novice Engineer",
-				"value" : "2",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Core Hound",
+				"name" : "Priestess of Elune",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
@@ -10131,12 +10136,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
+				"name" : "Novice Engineer",
+				"value" : "2",
+				"heroClass" : "Warlock"
+			},
+			{
 				"name" : "Succubus",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
 			{
 				"name" : "Windfury Harpy",
+				"value" : "2",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Warlock"
 			},
@@ -10166,7 +10181,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Hungry Crab",
+				"name" : "Hungry Crab (max 1)",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
@@ -10176,12 +10191,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
@@ -10197,6 +10212,16 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Coldlight Oracle",
+				"value" : "1",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
@@ -10217,6 +10242,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Gnomeregan Infantry",
+				"value" : "1",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Sense Demons (max 2)",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
@@ -10246,12 +10276,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Raid Leader",
+				"name" : "Goldshire Footman",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Sense Demons (max 2)",
+				"name" : "Murloc Raider",
+				"value" : "1",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Raid Leader",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
@@ -10262,6 +10297,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Silverback Patriarch",
+				"value" : "1",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Southsea Deckhand",
 				"value" : "1",
 				"heroClass" : "Warlock"
 			},
@@ -10301,27 +10341,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Murloc Tidecaller",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Secretkeeper",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Target Dummy",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Warlock"
 			},
@@ -10331,17 +10351,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warlock"
 			},
 			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Southsea Deckhand",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
 				"name" : "Stoneskin Gargoyle",
+				"value" : "0",
+				"heroClass" : "Warlock"
+			},
+			{
+				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Warlock"
 			},
@@ -10352,11 +10367,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Sacrificial Pact",
-				"value" : "0",
-				"heroClass" : "Warlock"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Warlock"
 			},
@@ -10381,7 +10391,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Sneed's Old Shredder",
+				"name" : "Dr. Boom",
 				"value" : "9",
 				"heroClass" : "Warrior"
 			},
@@ -10401,12 +10411,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Azure Drake",
+				"name" : "Piloted Sky Golem",
 				"value" : "9",
 				"heroClass" : "Warrior"
 			},
 			{
 				"name" : "Argent Commander",
+				"value" : "9",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Azure Drake",
 				"value" : "9",
 				"heroClass" : "Warrior"
 			},
@@ -10421,6 +10436,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Chillwind Yeti",
+				"value" : "9",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Death's Bite",
 				"value" : "9",
 				"heroClass" : "Warrior"
@@ -10431,12 +10451,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Dr. Boom",
+				"name" : "Onyxia",
 				"value" : "8",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Onyxia",
+				"name" : "Sneed's Old Shredder",
 				"value" : "8",
 				"heroClass" : "Warrior"
 			},
@@ -10446,17 +10466,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Foe Reaper 4000",
-				"value" : "8",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Grommash Hellscream",
-				"value" : "8",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Piloted Sky Golem",
 				"value" : "8",
 				"heroClass" : "Warrior"
 			},
@@ -10466,12 +10476,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Sunwalker",
+				"value" : "8",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Sludge Belcher",
 				"value" : "8",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Sunwalker",
+				"name" : "Defender of Argus",
 				"value" : "8",
 				"heroClass" : "Warrior"
 			},
@@ -10487,11 +10502,6 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Arathi Weaponsmith",
-				"value" : "8",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Chillwind Yeti",
 				"value" : "8",
 				"heroClass" : "Warrior"
 			},
@@ -10516,6 +10526,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Acidic Swamp Ooze",
+				"value" : "8",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Arcanite Reaper (max 2)",
 				"value" : "8",
 				"heroClass" : "Warrior"
@@ -10536,6 +10551,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Foe Reaper 4000",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Gruul",
 				"value" : "7",
 				"heroClass" : "Warrior"
@@ -10551,7 +10571,27 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Loatheb",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Toshley",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Troggzor the Earthinator",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Big Game Hunter (max 1)",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Blood Knight",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10561,27 +10601,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Crush",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Faceless Manipulator",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Fel Reaver",
-				"value" : "7",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Recombobulator",
+				"name" : "Fel Reaver (max 1)",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
 			{
 				"name" : "Shade of Naxxramas",
-				"value" : "7",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Defender of Argus",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10596,7 +10631,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Madder Bomber (max 2)",
+				"name" : "Mind Control Tech",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10611,12 +10646,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Acidic Swamp Ooze",
-				"value" : "7",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Kor'kron Elite",
+				"name" : "^Cleave^ (max 2)",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10631,12 +10661,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Venture Co. Mercenary (max 2)",
-				"value" : "7",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "^Cleave^ (max 2)",
+				"name" : "Spiteful Smith",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10647,6 +10672,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "^^Cult Master^^ (max 2)",
+				"value" : "7",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Kor'kron Elite",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10666,12 +10696,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Spiteful Smith",
+				"name" : "Stormwind Champion",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Stormwind Champion",
+				"name" : "Venture Co. Mercenary (max 2)",
 				"value" : "7",
 				"heroClass" : "Warrior"
 			},
@@ -10696,17 +10726,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Loatheb",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Maexxna",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Troggzor the Earthinator",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
@@ -10736,22 +10756,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Big Game Hunter (max 1)",
+				"name" : "Recombobulator",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Blood Knight",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Crush",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Bouncing Blade",
+				"name" : "Bouncing Blade (max 2)",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
@@ -10761,27 +10771,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Mind Control Tech",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Violet Teacher",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Arcane Nullifier X-21",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Emperor Cobra",
-				"value" : "6",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Abomination (max 2)",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
@@ -10791,12 +10781,32 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Upgrade! (max 2)",
+				"name" : "Emperor Cobra",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Burly Rockjaw Trogg",
+				"name" : "Madder Bomber (max 2)",
+				"value" : "6",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Abomination (max 2)",
+				"value" : "6",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Arcane Nullifier X-21",
+				"value" : "6",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Injured Blademaster",
+				"value" : "6",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Upgrade! (max 2)",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
@@ -10806,17 +10816,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "^Execute^",
+				"value" : "6",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Mad Bomber",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Ogre Brute",
+				"name" : "Stranglethorn Tiger",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Execute",
+				"name" : "Burly Rockjaw Trogg",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
@@ -10831,12 +10846,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Raging Worgen",
+				"name" : "Ogre Brute",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Stranglethorn Tiger",
+				"name" : "Raging Worgen",
 				"value" : "6",
 				"heroClass" : "Warrior"
 			},
@@ -10866,6 +10881,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Tinkertown Technician",
+				"value" : "6",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Youthful Brewmaster",
 				"value" : "6",
 				"heroClass" : "Warrior"
@@ -10886,17 +10906,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Injured Blademaster",
-				"value" : "5",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Gadgetzan Auctioneer",
-				"value" : "5",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Mortal Strike",
+				"value" : "5",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Shieldmaiden",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
@@ -10916,17 +10931,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Lil' Exorcist",
+				"name" : "Demolisher",
+				"value" : "5",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Gadgetzan Auctioneer (max 2)",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
 			{
 				"name" : "Ravenholdt Assassin",
-				"value" : "5",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Shieldmaiden",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
@@ -10941,17 +10956,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Bloodfen Raptor",
-				"value" : "5",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Loot Hoarder",
-				"value" : "5",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Lost Tallstrider",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
@@ -10961,12 +10966,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Puddlestomper",
-				"value" : "5",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Tinkertown Technician",
+				"name" : "Bloodfen Raptor",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
@@ -10977,6 +10977,21 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Frost Elemental",
+				"value" : "5",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Frostwolf Warlord",
+				"value" : "5",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Lost Tallstrider",
+				"value" : "5",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Puddlestomper",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
@@ -10996,12 +11011,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Explosive Sheep (max 2)",
+				"name" : "Force-Tank MAX",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Frostwolf Warlord",
+				"name" : "Jungle Panther",
 				"value" : "5",
 				"heroClass" : "Warrior"
 			},
@@ -11046,11 +11061,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Demolisher",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Goblin Sapper",
 				"value" : "4",
 				"heroClass" : "Warrior"
@@ -11061,7 +11071,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Kezan Mystic (max 1)",
+				"value" : "4",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Questing Adventurer",
+				"value" : "4",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Lil' Exorcist (max 2)",
+				"value" : "4",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Nerubian Egg (max 2)",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
@@ -11071,7 +11096,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Nerubian Egg (max 2)",
+				"name" : "Arcane Golem (max 2)",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
@@ -11086,27 +11111,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Acolyte of Pain",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Dire Wolf Alpha",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
 			{
 				"name" : "Flesheating Ghoul",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Force-Tank MAX",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Jungle Panther",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
@@ -11121,17 +11131,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Acolyte of Pain",
+				"value" : "4",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "^^Battle Rage^^ (max 2)",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Ogre Magi",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Ogre Warmaul",
+				"name" : "Explosive Sheep (max 2)",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
@@ -11146,7 +11156,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Antique Healbot (max 1)",
+				"name" : "Abusive Sergeant",
+				"value" : "4",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Annoy-o-Tron",
+				"value" : "4",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Antique Healbot (max 2)",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
@@ -11161,17 +11181,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Ironfur Grizzly",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Razorfen Hunter",
-				"value" : "4",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Oasis Snapjaw",
 				"value" : "4",
 				"heroClass" : "Warrior"
 			},
@@ -11191,22 +11201,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Blingtron 3000",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Mimiron's Head",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Nat Pagle",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Stalagg",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Tinkmaster Overspark",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Enhance-o Mechano",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
@@ -11221,22 +11231,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Arcane Golem (max 2)",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Kezan Mystic",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Armorsmith",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Gnomish Experimenter",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
@@ -11246,7 +11241,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Ironforge Rifleman",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Ironfur Grizzly",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Lord of the Arena",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Ogre Magi",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
@@ -11271,6 +11281,16 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Whirlwind (max 2)",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Clockwork Gnome",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Dread Corsair",
 				"value" : "3",
 				"heroClass" : "Warrior"
@@ -11281,12 +11301,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Ironbeak Owl",
+				"name" : "Oasis Snapjaw",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Kobold Geomancer",
+				"name" : "Ogre Warmaul",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
@@ -11296,32 +11316,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Whirlwind (max 2)",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Abusive Sergeant",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Annoy-o-Tron",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Booty Bay Bodyguard",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Clockwork Gnome",
-				"value" : "3",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Dragonling Mechanic",
+				"value" : "3",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Kobold Geomancer",
 				"value" : "3",
 				"heroClass" : "Warrior"
 			},
@@ -11336,7 +11336,17 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Blingtron 3000",
+				"value" : "2",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Gazlowe",
+				"value" : "2",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Mimiron's Head",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
@@ -11346,22 +11356,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Stalagg",
-				"value" : "2",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Mountain Giant",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Enhance-o Mechano",
+				"name" : "Hobgoblin (max 2)",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Hobgoblin",
+				"name" : "Gnomish Experimenter",
+				"value" : "2",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Jeeves",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
@@ -11391,6 +11401,11 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Booty Bay Bodyguard",
+				"value" : "2",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Dancing Swords",
 				"value" : "2",
 				"heroClass" : "Warrior"
@@ -11401,7 +11416,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Ironforge Rifleman",
+				"name" : "Ironbeak Owl",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
@@ -11421,17 +11436,7 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Priestess of Elune",
-				"value" : "2",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Warbot",
-				"value" : "2",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Core Hound",
+				"name" : "Southsea Deckhand",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
@@ -11446,7 +11451,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Southsea Deckhand",
+				"name" : "Priestess of Elune",
+				"value" : "2",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Warbot",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
@@ -11457,6 +11467,11 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Charge (max 2)",
+				"value" : "2",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Core Hound",
 				"value" : "2",
 				"heroClass" : "Warrior"
 			},
@@ -11481,17 +11496,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
+				"name" : "Hungry Crab (max 1)",
+				"value" : "1",
+				"heroClass" : "Warrior"
+			},
+			{
 				"name" : "Bloodsail Corsair (max 1)",
 				"value" : "1",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Jeeves",
+				"name" : "Mana Addict",
 				"value" : "1",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Mana Addict",
+				"name" : "Target Dummy",
 				"value" : "1",
 				"heroClass" : "Warrior"
 			},
@@ -11507,6 +11527,16 @@ quickrank.cardranks = (function() {
 			},
 			{
 				"name" : "Alarm-o-Bot",
+				"value" : "1",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Lightwarden",
+				"value" : "1",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Secretkeeper",
 				"value" : "1",
 				"heroClass" : "Warrior"
 			},
@@ -11576,11 +11606,6 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Hungry Crab",
-				"value" : "0",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Junkbot",
 				"value" : "0",
 				"heroClass" : "Warrior"
@@ -11596,27 +11621,22 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Lightwarden",
-				"value" : "0",
-				"heroClass" : "Warrior"
-			},
-			{
 				"name" : "Murloc Tidecaller",
 				"value" : "0",
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Secretkeeper",
-				"value" : "0",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Target Dummy",
+				"name" : "Goldshire Footman",
 				"value" : "0",
 				"heroClass" : "Warrior"
 			},
 			{
 				"name" : "Magma Rager",
+				"value" : "0",
+				"heroClass" : "Warrior"
+			},
+			{
+				"name" : "Murloc Raider",
 				"value" : "0",
 				"heroClass" : "Warrior"
 			},
@@ -11636,22 +11656,12 @@ quickrank.cardranks = (function() {
 				"heroClass" : "Warrior"
 			},
 			{
-				"name" : "Goldshire Footman",
+				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Warrior"
 			},
 			{
 				"name" : "Grimscale Oracle",
-				"value" : "0",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Murloc Raider",
-				"value" : "0",
-				"heroClass" : "Warrior"
-			},
-			{
-				"name" : "Wisp",
 				"value" : "0",
 				"heroClass" : "Warrior"
 			},
