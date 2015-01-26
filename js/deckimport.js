@@ -17,7 +17,8 @@ my.importDeck = function() {
 
 $('#import-button').click(function(){
   var cardNames = parseDeckList($('#decklist-text').val());
-  deck = cardNames.map(function(n){return cardByName(n);})
+  deck.length = 0;
+  cardNames.forEach(function(n){deck.push(cardByName(n));});
   updateDeckList(deck);
   updateCurveCharts(deck);
   $('#myModal').modal('hide');
