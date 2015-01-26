@@ -109,14 +109,19 @@ function generateCurveChart(svg, curve, title) {
   	return baseline - blockHeight * (c.i + 1) - 0.5;
   });
 
+  rects.exit().remove();
+
   labels = svg.selectAll('.cost-axis-label')
-  .data(curve, function(d) { return d.key; })
-  .enter().append('text')
+  .data(curve, function(d) { return d.key; });
+
+  labels.enter().append('text')
   .attr('x', function(d){return +d.key * blockWidth + blockWidth/2 - 0.5;})
   .attr('y', baseline + 9)
   .classed('cost-axis-label', true)
   .attr('text-anchor', 'middle')
   .text(function(d){return d.key;});
+
+  labels.exit().remove();
 
   svg.selectAll('.chart-title')
   .data([title])

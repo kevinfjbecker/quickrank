@@ -13,6 +13,8 @@ that.updateDeckList = function(deck) {
   .classed('card', true);
   
   cards.text(function(c){return c.cost + ' : ' +c.name;});
+
+  cards.exit().remove();
 }
 
 function cardCompare(a, b) {
