@@ -19,17 +19,19 @@ quickrank.dataconnector = (function(base) {
       }),
       allCards = basicCards.concat(classicCards).concat(naxxCards).concat(gvgCards);
 
-      function cleanText(text) {
-	      return allCards.filter(function(c){
-            return text.indexOf(c.name) !== -1;
-          })[0].name
-      }
+  function cleanText(text) {
+    return allCards.filter(function(c){
+      return text.indexOf(c.name) !== -1;
+    }).sort(function lengthDesc(a,b){
+      return b.name.length - a.name.length
+    })[0].name;
+  }
 
-      function cardByName(name){
-        return allCards.filter(function(c){
-          return c.name === cleanText(name);
-        })[0];
-      }
+  function cardByName(name){
+    return allCards.filter(function(c){
+      return c.name === cleanText(name);
+    })[0];
+  }
 
   return {
     cleanText: cleanText,
