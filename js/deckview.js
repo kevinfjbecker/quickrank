@@ -9,12 +9,18 @@ that.updateDeckList = function(deck) {
   var cards = d3.select('#deck-list').selectAll('.card')
   .data(deck.sort(cardCompare));
   
+  updateCardCount(deck);
+
   cards.enter().append('div')
   .classed('card', true);
   
   cards.text(function(c){return c.cost + ' : ' +c.name;});
 
   cards.exit().remove();
+}
+
+function updateCardCount(deck) {
+  $('#card-count').text(deck.length + '/30');
 }
 
 function cardCompare(a, b) {

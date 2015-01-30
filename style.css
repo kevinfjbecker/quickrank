@@ -3,15 +3,17 @@
   border: 1px solid rgba(86,61,124,.2);
 }*/
 
-/*
- *  Tools Button
- */
 #deck-tools {
   padding-top: 20px;
 }
 
 .lookup-container {
 	padding: 0px 1px;
+}
+
+#card-count {
+  padding-top: 35px;
+  font-size: 16px;
 }
 
 /*
@@ -37,6 +39,7 @@ rect {
 
 .card {
   border: 1px solid rgba(86,61,124,.2);
+  padding-left: 4px;
 }
 
 /*
