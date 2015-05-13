@@ -42,3 +42,21 @@ cleanText <- function(pCardText) {
 }
 
 M <- as.matrix(gCardTables[[1]])
+
+gRatings <- c(
+  "Beyond Great",
+  "Great",
+  "Good",
+  "Above Average",
+  "Average",
+  "Below average",
+  "Bad",
+  "Terrible",
+  "Beyond Terrible"
+)
+
+for (i in seq(3, 19, by=2)) {
+  # loop through and pull each (card, rating)
+  # for each of the classes
+  print(paste(M[10,i],M[10,i+1]))
+}
