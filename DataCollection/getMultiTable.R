@@ -1,7 +1,7 @@
 getPageData <- function() {
   
   url <- "https://docs.google.com/spreadsheets/d/"
-  query <-"16Djk1vJCsvDAuihHiwNG_5qzYH_XAA5XsPUYHlA9DEQ/htmlembed?gid=8&widget=false"
+  query <-"10YJ7KfR0KlR057zat2lV9wvRLWLD0eTcdU7NtR4xiKs/pubhtml"
   
   library("httr")
   library("XML")
@@ -41,4 +41,4 @@ cleanText <- function(pCardText) {
   vTextOut
 }
 
-M <- as.matrix(gCardTables[[1]])
+M <- as.matrix(gCardTables[[10]])
