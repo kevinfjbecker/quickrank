@@ -32,9 +32,7 @@ var deck = my.deck,
                     if (substrRegex.test(str)) {
                         // the typeahead jQuery plugin expects suggestions to a
                         // JavaScript object, refer to typeahead docs for more info
-                        matches.push({
-                            value: str
-                        });
+                        matches.push(str);
                     }
                 });
 
@@ -64,7 +62,7 @@ var deck = my.deck,
     $('#the-basics .typeahead').on('keyup', function(e){
         var keyCode = e.keyCode || e.which;
         if ( keyCode !== 40 && keyCode !== 38 ) {
-          $('.tt-suggestion').first().addClass('tt-cursor');
+          //$('.tt-suggestion').first().addClass('tt-cursor'); // TODO: fix
         }
 
     });
