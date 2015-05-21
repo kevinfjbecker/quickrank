@@ -15,7 +15,9 @@ var quickrank = (function() {
       'loadDeck() // retrieve deck from localStorage',
       'saveDeck() // put deck in localStorage',
       'enablePlayTracking() // clicking on a card greys it out',
-      'clearPlayTracking() // un-grey-out all cards'
+      'clearPlayTracking() // un-grey-out all cards',
+      'logDataCounts() // log card data count per class',
+      'logRankCounts() // log card rank count per class'
     ];
     commands.forEach(function(c){console.log(c)});
   }

@@ -6,6 +6,9 @@ quickrank.dataconnector = (function(base) {
         return c.collectible !== undefined 
           && c.type !== 'Hero';
       }),
+      blackrockCards = carddata["Blackrock Mountain"].filter(function(c){
+        return c.collectible !== undefined;
+      }),
       classicCards = carddata.Classic.filter(function(c){
         return c.collectible !== undefined
           && c.type !== 'Enchantment'
@@ -17,7 +20,11 @@ quickrank.dataconnector = (function(base) {
       gvgCards = carddata["Goblins vs Gnomes"].filter(function(c){
         return c.collectible !== undefined;
       }),
-      allCards = basicCards.concat(classicCards).concat(naxxCards).concat(gvgCards);
+      allCards = basicCards
+        .concat(blackrockCards)
+        .concat(classicCards)
+        .concat(naxxCards)
+        .concat(gvgCards);
 
   function cleanText(text) {
     return allCards.filter(function(c){
