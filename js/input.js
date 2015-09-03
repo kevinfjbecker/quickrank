@@ -71,13 +71,16 @@ var deck = my.deck,
         var cards = getCardsWithRanks(currentHeroClass),
             colors = getColorRanks(),
             name = e.target.value,
+            rank,
             cardEntry = $.grep(cards, function (c) {
                 return e.target.value === c.name;
             })[0];
 
         if (cardEntry) {
+            rank = mapValueToRank(cardEntry.value);
+            console.log(rank); // Debug
             $(e.target).css({
-                'background-color': colors[cardEntry.value],
+                'background-color': colors[rank],
             });
         }
 
@@ -140,6 +143,12 @@ function getColorRanks() {
         'rgba(26,152,80,0.4)',
         'rgba(0,104,55,0.4)'
     ];
+}
+
+function mapValueToRank(value) {
+    var n = parseInt(value),
+        cappedValue = n > 99 ? 99 : n;
+    return Math.floor(cappedValue / 10);
 }
 
 }(quickrank));
