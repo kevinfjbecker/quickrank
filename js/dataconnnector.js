@@ -20,11 +20,15 @@ quickrank.dataconnector = (function(base) {
       gvgCards = carddata["Goblins vs Gnomes"].filter(function(c){
         return c.collectible !== undefined;
       }),
+      tgtCards = carddata["The Grand Tournament"].filter(function(c){
+        return c.collectible !== undefined;
+      }),
       allCards = basicCards
         .concat(blackrockCards)
         .concat(classicCards)
         .concat(naxxCards)
-        .concat(gvgCards);
+        .concat(gvgCards)
+        .concat(tgtCards);
 
   function cleanText(text) {
     return allCards.filter(function(c){
