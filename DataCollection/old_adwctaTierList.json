@@ -295,11 +295,6 @@
         "heroClass": "Druid"
     },
     {
-        "name": "Argent Horserider",
-        "value": "70",
-        "heroClass": "Druid"
-    },
-    {
         "name": "Druid of the Flame",
         "value": "70",
         "heroClass": "Druid"
@@ -406,7 +401,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Druid"
     },
     {
@@ -436,7 +431,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "64",
+        "value": "66",
         "heroClass": "Druid"
     },
     {
@@ -446,7 +441,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Druid"
     },
     {
@@ -485,13 +480,13 @@
         "heroClass": "Druid"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
+        "name": "Mad Bomber",
+        "value": "68",
         "heroClass": "Druid"
     },
     {
-        "name": "Mad Bomber",
-        "value": "68",
+        "name": "Argent Horserider",
+        "value": "66",
         "heroClass": "Druid"
     },
     {
@@ -512,11 +507,6 @@
     {
         "name": "Shattered Sun Cleric",
         "value": "68",
-        "heroClass": "Druid"
-    },
-    {
-        "name": "Evil Heckler",
-        "value": "66",
         "heroClass": "Druid"
     },
     {
@@ -546,11 +536,6 @@
     },
     {
         "name": "Abusive Sergeant",
-        "value": "62",
-        "heroClass": "Druid"
-    },
-    {
-        "name": "Argent Squire",
         "value": "60",
         "heroClass": "Druid"
     },
@@ -561,7 +546,7 @@
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "60",
+        "value": "62",
         "heroClass": "Druid"
     },
     {
@@ -582,6 +567,11 @@
     {
         "name": "Gilblin Stalker",
         "value": "64",
+        "heroClass": "Druid"
+    },
+    {
+        "name": "Loot Hoarder",
+        "value": "62",
         "heroClass": "Druid"
     },
     {
@@ -612,6 +602,11 @@
     {
         "name": "Cult Master",
         "value": "62*",
+        "heroClass": "Druid"
+    },
+    {
+        "name": "Evil Heckler",
+        "value": "62",
         "heroClass": "Druid"
     },
     {
@@ -795,8 +790,13 @@
         "heroClass": "Druid"
     },
     {
+        "name": "Argent Squire",
+        "value": "54",
+        "heroClass": "Druid"
+    },
+    {
         "name": "Clockwork Gnome",
-        "value": "50",
+        "value": "52",
         "heroClass": "Druid"
     },
     {
@@ -811,7 +811,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "58",
+        "value": "54",
         "heroClass": "Druid"
     },
     {
@@ -951,11 +951,6 @@
     },
     {
         "name": "Refreshment Vendor",
-        "value": "50",
-        "heroClass": "Druid"
-    },
-    {
-        "name": "Silvermoon Guardian",
         "value": "50",
         "heroClass": "Druid"
     },
@@ -1260,6 +1255,11 @@
         "heroClass": "Druid"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Druid"
+    },
+    {
         "name": "Antique Healbot",
         "value": "44*",
         "heroClass": "Druid"
@@ -1307,11 +1307,6 @@
     {
         "name": "Nozdormu",
         "value": "38",
-        "heroClass": "Druid"
-    },
-    {
-        "name": "Hungry Crab",
-        "value": "30**",
         "heroClass": "Druid"
     },
     {
@@ -1450,11 +1445,6 @@
         "heroClass": "Druid"
     },
     {
-        "name": "Tournament Medic",
-        "value": "32",
-        "heroClass": "Druid"
-    },
-    {
         "name": "Booty Bay Bodyguard",
         "value": "38",
         "heroClass": "Druid"
@@ -1492,6 +1482,11 @@
     {
         "name": "Rend Blackhand",
         "value": "20",
+        "heroClass": "Druid"
+    },
+    {
+        "name": "Hungry Crab",
+        "value": "28**",
         "heroClass": "Druid"
     },
     {
@@ -1645,6 +1640,11 @@
         "heroClass": "Druid"
     },
     {
+        "name": "Tournament Medic",
+        "value": "26",
+        "heroClass": "Druid"
+    },
+    {
         "name": "Windfury Harpy",
         "value": "26",
         "heroClass": "Druid"
@@ -1715,13 +1715,13 @@
         "heroClass": "Hunter"
     },
     {
-        "name": "Savannah Highmane",
-        "value": "110",
+        "name": "Powershot",
+        "value": "96",
         "heroClass": "Hunter"
     },
     {
-        "name": "Powershot",
-        "value": "96",
+        "name": "Savannah Highmane",
+        "value": "110",
         "heroClass": "Hunter"
     },
     {
@@ -1975,11 +1975,6 @@
         "heroClass": "Hunter"
     },
     {
-        "name": "Argent Horserider",
-        "value": "72",
-        "heroClass": "Hunter"
-    },
-    {
         "name": "Deadly Shot",
         "value": "72^",
         "heroClass": "Hunter"
@@ -2076,7 +2071,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Hunter"
     },
     {
@@ -2101,7 +2096,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "64",
+        "value": "66",
         "heroClass": "Hunter"
     },
     {
@@ -2111,7 +2106,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Hunter"
     },
     {
@@ -2145,18 +2140,13 @@
         "heroClass": "Hunter"
     },
     {
-        "name": "Abusive Sergeant",
-        "value": "66",
-        "heroClass": "Hunter"
-    },
-    {
         "name": "Webspinner",
         "value": "66",
         "heroClass": "Hunter"
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "66",
+        "value": "68",
         "heroClass": "Hunter"
     },
     {
@@ -2170,12 +2160,12 @@
         "heroClass": "Hunter"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
+        "name": "Mad Bomber",
+        "value": "68",
         "heroClass": "Hunter"
     },
     {
-        "name": "Mad Bomber",
+        "name": "Argent Horserider",
         "value": "68",
         "heroClass": "Hunter"
     },
@@ -2220,7 +2210,7 @@
         "heroClass": "Hunter"
     },
     {
-        "name": "Argent Squire",
+        "name": "Abusive Sergeant",
         "value": "64",
         "heroClass": "Hunter"
     },
@@ -2250,6 +2240,11 @@
         "heroClass": "Hunter"
     },
     {
+        "name": "Loot Hoarder",
+        "value": "62",
+        "heroClass": "Hunter"
+    },
+    {
         "name": "Acolyte of Pain",
         "value": "60",
         "heroClass": "Hunter"
@@ -2267,11 +2262,6 @@
     {
         "name": "Cult Master",
         "value": "62*",
-        "heroClass": "Hunter"
-    },
-    {
-        "name": "Evil Heckler",
-        "value": "62",
         "heroClass": "Hunter"
     },
     {
@@ -2445,8 +2435,13 @@
         "heroClass": "Hunter"
     },
     {
+        "name": "Argent Squire",
+        "value": "58",
+        "heroClass": "Hunter"
+    },
+    {
         "name": "Clockwork Gnome",
-        "value": "54",
+        "value": "56",
         "heroClass": "Hunter"
     },
     {
@@ -2471,7 +2466,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "54",
+        "value": "50",
         "heroClass": "Hunter"
     },
     {
@@ -2585,6 +2580,11 @@
         "heroClass": "Hunter"
     },
     {
+        "name": "Evil Heckler",
+        "value": "58",
+        "heroClass": "Hunter"
+    },
+    {
         "name": "Frigid Snobold",
         "value": "50",
         "heroClass": "Hunter"
@@ -2592,11 +2592,6 @@
     {
         "name": "Lost Tallstrider",
         "value": "58",
-        "heroClass": "Hunter"
-    },
-    {
-        "name": "Silvermoon Guardian",
-        "value": "50",
         "heroClass": "Hunter"
     },
     {
@@ -2890,6 +2885,11 @@
         "heroClass": "Hunter"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Hunter"
+    },
+    {
         "name": "Blackwing Corruptor",
         "value": "44",
         "heroClass": "Hunter"
@@ -2966,7 +2966,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "32**",
+        "value": "30**",
         "heroClass": "Hunter"
     },
     {
@@ -3341,7 +3341,7 @@
     },
     {
         "name": "Tournament Medic",
-        "value": "28",
+        "value": "26",
         "heroClass": "Hunter"
     },
     {
@@ -3402,11 +3402,6 @@
     {
         "name": "Ragnaros the Firelord",
         "value": "92",
-        "heroClass": "Mage"
-    },
-    {
-        "name": "Flamestrike",
-        "value": "92^^",
         "heroClass": "Mage"
     },
     {
@@ -3485,18 +3480,13 @@
         "heroClass": "Mage"
     },
     {
-        "name": "Blizzard",
-        "value": "80",
-        "heroClass": "Mage"
-    },
-    {
         "name": "Sunwalker",
         "value": "84",
         "heroClass": "Mage"
     },
     {
-        "name": "Fireball",
-        "value": "86",
+        "name": "Flamestrike",
+        "value": "88^^",
         "heroClass": "Mage"
     },
     {
@@ -3507,6 +3497,11 @@
     {
         "name": "Piloted Shredder",
         "value": "80",
+        "heroClass": "Mage"
+    },
+    {
+        "name": "Fireball",
+        "value": "82",
         "heroClass": "Mage"
     },
     {
@@ -3620,6 +3615,11 @@
         "heroClass": "Mage"
     },
     {
+        "name": "Blizzard",
+        "value": "76",
+        "heroClass": "Mage"
+    },
+    {
         "name": "Master Jouster",
         "value": "70",
         "heroClass": "Mage"
@@ -3647,11 +3647,6 @@
     {
         "name": "Haunted Creeper",
         "value": "72",
-        "heroClass": "Mage"
-    },
-    {
-        "name": "Argent Horserider",
-        "value": "70",
         "heroClass": "Mage"
     },
     {
@@ -3761,7 +3756,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Mage"
     },
     {
@@ -3791,7 +3786,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "64",
+        "value": "66",
         "heroClass": "Mage"
     },
     {
@@ -3806,7 +3801,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Mage"
     },
     {
@@ -3835,17 +3830,17 @@
         "heroClass": "Mage"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
-        "heroClass": "Mage"
-    },
-    {
         "name": "Mad Bomber",
         "value": "68",
         "heroClass": "Mage"
     },
     {
         "name": "Acolyte of Pain",
+        "value": "66",
+        "heroClass": "Mage"
+    },
+    {
+        "name": "Argent Horserider",
         "value": "66",
         "heroClass": "Mage"
     },
@@ -3871,11 +3866,6 @@
     },
     {
         "name": "Spellslinger",
-        "value": "66",
-        "heroClass": "Mage"
-    },
-    {
-        "name": "Evil Heckler",
         "value": "66",
         "heroClass": "Mage"
     },
@@ -3916,17 +3906,12 @@
     },
     {
         "name": "Abusive Sergeant",
-        "value": "62",
-        "heroClass": "Mage"
-    },
-    {
-        "name": "Argent Squire",
         "value": "60",
         "heroClass": "Mage"
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "60",
+        "value": "62",
         "heroClass": "Mage"
     },
     {
@@ -3942,6 +3927,11 @@
     {
         "name": "Gilblin Stalker",
         "value": "64",
+        "heroClass": "Mage"
+    },
+    {
+        "name": "Loot Hoarder",
+        "value": "62",
         "heroClass": "Mage"
     },
     {
@@ -3977,6 +3967,11 @@
     {
         "name": "Cult Master",
         "value": "62*",
+        "heroClass": "Mage"
+    },
+    {
+        "name": "Evil Heckler",
+        "value": "62",
         "heroClass": "Mage"
     },
     {
@@ -4135,8 +4130,13 @@
         "heroClass": "Mage"
     },
     {
+        "name": "Argent Squire",
+        "value": "54",
+        "heroClass": "Mage"
+    },
+    {
         "name": "Clockwork Gnome",
-        "value": "50",
+        "value": "52",
         "heroClass": "Mage"
     },
     {
@@ -4151,7 +4151,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "58",
+        "value": "54",
         "heroClass": "Mage"
     },
     {
@@ -4286,11 +4286,6 @@
     },
     {
         "name": "Refreshment Vendor",
-        "value": "50",
-        "heroClass": "Mage"
-    },
-    {
-        "name": "Silvermoon Guardian",
         "value": "50",
         "heroClass": "Mage"
     },
@@ -4630,6 +4625,11 @@
         "heroClass": "Mage"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Mage"
+    },
+    {
         "name": "Antique Healbot",
         "value": "44*",
         "heroClass": "Mage"
@@ -4820,11 +4820,6 @@
         "heroClass": "Mage"
     },
     {
-        "name": "Tournament Medic",
-        "value": "32",
-        "heroClass": "Mage"
-    },
-    {
         "name": "Booty Bay Bodyguard",
         "value": "38",
         "heroClass": "Mage"
@@ -4866,7 +4861,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "28**",
+        "value": "26**",
         "heroClass": "Mage"
     },
     {
@@ -5020,6 +5015,11 @@
         "heroClass": "Mage"
     },
     {
+        "name": "Tournament Medic",
+        "value": "26",
+        "heroClass": "Mage"
+    },
+    {
         "name": "Windfury Harpy",
         "value": "26",
         "heroClass": "Mage"
@@ -5110,11 +5110,6 @@
         "heroClass": "Paladin"
     },
     {
-        "name": "Truesilver Champion",
-        "value": "90",
-        "heroClass": "Paladin"
-    },
-    {
         "name": "Sylvanas Windrunner",
         "value": "88",
         "heroClass": "Paladin"
@@ -5192,6 +5187,11 @@
     {
         "name": "Sunwalker",
         "value": "84",
+        "heroClass": "Paladin"
+    },
+    {
+        "name": "Truesilver Champion",
+        "value": "86",
         "heroClass": "Paladin"
     },
     {
@@ -5365,11 +5365,6 @@
         "heroClass": "Paladin"
     },
     {
-        "name": "Argent Horserider",
-        "value": "70",
-        "heroClass": "Paladin"
-    },
-    {
         "name": "Harvest Golem",
         "value": "70",
         "heroClass": "Paladin"
@@ -5391,7 +5386,7 @@
     },
     {
         "name": "Hammer of Wrath",
-        "value": "72",
+        "value": "70",
         "heroClass": "Paladin"
     },
     {
@@ -5456,7 +5451,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Paladin"
     },
     {
@@ -5496,7 +5491,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "66",
+        "value": "68",
         "heroClass": "Paladin"
     },
     {
@@ -5506,7 +5501,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Paladin"
     },
     {
@@ -5526,7 +5521,7 @@
     },
     {
         "name": "Dragon Consort",
-        "value": "62",
+        "value": "64",
         "heroClass": "Paladin"
     },
     {
@@ -5545,13 +5540,13 @@
         "heroClass": "Paladin"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
+        "name": "Mad Bomber",
+        "value": "68",
         "heroClass": "Paladin"
     },
     {
-        "name": "Mad Bomber",
-        "value": "68",
+        "name": "Argent Horserider",
+        "value": "66",
         "heroClass": "Paladin"
     },
     {
@@ -5577,11 +5572,6 @@
     {
         "name": "Cult Master",
         "value": "66*",
-        "heroClass": "Paladin"
-    },
-    {
-        "name": "Evil Heckler",
-        "value": "66",
         "heroClass": "Paladin"
     },
     {
@@ -5636,17 +5626,12 @@
     },
     {
         "name": "Abusive Sergeant",
-        "value": "62",
-        "heroClass": "Paladin"
-    },
-    {
-        "name": "Argent Squire",
         "value": "60",
         "heroClass": "Paladin"
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "60",
+        "value": "62",
         "heroClass": "Paladin"
     },
     {
@@ -5670,6 +5655,11 @@
         "heroClass": "Paladin"
     },
     {
+        "name": "Loot Hoarder",
+        "value": "62",
+        "heroClass": "Paladin"
+    },
+    {
         "name": "Acolyte of Pain",
         "value": "60",
         "heroClass": "Paladin"
@@ -5682,6 +5672,11 @@
     {
         "name": "Burly Rockjaw Trogg",
         "value": "60",
+        "heroClass": "Paladin"
+    },
+    {
+        "name": "Evil Heckler",
+        "value": "62",
         "heroClass": "Paladin"
     },
     {
@@ -5835,6 +5830,11 @@
         "heroClass": "Paladin"
     },
     {
+        "name": "Argent Squire",
+        "value": "54",
+        "heroClass": "Paladin"
+    },
+    {
         "name": "Avenge",
         "value": "58",
         "heroClass": "Paladin"
@@ -5846,7 +5846,7 @@
     },
     {
         "name": "Clockwork Gnome",
-        "value": "50",
+        "value": "52",
         "heroClass": "Paladin"
     },
     {
@@ -5876,7 +5876,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "58",
+        "value": "54",
         "heroClass": "Paladin"
     },
     {
@@ -6001,11 +6001,6 @@
     },
     {
         "name": "Refreshment Vendor",
-        "value": "50",
-        "heroClass": "Paladin"
-    },
-    {
-        "name": "Silvermoon Guardian",
         "value": "50",
         "heroClass": "Paladin"
     },
@@ -6330,6 +6325,11 @@
         "heroClass": "Paladin"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Paladin"
+    },
+    {
         "name": "Antique Healbot",
         "value": "44*",
         "heroClass": "Paladin"
@@ -6525,11 +6525,6 @@
         "heroClass": "Paladin"
     },
     {
-        "name": "Tournament Medic",
-        "value": "32",
-        "heroClass": "Paladin"
-    },
-    {
         "name": "Booty Bay Bodyguard",
         "value": "38",
         "heroClass": "Paladin"
@@ -6561,7 +6556,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "28**",
+        "value": "26**",
         "heroClass": "Paladin"
     },
     {
@@ -6702,6 +6697,11 @@
     {
         "name": "Thrallmar Farseer",
         "value": "12",
+        "heroClass": "Paladin"
+    },
+    {
+        "name": "Tournament Medic",
+        "value": "26",
         "heroClass": "Paladin"
     },
     {
@@ -7136,7 +7136,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Priest"
     },
     {
@@ -7166,7 +7166,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "66",
+        "value": "68",
         "heroClass": "Priest"
     },
     {
@@ -7181,7 +7181,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Priest"
     },
     {
@@ -7210,6 +7210,11 @@
         "heroClass": "Priest"
     },
     {
+        "name": "Worgen Infiltrator",
+        "value": "66",
+        "heroClass": "Priest"
+    },
+    {
         "name": "Gilblin Stalker",
         "value": "68",
         "heroClass": "Priest"
@@ -7226,11 +7231,6 @@
     },
     {
         "name": "Mad Bomber",
-        "value": "66",
-        "heroClass": "Priest"
-    },
-    {
-        "name": "Argent Horserider",
         "value": "66",
         "heroClass": "Priest"
     },
@@ -7260,11 +7260,6 @@
         "heroClass": "Priest"
     },
     {
-        "name": "Evil Heckler",
-        "value": "66",
-        "heroClass": "Priest"
-    },
-    {
         "name": "Sen'jin Shieldmasta",
         "value": "68",
         "heroClass": "Priest"
@@ -7290,23 +7285,18 @@
         "heroClass": "Priest"
     },
     {
-        "name": "Worgen Infiltrator",
-        "value": "64",
-        "heroClass": "Priest"
-    },
-    {
         "name": "Amani Berserker",
         "value": "60",
         "heroClass": "Priest"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "62",
+        "name": "Acolyte of Pain",
+        "value": "60",
         "heroClass": "Priest"
     },
     {
-        "name": "Acolyte of Pain",
-        "value": "60",
+        "name": "Argent Horserider",
+        "value": "62",
         "heroClass": "Priest"
     },
     {
@@ -7327,6 +7317,11 @@
     {
         "name": "Cult Master",
         "value": "60*",
+        "heroClass": "Priest"
+    },
+    {
+        "name": "Evil Heckler",
+        "value": "62",
         "heroClass": "Priest"
     },
     {
@@ -7486,12 +7481,12 @@
     },
     {
         "name": "Abusive Sergeant",
-        "value": "58",
+        "value": "56",
         "heroClass": "Priest"
     },
     {
         "name": "Argent Squire",
-        "value": "56",
+        "value": "50",
         "heroClass": "Priest"
     },
     {
@@ -7506,7 +7501,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "54",
+        "value": "50",
         "heroClass": "Priest"
     },
     {
@@ -7532,6 +7527,11 @@
     {
         "name": "Faerie Dragon",
         "value": "54",
+        "heroClass": "Priest"
+    },
+    {
+        "name": "Loot Hoarder",
+        "value": "58",
         "heroClass": "Priest"
     },
     {
@@ -7846,7 +7846,7 @@
     },
     {
         "name": "Clockwork Gnome",
-        "value": "46",
+        "value": "48",
         "heroClass": "Priest"
     },
     {
@@ -7956,7 +7956,7 @@
     },
     {
         "name": "Silvermoon Guardian",
-        "value": "48",
+        "value": "44",
         "heroClass": "Priest"
     },
     {
@@ -8211,7 +8211,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "26**",
+        "value": "24**",
         "heroClass": "Priest"
     },
     {
@@ -8376,7 +8376,7 @@
     },
     {
         "name": "Tournament Medic",
-        "value": "28",
+        "value": "26",
         "heroClass": "Priest"
     },
     {
@@ -8730,11 +8730,6 @@
         "heroClass": "Rogue"
     },
     {
-        "name": "Argent Horserider",
-        "value": "70",
-        "heroClass": "Rogue"
-    },
-    {
         "name": "Harvest Golem",
         "value": "70",
         "heroClass": "Rogue"
@@ -8746,11 +8741,6 @@
     },
     {
         "name": "Chillwind Yeti",
-        "value": "70",
-        "heroClass": "Rogue"
-    },
-    {
-        "name": "Evil Heckler",
         "value": "70",
         "heroClass": "Rogue"
     },
@@ -8831,7 +8821,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Rogue"
     },
     {
@@ -8866,7 +8856,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "64",
+        "value": "66",
         "heroClass": "Rogue"
     },
     {
@@ -8881,12 +8871,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
-        "heroClass": "Rogue"
-    },
-    {
-        "name": "Shady Dealer",
-        "value": "60",
+        "value": "62",
         "heroClass": "Rogue"
     },
     {
@@ -8910,18 +8895,13 @@
         "heroClass": "Rogue"
     },
     {
-        "name": "Abusive Sergeant",
-        "value": "66",
-        "heroClass": "Rogue"
-    },
-    {
         "name": "Deadly Poison",
         "value": "68",
         "heroClass": "Rogue"
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "64",
+        "value": "66",
         "heroClass": "Rogue"
     },
     {
@@ -8930,13 +8910,13 @@
         "heroClass": "Rogue"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
+        "name": "Mad Bomber",
+        "value": "68",
         "heroClass": "Rogue"
     },
     {
-        "name": "Mad Bomber",
-        "value": "68",
+        "name": "Argent Horserider",
+        "value": "66",
         "heroClass": "Rogue"
     },
     {
@@ -8965,6 +8945,11 @@
         "heroClass": "Rogue"
     },
     {
+        "name": "Evil Heckler",
+        "value": "66",
+        "heroClass": "Rogue"
+    },
+    {
         "name": "Spectral Knight",
         "value": "66",
         "heroClass": "Rogue"
@@ -8985,18 +8970,13 @@
         "heroClass": "Rogue"
     },
     {
-        "name": "Amani Berserker",
-        "value": "60",
-        "heroClass": "Rogue"
-    },
-    {
-        "name": "Argent Squire",
+        "name": "Abusive Sergeant",
         "value": "64",
         "heroClass": "Rogue"
     },
     {
-        "name": "Annoy-o-Tron",
-        "value": "62",
+        "name": "Amani Berserker",
+        "value": "60",
         "heroClass": "Rogue"
     },
     {
@@ -9017,6 +8997,11 @@
     {
         "name": "Gilblin Stalker",
         "value": "64",
+        "heroClass": "Rogue"
+    },
+    {
+        "name": "Loot Hoarder",
+        "value": "62",
         "heroClass": "Rogue"
     },
     {
@@ -9220,6 +9205,11 @@
         "heroClass": "Rogue"
     },
     {
+        "name": "Shady Dealer",
+        "value": "56",
+        "heroClass": "Rogue"
+    },
+    {
         "name": "Arcane Nullifier X-21",
         "value": "52",
         "heroClass": "Rogue"
@@ -9230,8 +9220,13 @@
         "heroClass": "Rogue"
     },
     {
+        "name": "Argent Squire",
+        "value": "58",
+        "heroClass": "Rogue"
+    },
+    {
         "name": "Clockwork Gnome",
-        "value": "56",
+        "value": "58",
         "heroClass": "Rogue"
     },
     {
@@ -9256,6 +9251,11 @@
     },
     {
         "name": "Acidic Swamp Ooze",
+        "value": "58",
+        "heroClass": "Rogue"
+    },
+    {
+        "name": "Annoy-o-Tron",
         "value": "58",
         "heroClass": "Rogue"
     },
@@ -9311,7 +9311,7 @@
     },
     {
         "name": "Ship's Cannon",
-        "value": "58",
+        "value": "54",
         "heroClass": "Rogue"
     },
     {
@@ -9392,11 +9392,6 @@
     {
         "name": "Refreshment Vendor",
         "value": "54",
-        "heroClass": "Rogue"
-    },
-    {
-        "name": "Silvermoon Guardian",
-        "value": "50",
         "heroClass": "Rogue"
     },
     {
@@ -9521,7 +9516,7 @@
     },
     {
         "name": "Southsea Captain",
-        "value": "44",
+        "value": "42",
         "heroClass": "Rogue"
     },
     {
@@ -9680,6 +9675,11 @@
         "heroClass": "Rogue"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Rogue"
+    },
+    {
         "name": "Blackwing Corruptor",
         "value": "44",
         "heroClass": "Rogue"
@@ -9731,7 +9731,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "32**",
+        "value": "30**",
         "heroClass": "Rogue"
     },
     {
@@ -9866,7 +9866,7 @@
     },
     {
         "name": "Tournament Medic",
-        "value": "36",
+        "value": "30",
         "heroClass": "Rogue"
     },
     {
@@ -10420,11 +10420,6 @@
         "heroClass": "Shaman"
     },
     {
-        "name": "Argent Horserider",
-        "value": "70",
-        "heroClass": "Shaman"
-    },
-    {
         "name": "Harvest Golem",
         "value": "70",
         "heroClass": "Shaman"
@@ -10511,7 +10506,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Shaman"
     },
     {
@@ -10556,7 +10551,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "66",
+        "value": "68",
         "heroClass": "Shaman"
     },
     {
@@ -10566,7 +10561,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Shaman"
     },
     {
@@ -10605,13 +10600,13 @@
         "heroClass": "Shaman"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
+        "name": "Mad Bomber",
+        "value": "68",
         "heroClass": "Shaman"
     },
     {
-        "name": "Mad Bomber",
-        "value": "68",
+        "name": "Argent Horserider",
+        "value": "66",
         "heroClass": "Shaman"
     },
     {
@@ -10632,11 +10627,6 @@
     {
         "name": "Tuskarr Totemic",
         "value": "68",
-        "heroClass": "Shaman"
-    },
-    {
-        "name": "Evil Heckler",
-        "value": "66",
         "heroClass": "Shaman"
     },
     {
@@ -10671,12 +10661,7 @@
     },
     {
         "name": "Abusive Sergeant",
-        "value": "64",
-        "heroClass": "Shaman"
-    },
-    {
-        "name": "Argent Squire",
-        "value": "60",
+        "value": "62",
         "heroClass": "Shaman"
     },
     {
@@ -10686,7 +10671,7 @@
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "60",
+        "value": "62",
         "heroClass": "Shaman"
     },
     {
@@ -10712,6 +10697,11 @@
     {
         "name": "Gilblin Stalker",
         "value": "64",
+        "heroClass": "Shaman"
+    },
+    {
+        "name": "Loot Hoarder",
+        "value": "62",
         "heroClass": "Shaman"
     },
     {
@@ -10747,6 +10737,11 @@
     {
         "name": "Cult Master",
         "value": "62*",
+        "heroClass": "Shaman"
+    },
+    {
+        "name": "Evil Heckler",
+        "value": "62",
         "heroClass": "Shaman"
     },
     {
@@ -10900,8 +10895,13 @@
         "heroClass": "Shaman"
     },
     {
+        "name": "Argent Squire",
+        "value": "54",
+        "heroClass": "Shaman"
+    },
+    {
         "name": "Clockwork Gnome",
-        "value": "50",
+        "value": "52",
         "heroClass": "Shaman"
     },
     {
@@ -10921,7 +10921,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "58",
+        "value": "54",
         "heroClass": "Shaman"
     },
     {
@@ -11046,11 +11046,6 @@
     },
     {
         "name": "Refreshment Vendor",
-        "value": "50",
-        "heroClass": "Shaman"
-    },
-    {
-        "name": "Silvermoon Guardian",
         "value": "50",
         "heroClass": "Shaman"
     },
@@ -11355,6 +11350,11 @@
         "heroClass": "Shaman"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Shaman"
+    },
+    {
         "name": "Antique Healbot",
         "value": "44*",
         "heroClass": "Shaman"
@@ -11545,11 +11545,6 @@
         "heroClass": "Shaman"
     },
     {
-        "name": "Tournament Medic",
-        "value": "32",
-        "heroClass": "Shaman"
-    },
-    {
         "name": "Windspeaker",
         "value": "38*",
         "heroClass": "Shaman"
@@ -11586,7 +11581,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "28**",
+        "value": "26**",
         "heroClass": "Shaman"
     },
     {
@@ -11741,6 +11736,11 @@
     },
     {
         "name": "Dread Corsair",
+        "value": "26",
+        "heroClass": "Shaman"
+    },
+    {
+        "name": "Tournament Medic",
         "value": "26",
         "heroClass": "Shaman"
     },
@@ -12080,11 +12080,6 @@
         "heroClass": "Warlock"
     },
     {
-        "name": "Argent Horserider",
-        "value": "70",
-        "heroClass": "Warlock"
-    },
-    {
         "name": "Earthen Ring Farseer",
         "value": "70",
         "heroClass": "Warlock"
@@ -12106,7 +12101,7 @@
     },
     {
         "name": "Evil Heckler",
-        "value": "74",
+        "value": "70",
         "heroClass": "Warlock"
     },
     {
@@ -12181,7 +12176,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Warlock"
     },
     {
@@ -12226,7 +12221,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "66",
+        "value": "68",
         "heroClass": "Warlock"
     },
     {
@@ -12236,7 +12231,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Warlock"
     },
     {
@@ -12255,11 +12250,6 @@
         "heroClass": "Warlock"
     },
     {
-        "name": "Abusive Sergeant",
-        "value": "66",
-        "heroClass": "Warlock"
-    },
-    {
         "name": "Flame Imp",
         "value": "66",
         "heroClass": "Warlock"
@@ -12271,11 +12261,6 @@
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "64",
-        "heroClass": "Warlock"
-    },
-    {
-        "name": "Annoy-o-Tron",
         "value": "66",
         "heroClass": "Warlock"
     },
@@ -12287,6 +12272,11 @@
     {
         "name": "Mad Bomber",
         "value": "68",
+        "heroClass": "Warlock"
+    },
+    {
+        "name": "Argent Horserider",
+        "value": "66",
         "heroClass": "Warlock"
     },
     {
@@ -12340,7 +12330,7 @@
         "heroClass": "Warlock"
     },
     {
-        "name": "Argent Squire",
+        "name": "Abusive Sergeant",
         "value": "64",
         "heroClass": "Warlock"
     },
@@ -12362,6 +12352,11 @@
     {
         "name": "Amani Berserker",
         "value": "60",
+        "heroClass": "Warlock"
+    },
+    {
+        "name": "Annoy-o-Tron",
+        "value": "62",
         "heroClass": "Warlock"
     },
     {
@@ -12576,12 +12571,12 @@
     },
     {
         "name": "Argent Squire",
-        "value": "64",
+        "value": "58",
         "heroClass": "Warlock"
     },
     {
         "name": "Clockwork Gnome",
-        "value": "54",
+        "value": "56",
         "heroClass": "Warlock"
     },
     {
@@ -12636,7 +12631,7 @@
     },
     {
         "name": "Loot Hoarder",
-        "value": "58",
+        "value": "54",
         "heroClass": "Warlock"
     },
     {
@@ -12747,11 +12742,6 @@
     {
         "name": "Refreshment Vendor",
         "value": "58",
-        "heroClass": "Warlock"
-    },
-    {
-        "name": "Silvermoon Guardian",
-        "value": "50",
         "heroClass": "Warlock"
     },
     {
@@ -13070,8 +13060,8 @@
         "heroClass": "Warlock"
     },
     {
-        "name": "Tournament Medic",
-        "value": "42",
+        "name": "Silvermoon Guardian",
+        "value": "46",
         "heroClass": "Warlock"
     },
     {
@@ -13126,7 +13116,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "32**",
+        "value": "30**",
         "heroClass": "Warlock"
     },
     {
@@ -13266,6 +13256,11 @@
     },
     {
         "name": "Nightblade",
+        "value": "36",
+        "heroClass": "Warlock"
+    },
+    {
+        "name": "Tournament Medic",
         "value": "36",
         "heroClass": "Warlock"
     },
@@ -13765,11 +13760,6 @@
         "heroClass": "Warrior"
     },
     {
-        "name": "Argent Horserider",
-        "value": "70",
-        "heroClass": "Warrior"
-    },
-    {
         "name": "Harvest Golem",
         "value": "70",
         "heroClass": "Warrior"
@@ -13861,7 +13851,7 @@
     },
     {
         "name": "Blood Knight",
-        "value": "66",
+        "value": "62",
         "heroClass": "Warrior"
     },
     {
@@ -13901,7 +13891,7 @@
     },
     {
         "name": "Imp Master",
-        "value": "64",
+        "value": "66",
         "heroClass": "Warrior"
     },
     {
@@ -13911,7 +13901,7 @@
     },
     {
         "name": "Saboteur",
-        "value": "64",
+        "value": "62",
         "heroClass": "Warrior"
     },
     {
@@ -13945,17 +13935,17 @@
         "heroClass": "Warrior"
     },
     {
-        "name": "Loot Hoarder",
-        "value": "66",
-        "heroClass": "Warrior"
-    },
-    {
         "name": "Slam",
         "value": "66",
         "heroClass": "Warrior"
     },
     {
         "name": "Acolyte of Pain",
+        "value": "66",
+        "heroClass": "Warrior"
+    },
+    {
+        "name": "Argent Horserider",
         "value": "66",
         "heroClass": "Warrior"
     },
@@ -13977,11 +13967,6 @@
     {
         "name": "Shattered Sun Cleric",
         "value": "68",
-        "heroClass": "Warrior"
-    },
-    {
-        "name": "Evil Heckler",
-        "value": "66",
         "heroClass": "Warrior"
     },
     {
@@ -14016,11 +14001,6 @@
     },
     {
         "name": "Abusive Sergeant",
-        "value": "62",
-        "heroClass": "Warrior"
-    },
-    {
-        "name": "Argent Squire",
         "value": "60",
         "heroClass": "Warrior"
     },
@@ -14031,7 +14011,7 @@
     },
     {
         "name": "Worgen Infiltrator",
-        "value": "60",
+        "value": "62",
         "heroClass": "Warrior"
     },
     {
@@ -14055,6 +14035,11 @@
         "heroClass": "Warrior"
     },
     {
+        "name": "Loot Hoarder",
+        "value": "62",
+        "heroClass": "Warrior"
+    },
+    {
         "name": "Silent Knight",
         "value": "64",
         "heroClass": "Warrior"
@@ -14067,6 +14052,11 @@
     {
         "name": "Cult Master",
         "value": "62*",
+        "heroClass": "Warrior"
+    },
+    {
+        "name": "Evil Heckler",
+        "value": "62",
         "heroClass": "Warrior"
     },
     {
@@ -14235,8 +14225,13 @@
         "heroClass": "Warrior"
     },
     {
+        "name": "Argent Squire",
+        "value": "54",
+        "heroClass": "Warrior"
+    },
+    {
         "name": "Clockwork Gnome",
-        "value": "50",
+        "value": "52",
         "heroClass": "Warrior"
     },
     {
@@ -14251,7 +14246,7 @@
     },
     {
         "name": "Annoy-o-Tron",
-        "value": "58",
+        "value": "54",
         "heroClass": "Warrior"
     },
     {
@@ -14381,11 +14376,6 @@
     },
     {
         "name": "Refreshment Vendor",
-        "value": "50",
-        "heroClass": "Warrior"
-    },
-    {
-        "name": "Silvermoon Guardian",
         "value": "50",
         "heroClass": "Warrior"
     },
@@ -14735,6 +14725,11 @@
         "heroClass": "Warrior"
     },
     {
+        "name": "Silvermoon Guardian",
+        "value": "46",
+        "heroClass": "Warrior"
+    },
+    {
         "name": "Antique Healbot",
         "value": "44*",
         "heroClass": "Warrior"
@@ -14981,7 +14976,7 @@
     },
     {
         "name": "Hungry Crab",
-        "value": "28**",
+        "value": "26**",
         "heroClass": "Warrior"
     },
     {
@@ -15126,7 +15121,7 @@
     },
     {
         "name": "Tournament Medic",
-        "value": "28",
+        "value": "26",
         "heroClass": "Warrior"
     },
     {
