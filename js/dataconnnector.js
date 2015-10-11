@@ -30,22 +30,13 @@ quickrank.dataconnector = (function(base) {
         .concat(gvgCards)
         .concat(tgtCards);
 
-  function cleanText(text) {
-    return allCards.filter(function(c){
-      return text.indexOf(c.name) !== -1;
-    }).sort(function lengthDesc(a,b){
-      return b.name.length - a.name.length
-    })[0].name;
-  }
-
   function cardByName(name){
     return allCards.filter(function(c){
-      return c.name === cleanText(name);
+      return c.name.toUpperCase() === name.toUpperCase();
     })[0];
   }
 
   return {
-    cleanText: cleanText,
     cardByName: cardByName,
     allCards: allCards
   };
