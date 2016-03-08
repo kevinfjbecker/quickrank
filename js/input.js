@@ -78,7 +78,7 @@ var deck = my.deck,
 
         if (cardEntry) {
             rank = mapValueToRank(cardEntry.value);
-            console.log(rank); // Debug
+            // console.log(rank); // Debug
             $(e.target).css({
                 'background-color': colors[rank],
             });

@@ -97,7 +97,7 @@ generatePerClassTierList = function() {
     "Warrior"
   )
   
-  pBaseUrl <- "https://docs.google.com/spreadsheets/d/16Djk1vJCsvDAuihHiwNG_5qzYH_XAA5XsPUYHlA9DEQ/htmlembed/sheet?headers=false&gid="
+  pBaseUrl <- "https://docs.google.com/spreadsheets/d/10jPQERiCZvBfRCZqCAMyk9ge-7OdlE4JZU1-CVpRrug/htmlembed/sheet?headers=false&gid="
   
   for(i in 1:9) {
     pUrl <- paste(pBaseUrl, pGid[i], sep = "")
