@@ -61,19 +61,21 @@ function curveByType(deck, cardFilter){
 
 function getCardTypeFilter(typeName) {
   return function(card) {
-    return card.type === typeName;
+    return card.type.toLowerCase() === typeName.toLowerCase();
   };
 }
 
 function getCardMechanicFilter(mechanicName) {
   return function(card) {
-    return card.mechanics && card.mechanics.indexOf(mechanicName) > -1;
+    return card.mechanics && card.mechanics.map(function(m){
+      return m.toLowerCase();
+    }).indexOf(mechanicName.toLowerCase()) > -1;
   };
 }
 
 function getCardRaceFilter(raceName) {
   return function(card) {
-    return card.race && card.race === 'Mech';
+    return card.race && card.race.toLowerCase() === raceName.toLowerCase();
   };
 }
 
