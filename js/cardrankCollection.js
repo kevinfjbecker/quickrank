@@ -1,0 +1,5 @@
+quickrank.cardrankCollection = (function() {
+
+    return {};
+
+}());
