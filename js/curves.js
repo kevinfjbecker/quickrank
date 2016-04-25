@@ -40,7 +40,7 @@ function updateCurveCharts(deck) {
       spellCurve = curveByType(deck, getCardTypeFilter('Spell')),
       weaponCurve = curveByType(deck, getCardTypeFilter('Weapon')),
       tauntCurve = curveByType(deck, getCardMechanicFilter('Taunt')),
-      mechCurve = curveByType(deck, getCardRaceFilter('Mech')),
+      mechCurve = curveByType(deck, getCardRaceFilter('Mechanical')),
       deathrattleCurve = curveByType(deck, getCardMechanicFilter('Deathrattle')),
       fullCurve = curveByType(deck, function(){return true;});
 
@@ -48,7 +48,7 @@ function updateCurveCharts(deck) {
   generateCurveChart(spellChart, spellCurve, 'Spell');
   generateCurveChart(weaponChart, weaponCurve, 'Weapon');
   generateCurveChart(tauntChart, tauntCurve, 'Taunt');
-  generateCurveChart(mechChart, mechCurve, 'Mech');
+  generateCurveChart(mechChart, mechCurve, 'Mechanical');
   generateCurveChart(deathrattleChart, deathrattleCurve, 'Deathrattle');
   generateCurveChart(fullChart, fullCurve, 'All Cards');
 }
