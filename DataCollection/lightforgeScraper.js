@@ -13,7 +13,7 @@ var s = '',
       .map(c => { return { name: c[0], value: c[1], heroClass: heroClass}; });
 
   s += '(function(my) {'
-  s += 'my.cardranks.' + heroClass.toLowerCase() + 'Ranks='  + JSON.stringify(classCardRanks) + ';';
+  s += 'my.cardrankCollection.' + heroClass.toLowerCase() + 'Ranks='  + JSON.stringify(classCardRanks) + ';';
   s += '}(quickrank));';
 
   return s;
