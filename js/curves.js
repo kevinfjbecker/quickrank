@@ -130,14 +130,17 @@ function generateCurveChart(svg, curve, title) {
 ////////////////////////////////////// new code for dynamic card type curves //
 
 function getDeckMechanics(deck) {
-  if(deck.length === 0) {
+  if(deck.length === 0 || deck.filter(hasMechanics).length === 0) {
     return [];
   }
+
   return d3.set(
-    deck.filter(function(c) { return c.mechanics !== undefined; })
+    deck.filter(hasMechanics)
     .map(function(c) { return c.mechanics; })
     .reduce(function(prev, curr) { return prev.concat(curr); })
   ).values().sort();
+
+  function hasMechanics(card) { return card.mechanics !== undefined; }
 
 }
 
