@@ -1,6 +1,6 @@
 var script= document.createElement('script');
 script.type= 'text/javascript';
-script.src= 'http://d3js.org/d3.v3.min.js';
+script.src= 'https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js';
 document.head.appendChild(script);
 
 function generateClassCardRanks(heroClass) { 
