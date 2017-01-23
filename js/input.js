@@ -108,6 +108,10 @@ $("#hero-selector button").click(function (e) {
 
 $('input:text').on('doubletap', function(e){
   e.preventDefault();
+  if(!cardByName($(this).val())) {
+  	alert('Error: Card not found: "' + $(this).val() + '"');
+  	return;
+  }
   deck.push(cardByName($(this).val()));
   $('.typeahead').typeahead('val', '');
   updateDeckList(deck);
