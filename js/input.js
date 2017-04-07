@@ -135,24 +135,34 @@ $(function(){ // menus layer over other controls
 ///////////////////////////////////////////////////////////////////////////////
 
 function getColorRanks() {
-    return [
-        'rgba(165,0,38,0.4)',
-        'rgba(215,48,39,0.4)',
-        'rgba(244,109,67,0.4)',
-        'rgba(253,174,97,0.4)',
-        'rgba(254,224,139,0.4)',
-        'rgba(217,239,139,0.4)',
-        'rgba(166,217,106,0.4)',
-        'rgba(102,189,99,0.4)',
-        'rgba(26,152,80,0.4)',
-        'rgba(0,104,55,0.4)'
-    ];
+    return ['#d73027','#fc8d59','#fee08b','#ffffbf','#d9ef8b','#91cf60','#1a9850'];
 }
 
 function mapValueToRank(value) {
     var n = parseInt(value),
-        cappedValue = n > 99 ? 99 : n;
-    return Math.floor(cappedValue / 10);
+        r;
+
+	// console.log(value); // debug
+
+    if(n <= 59) {
+        r = 0;
+    } else if(60 <= n && n <= 79) {
+        r = 1;
+    } else if(80 <= n && n <= 94) {
+        r = 2;
+    } else if(95 <= n && n <= 105) {
+        r = 3;
+    } else if(106 <= n && n <= 120) {
+        r = 4;
+    } else if(121 <= n && n <= 140) {
+        r = 5;
+    } else {
+    	r = 6;
+    }
+
+	// console.log(r); // debug
+
+    return r;
 }
 
 }(quickrank));
